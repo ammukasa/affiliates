@@ -1,0 +1,197 @@
+<!-- Content Wrapper. Contains page content -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="content-wrapper" >
+   <!-- <section class="content"> -->
+   <!-- <div class="container-fluid"> -->
+
+
+   <div class="banner"  >
+      <div class="contentbrose">
+         <h2 class="mb5">Best Web Hosting Services of {{todayDate | date:'yyyy'}}</h2>
+         <h1 class="mb5">Keep your website running smoothly with a
+            hosting company that guarantees <br />you good uptime, fast load times and easy setup.
+         </h1>
+
+
+      </div>
+   </div>
+   <!-- </header> -->
+   <!-- Main content -->
+   <!-- <section class="content"> -->
+   <div class="container" style="margin-top: -50px;">
+      <!-- Info boxes -->
+
+      <!-- <div class="row"> -->
+      <!-- <div class="col-md-12"> -->
+      <!-- <div class="card"> -->
+      <!-- <div class="card-header">
+               <h5 class="card-title">Monthly Recap Report</h5>
+
+               <div class="card-tools">
+                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                   <i class="fas fa-minus"></i>
+                 </button>                
+               </div>
+             </div> -->
+      <!-- /.card-header -->
+      <!-- <div class="card-body"> -->
+      <!-- <div class="row"> -->
+         
+      <div>
+         <!--  -->
+         
+         <span class="ribbon5">
+            <!-- <span class="thumb thumbs-up">
+               <i class="bi" style="margin-left: -5px; font-size: 15px;"></i>
+            </span>  -->
+            Last Updated, {{todayDate | date:'MMMM-yyyy'}} 
+         </span>
+         <span class="ribbon4">
+            
+            <span class="thumb thumbs-up"><i class="bi bi-hand-thumbs-up-fill"
+                  style="margin-left: -10px; font-size: 15px;"></i></span> Our best hosting site
+
+         </span>
+
+         
+
+        
+         <div style="margin-top: 0px;" class="container-fluid"
+         
+            *ngFor="let affliate of affliates | orderBy:'visited':'desc';let indexOfelement=index;">
+            
+            <!-- <div class="ribbon-corner" data-tor="place.left place.bottom"  *ngFor="let affliate of affliates.slice().reverse()"> -->
+            <div class="card back" style="margin-top: 15px;">
+               <div class="yellow"></div>
+        <div class="top dots"></div>
+               <!-- <div class="bookmarkRibbon">
+                  <span style="color:white;position: relative;top: -9px;text-align: center;right: -10px;">20% OFF</span>
+               
+               </div> -->
+               <!-- <span class="ribbon1" style="color: #262627; font-size: 20px; font-weight: bold;" >
+                  <span>70% OFF Shared Hosting</span></span> -->
+               <span class="ribbon3">
+                  <span class="fa-stack"
+                     style="font-size: 20px; margin-top: -9px; margin-left: -10px; color: #ccced1; font-family: lato,sans-serif;"><span
+                        class=""></span>
+                     <strong class="fa-stack-1x">{{indexOfelement+1}}</strong></span>
+               </span>
+               <app-child-display [affliate]="affliate" (notify)="handleNotify($event)"></app-child-display>
+
+               <!-- </div> -->
+            </div>
+            <!-- <div style="height: 50px; background-color: greenyellow; margin-top: -45px; position: relative;">brose</div> -->
+         </div>
+         <!-- </div> -->
+         <!-- /.row -->
+         <!-- </div> -->
+         <!-- ./card-body -->
+         <!-- <div class="card-footer"> -->
+
+         <!-- /.row -->
+         <!-- </div> -->
+         <!-- /.card-footer -->
+         <!-- </div> -->
+         <!-- /.card -->
+         <!-- </div> -->
+         <!-- /.col -->
+         <!-- </div> -->
+
+      </div>
+      <!--/. container-fluid -->
+      <!-- </section> -->
+      <!-- /.content -->
+      <!-- </div> -->
+      <!-- </section> -->
+      <!-- /.content-wrapper -->
+   </div>
+
+   <!-- <div class="parent"> -->
+   <!-- <div class="container-fluid" style="margin-top: 0px; position: relative;"> -->
+   <!-- <div class="banner">
+         <div class="contentbrose">
+            <h2 class="mb5" style="font-size: 35px; margin-top: 23px;">Best Web Hosting Services of 2022</h2>
+            <h2 class="mb5" style="margin-top: 23px; font-style: italic;">Keep your website running smoothly with a
+               hosting company that guarantees <br />you good uptime, fast load times and easy setup.
+            </h2>
+            <label
+               style="font-size: 15px; margin-left: 0px;  color: #c2c0c0;  margin-left: 30px;   font-weight: bold;   margin-top: 85px;  margin-bottom: 5px;  font-family: lato,sans-serif; font-style: italic;"
+               class="edu3">
+               <i style="font-size: 20px;  margin-right:  0px; "></i>Last Updated Apr 2022 </label>
+         </div>
+      </div> -->
+
+   <!-- <div style=" margin-top: -40px; "> -->
+   <!-- <div> -->
+   <!-- <span class="ribbon4">
+               <span class="thumb thumbs-up" ><i class="icon-thumbs-up"></i></span> Our Best Hosting Site
+            </span> -->
+   <!-- <div style="margin-top: 0px;" class="container-fluid shadow1" -->
+   <!-- *ngFor="let affliate of affliates | orderBy:'visited':'desc';let indexOfelement=index;"> -->
+   <!-- <div class="ribbon-corner" data-tor="place.left place.bottom"  *ngFor="let affliate of affliates.slice().reverse()"> -->
+
+   <!-- <div class="broseshadow" style="margin-top: 15px;">
+               <span class="ribbon3">
+                  <span class="fa-stack"
+                     style="font-size: 20px; margin-top: -9px; margin-left: -10px; color: #ccced1; font-family: lato,sans-serif;"><span
+                        class=""></span>
+                     <strong class="fa-stack-1x">{{indexOfelement+1}}</strong></span>
+               </span>
+               <app-child-display [affliate]="affliate" (notify)="handleNotify($event)"></app-child-display>
+               
+            </div>
+         </div> -->
+   <!-- </div> -->
+   <!-- </div> -->
+   <!-- </div> -->
+   <!-- </div> -->
+<div class="container">
+
+        <form class="form-grou1p" [formGroup]="updateForm">
+
+         
+          <div class="form-group"><input type="hidden" formControlName="companyName"></div>
+          <div class="form-group"><input type="hidden" formControlName="companyHeading"></div>
+          <div class="form-group"><input type="hidden" formControlName="companyImage"></div>
+          <div class="form-group"><input type="hidden" formControlName="companyUrl"></div>
+          <div class="form-group"><input type="hidden" formControlName="navUrl"></div>
+          <div class="form-group"><input type="hidden" formControlName="features1"></div>
+          <div class="form-group"><input type="hidden" formControlName="features2"></div>
+          <div class="form-group"><input type="hidden" formControlName="features3"></div>
+          <div class="form-group"><input type="hidden" formControlName="features4"></div>
+          <div class="form-group"><input type="hidden" formControlName="features5"></div>
+          <!-- <div class="form-group"><input type="true" formControlName="features6"></div>
+          <div class="form-group"><input type="true" formControlName="features7"></div>
+          <div class="form-group"><input type="true" formControlName="features8"></div>
+          <div class="form-group"><input type="true" formControlName="features9"></div>
+          <div class="form-group"><input type="true" formControlName="features10"></div> -->
+          <div class="form-group"><input type="hidden" formControlName="addedadv1"></div>
+          <div class="form-group"><input type="hidden" formControlName="addedadv2"></div>
+          <div class="form-group"><input type="hidden" formControlName="addedadv3"></div>
+          <div class="form-group"><input type="hidden" formControlName="addedadv4"></div>
+          <div class="form-group"><input type="hidden" formControlName="addedadv5"></div>
+          <div class="form-group"><input type="hidden" formControlName="visited"></div>
+          <div class="form-group"><input type="hidden" formControlName="counted"></div>
+          <div class="form-group"><input type="hidden" formControlName="totavg"></div>
+          <div class="form-group"><input type="hidden" formControlName="addedadv1"></div>
+          <div class="form-group"><input type="hidden" formControlName="all_reviews"></div>
+          <div class="form-group"><input type="hidden" formControlName="discount_sale"></div>
+          <div class="form-group"><input type="hidden" formControlName="discount_status"></div>
+          <div class="form-group"><input type="hidden" formControlName="discount_per"></div>
+          <div class="form-group"><input type="hidden" formControlName="low_sale"></div>       
+
+          <div class="form-group">
+            <button [hidden]="true" id="updatestock" type="button" class="btn btn-outline-dark btnborder"
+              (click)="onUpdate();">Submit Review</button>
+
+               <button [hidden]="true" id="updatestock2" type="button" class="btn btn-outline-dark btnborder"
+              (click)="onUpdate2();">Submit Review</button>
+
+          </div>
+        </form></div>
+      <!-- </div>
+    </div> -->
+
+    <button (click)="topFunction();" id="myBtn" title="Go to top">Top</button> 
+    </div>

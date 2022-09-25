@@ -1,0 +1,128 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.content-wrapper{
+  background-color: #f2f4f8;
+}
+
+:root
+{
+    --primary-color:#33c6ea;
+    --secondary-color:#162328;
+}
+
+
+a.active {
+  color: white !important;
+ 
+}
+
+.mat-icon {
+  color: white !important;
+}
+.br112{
+  /* color: #505153; */
+  /* font-family: Verdana, Arial, sans-serif; */
+  font-size: 14px;
+}
+.elevation-22{
+  margin-right: 5px;
+}
+
+.br112:hover 
+{
+    color: var(--primary-color);
+}
+/* body
+{
+    height: 100vh;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:rgb(167, 167, 167);
+}
+ */
+
+body {
+  color: #222426;
+  /* font-family: lato,sans-serif; */
+  background: #f2f4f8;
+  overflow-x: hidden;
+}
+
+html, body { height: 100%; font-family: 'Trebuchet MS', sans-serif; }
+body { padding-top: 13px; margin: 0; font-family: 'Trebuchet MS', sans-serif; }
+
+
+.cdk-global-overlay-wrapper {
+    display: flex;
+    position: absolute;
+    z-index: 1000;
+    overflow: auto;
+    pointer-events: auto;  
+  }
+
+  .cdk-global-overlay-wrapper {
+    overflow: auto;
+    pointer-events: auto; 
+  }
+  .cdk-global-overlay-wrapper::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+ 
+    white-space: nowrap;
+  }
+  
+  .cdk-overlay-pane {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    white-space: normal;
+  }
+
+
+  .cdk-overlay-pane.my-dialog {
+    position: relative!important;
+  }
+  .close.mat-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    line-height: 14px;
+    min-width: auto;
+  }
+
+
+  .cdk-global-overlay-wrapper {
+    display: flex;
+    position: absolute;
+    z-index: 1000;
+    overflow: auto;
+    pointer-events: auto;  
+  }
+
+ 
+  
+
+  
+
+  /* .mat-tab-label{
+    background: rgb(162, 165, 162);
+    color:white;
+  }
+  .mat-tab-group.mat-primary .mat-tab-label:not(.mat-tab-disabled):focus, .mat-tab-group.mat-primary .mat-tab-link:not(.mat-tab-disabled):focus, .mat-tab-nav-bar.mat-primary .mat-tab-label:not(.mat-tab-disabled):focus, .mat-tab-nav-bar.mat-primary .mat-tab-link:not(.mat-tab-disabled):focus{
+    background: red;
+  } */
+  /* ink bar style */
+  .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    /* background: rgb(162, 231, 243); */
+
+    height: 5px;
+  } 

@@ -1,0 +1,2790 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+<div class="content-wrapper">
+  <div class="menu container-fluid align-items-start justify-content-center"
+    style="margin-top: -9px; background-color: #e6e9ec; height: 50px;">
+    <a rel="index up" title="Go to Home" href="/"
+      style="text-decoration: none; border-radius: 22px; color: #727e8f; font-size: 14px; font-family: lato, sans-serif;">
+      <div class="container-fluid" style="margin-top: -15px;"></div>
+      Host Solution Home
+    </a>
+    <i class="bi bi-chevron-right"
+      style="margin-left: -8px; margin-right: -8px; border-radius: 22px; color: #727e8f; font-size: 11px; font-weight: bolder; font-family: lato, sans-serif; /* outline: rgb(255, 255, 255) solid ;  */">
+    </i>
+    <a class="main-nav-item" rel title="Go to  BlueHost Reviews" href="reviews-bluehost" style="
+                /* box-shadow: 0px 1px 1px rgba(255, 253, 253, 0.075) inset, 0px 2px 8px rgba(58, 56, 56, 0.6); */
+                border-radius: 22px;
+                /* color:#727e8f; */
+                font-size: 14px;
+                font-family: lato, sans-serif;
+                /* border: 1px solid rgb(255, 255, 255); */
+                /* outline: rgb(255, 255, 255) solid ;  */
+            ">
+      BlueHost Reviews
+    </a>
+    <div class="md-v-line"></div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="1">
+        <div class="menu" style="margin-top: 0px; margin-bottom: 0px;">
+          <button id="openModalButton" [hidden]="true" type="button" class="btn btn-info btn-lg" data-toggle="modal"
+            data-target="#myModal">Open Modal</button>
+
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div style="height: 50px;">
+                    <img id="blah" src="../../../assets/img/write review.png" width="60px" height="50px"
+                      alt="your image" />
+                  </div>
+                  <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h5 style="font-size: 30px; font-family: lato, sans-serif;" class="modal-title"
+                    id="exampleModalLabel">
+                    Thanks and ... One last request
+                  </h5>
+                  <h5 style="font-size: 15px; font-family: lato, sans-serif; margin-top: 30px;" class="modal-title"
+                    id="exampleModalLabel">
+                    Your review has been submitted successfully. We'll go over it within the next 24 hours and if it's
+                    legit we'll approve it. Please share HostSolution with friends so that they get to know about the
+                    site.
+                    <br />
+                    <br />
+                    <br />
+                    If you wrote a positive review on BlueHost, please share it with others:
+                  </h5>
+
+                  <div style="align-self: center; margin-left: 480px;" class="socialmedia22">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+                  </div>
+                </div>
+                <div style="align-self: center;" class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-start myrow1 d-flex">
+          <div class="col-lg mycol2">
+            <div
+              style="margin-left: 20px; font-size: 20px; margin-top: 15px; color: #393b3c; font-weight: bold; font-family: lato, sans-serif;">
+              <p>BlueHost Hosting Reviews and Expert Opinion</p>
+            </div>
+
+            <mat-tab-group mat-align-tabs="start" [selectedIndex]="selectedTabIndex"
+              (selectedIndexChange)="onTabChange($event)" id="tabs" #tabs>
+              <mat-tab label="Overview & Prices" style="top: 50%; transform: translateY(-50%);">
+                <div class="container-fluid">
+                  <div class="row rowreview1">
+                    <div class="col-lg float-start colreview">
+                      <div class="mkasa maybegood">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                            aria-controls="collapseExample">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">User Reviews
+                                BlueHost</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample" style="margin-top: -14px;">
+                          <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                            <div class="col-lg float-start">
+                              <div class="col-lg float-start" style="margin-left: -15px;">
+                                <div class="card card-body" style="border: none; box-shadow: none;">
+                                  <div class="md-v-line"></div>
+                                  <strong style="font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    <ng-template #t let-fill="fill">
+                                      <span class="star d-flex" [class.full]="fill === 100">
+                                        <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                          </em></span><em class="bi bi-star"></em>
+                                      </span>
+                                    </ng-template>
+                                    {{this.reviewCount.reviews1 | number: '1.1-1'}}
+                                    <ngb-rating [(rate)]="this.reviewCount.reviews1" [starTemplate]="t"
+                                      [readonly]="true" [max]="5"></ngb-rating>
+                                  </strong>
+
+                                  <div class="md-v-line"></div>
+                                  <strong
+                                    style="font-family: lato, sans-serif; color: rgb(20, 174, 213); font-size: 15px; margin-top: -5px; font-weight: lighter;"
+                                    class="d-flex numbig">
+                                    {{this.allUser2 | number: '1.1-1'}} Reviews
+                                  </strong>
+                                </div>
+                              </div>
+                              <div class="card card-body" style="border: none; box-shadow: none;">
+                                <div class="row" style="margin-top: -35px;">
+                                  <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="icon-user" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      User Friendly:
+                                    </h5>
+                                    <div class="d-flex small-ratings">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.userfriendly | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.userfriendly" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="bi bi-headset" style="font-weight: bolder; margin-right: 5px;"></i>
+                                      Support:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 15px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.support | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.support" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="fas icon-thumbs-up"
+                                        style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Features:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 25px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.features | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.features" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="bi bi-reception-4" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Reliability:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 20px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.reliability | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.reliability" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="fas icon-smile" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Pricing:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 39px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.pricing | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.pricing" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row row" style="width: calc(115% - 0px);">
+                              <button
+                                style="height: 45px; font-size: 15px; font-family: lato, sans-serif; font-weight: bold; color: #1c1c1d; border: 1px solid #d0ebff;"
+                                type="button" class="btn btn-outline-success btn-info button1" (click)="open(content);">
+                                Write Review <i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- <div class="row rowreview" style="margin-top: 30px;"> -->
+                      <div class="mkasa maybegood">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="true"
+                            aria-controls="collapseExample2">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Best Pricing Range</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample2" style="margin-top: 10px;">
+                          <!-- <mat-divider style="margin-top: 20px; margin-bottom: 20px;"></mat-divider> -->
+                          <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                            <div class="col-lg float-start">
+                              <div class="card card-body">
+                                <div class="d-flex flex-lg-row justify-content-between align-items-center"
+                                  style="margin-top: -15px;">
+                                  <a
+                                    style="font-weight: bold; margin-bottom: 10px; font-size: 17px; margin-left: -10px; font-family: lato, sans-serif; color: #6f7481;">
+                                    Dedicated hosting</a>
+                                </div>
+                                <mat-divider style="width: 150px; margin-top: 0px; margin-bottom: 20px;">
+                                </mat-divider>
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollds();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Standard</a>
+                                  <!-- <div class="d-flex small-ratings1"
+                                style="font-size: 20px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                <i class="bi bi-battery-charging" style="font-weight: bold; font-size: 30px; margin-right: 7px; margin-top: -6px;"></i>
+                                99.9%
+                              </div> -->
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px; font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $79.99/mo
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollvps();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Enhanced</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px; font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $99.99/mo
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollshared();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Premium</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px;  font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $119.99/mo
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                            <div class="col-lg float-start">
+                              <div class="card card-body">
+                                <div class="d-flex flex-lg-row justify-content-between align-items-center"
+                                  style="margin-top: -15px;">
+                                  <a
+                                    style="font-weight: bold; margin-bottom: 10px; font-size: 17px; margin-left: -10px; font-family: lato, sans-serif; color: #6f7481;">
+                                    Shared hosting</a>
+                                </div>
+                                <mat-divider style="width: 130px; margin-top: 0px; margin-bottom: 20px;">
+                                </mat-divider>
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollds();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Basic</a>
+                                  <!-- <div class="d-flex small-ratings1"
+                                style="font-size: 20px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                <i class="bi bi-battery-charging" style="font-weight: bold; font-size: 30px; margin-right: 7px; margin-top: -6px;"></i>
+                                99.9%
+                              </div> -->
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px;  font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $2.75/mo
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollvps();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Plus</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px;  font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $5.45/mo
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollshared();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Choice Plus</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px;  font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $5.45/mo
+                                  </div>
+                                </div>
+
+                                <!--  -->
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollshared();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Pro</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px;  font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $13.95/mo
+                                  </div>
+                                </div>
+                                <!--  -->
+                              </div>
+                            </div>
+                          </div>
+
+                          <!--  -->
+
+                          <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                            <div class="col-lg float-start">
+                              <div class="card card-body">
+                                <div class="d-flex flex-lg-row justify-content-between align-items-center"
+                                  style="margin-top: -15px;">
+                                  <a
+                                    style="font-weight: bold; margin-bottom: 10px; font-size: 17px; margin-left: -10px; font-family: lato, sans-serif; color: #6f7481;">
+                                    VPS hosting</a>
+                                </div>
+                                <mat-divider style="width: 130px; margin-top: 0px; margin-bottom: 20px;">
+                                </mat-divider>
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollds();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Standard</a>
+                                  <!-- <div class="d-flex small-ratings1"
+                                style="font-size: 20px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                <i class="bi bi-battery-charging" style="font-weight: bold; font-size: 30px; margin-right: 7px; margin-top: -6px;"></i>
+                                99.9%
+                              </div> -->
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px;  font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $18.99/mo
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollvps();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Enhanced</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px;  font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $29.99/mo
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                  <a (click)="scrollshared();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Ultimate</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="margin-right: 10px;  font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    $59.99/mo
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 0px; margin-bottom: 30px;"></mat-divider>
+                      <!-- </div> -->
+                      <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                        class="in-a-nutshell" data-toc-anchor="0">Why BlueHost?</h2>
+                      <div
+                        style="margin-top: 10px; font-size: 15px; margin-bottom: 40px; line-height: 1.5; font-family: lato, sans-serif;">
+                        Bluehost is a leading web hosting solutions company. Since the founding in 2003, Bluehost has
+                        continually innovated new ways to deliver on their mission: to empower people to fully harness
+                        the web. <br /><br /> Based in Orem, Utah, bluehost provide comprehensive tools to millions of
+                        users
+                        throughout
+                        the world so anyone, novice or pro, can get on the web and thrive with their web hosting
+                        packages.
+
+                      </div>
+
+
+
+                      <div class="row rowreview"
+                        style="margin-top: 20px; margin-right: 20px; line-height: 1.5; font-family: lato, sans-serif;">
+                        <div class="additional-info">
+                          <!-- <div class="free-domain" style="margin-left: 20px;"><span>Free domain</span></div> -->
+                          <div class="moneyback" style="margin-left: 10px; font-family: lato, sans-serif;"><span>Money
+                              Back:</span> 30 Days</div>
+                        </div>
+                      </div>
+                      <div class="row rowreview" style="margin-right: 0px;">
+                        <mat-divider style="margin-top: 10px;"></mat-divider>
+                      </div>
+
+                      <div class="row rowreview" style="margin-right: 0px; margin-top: 60px;">
+                        <span class="product-cta-button">
+                          <span class="product-cta-button-icon"><img style="width: 40px;"
+                              src="../../../assets/img/bluhost/logo.png" /></span>
+
+                          <span class="product-cta-button-text">BlueHost</span>
+                          <button
+                            style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                            type="button" class="btn btn-outline-success btn-info button1">
+                            Visit Site <i class="bi bi-arrow-right"></i>
+                          </button>
+                        </span>
+                      </div>
+
+                      <div class="row rowreview" style="margin-right: 0px; margin-top: 40px;">
+                        <!-- <mat-accordion> -->
+                        <p
+                          style="margin-top: 25px; color: #1c1c1d; font-size: 25px; font-weight: bold; font-family: lato, sans-serif;">
+                          FAQ
+                        </p>
+                        <mat-divider style="margin-top: 10px; margin-bottom: 20px;"></mat-divider>
+                        <!--  -->
+                        <!--  -->
+                        <mat-accordion>
+
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold; ">
+                                What makes Bluehost different from other website hosting providers?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Bluehost has been a trusted web hosting provider since 2003 and continues to revolutionize
+                              the website creation experience. Over 2 million websites are powered by Bluehost and we
+                              continue to provide world class services and products to our global customer base. As one
+                              of the top recommended WordPress hosting providers by WordPress.org, we provide hosting
+                              solutions that can optimize WordPress websites for speed, performance and design through
+                              our innovative products. Bluehost continues to distinguish itself from competitors by
+                              offering 24/7 support, affordable hosting packages, security and a comprehensive suite of
+                              web tools to provide each customer with the necessary resources for success.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Does Bluehost provide domain names with web hosting?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              When you purchase a shared web hosting package, a free domain is included with your new
+                              account. Bluehost customers will have access to verify if their domain name is available
+                              along with various domain name extensions to create their unique website. Among the
+                              options are .com, .org, .blog, .net and more.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Can I transfer my existing domain name to Bluehost?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Bluehost makes it easy to transfer an existing domain to your Bluehost account. Within
+                              your cPanel you will navigate to the domain management section and follow the on-screen
+                              instructions to begin your domain transfer. If you need any assistance, please contact our
+                              customer support team and we will be happy to help you.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                How do I migrate to Bluehost?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              If you already have a website and are considering changing your web host, then you will
+                              need some assistance with migration. Bluehost provides a migration service that can assist
+                              you in getting all your files transferred securely and correctly. Migrating your website
+                              can be time consuming and extremely complex so we want to provide you with the best
+                              support possible from our team of experts.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Why choose Bluehost to host your website?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Bluehost is dedicated to helping you get your idea online. With the help of articles from
+                              our blog that walk you through building your website and countless articles that help
+                              guide you through our products and services, you’ll find everything you need to be
+                              successful.
+                            </p>
+                          </mat-expansion-panel>
+                        </mat-accordion>
+                        <!--  -->
+
+                      </div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview curvepros" style="margin-top: 50px;">
+                        <div class="col colreview pros">
+                          <h3 data-header="true"
+                            style="margin-top: 10px; font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">
+                            Pros
+                          </h3>
+                          <mat-divider style="margin-top: 15px; margin-bottom: 10px;"></mat-divider>
+
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> 24/7 tech support(email, chat or phone)
+                          </h3>
+
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Unmetered bandwidth
+                          </h3>
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Solid uptime
+                          </h3>
+                          <!--  -->
+                          <h3 class="prosclass"><i
+                              style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> The first term is cheap</h3>
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Generous storage
+                          </h3>
+                          <!--  -->
+                          <h3 class="prosclass"><i
+                              style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> 30-day money-back guarantee</h3>
+                          <!--  -->
+                          <!-- <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Stable infrastructure (powered by Linode)
+                          </h3> -->
+                        </div>
+                        <div class="col colreview">
+                          <div class="cons" data-type="cons">
+                            <h3 data-header="true"
+                              style="margin-top: 10px; font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">
+                              Cons
+                            </h3>
+                            <mat-divider style="margin-top: 15px; margin-bottom: 10px;"></mat-divider>
+
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Constant upsells
+                            </h3>
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Speed could be better
+                            </h3>
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Only US-servers
+                            </h3>
+                            <!--  -->
+                            <h3 class="prosclass"><i
+                                style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Poor backup options</h3>
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Entry-level plan limitations
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Is BlueHost the Right Host for You?</h2>
+                      </div>
+                      <div class="row rowreview">
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          Bluehost solutions are designed to meet the needs of a wide range of customers. All
+                          fully-managed, these solutions empower novice users with tools that are simple to use, and
+                          help pro users save time and energy normally associated with maintenance. Whether on a
+                          traditional hosting or cloud-based server, all incorporate the ability to upgrade so customers
+                          can easily scale as they grow.
+                        </div>
+
+
+
+                        <div class="row rowreview" style="margin-top: 30px;">
+                          <h2 style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif;"
+                            class="in-a-nutshell" data-toc-anchor="0">Here is our view on BlueHost:</h2>
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <ul style="margin-top: 0px; font-family: lato, sans-serif; font-size: 16px;" class="a">
+                            <li style="margin-top: 0px;">
+                              Overall, Bluehost is an excellent choice for beginners since it comes with everything you
+                              need to get started with WordPress, from a free domain name and automatic WordPress
+                              installation to a free drag-and-drop page builder and thorough step-by-step instructions
+                              for every step of the way.
+                            </li>
+                            <li style="margin-top: 15px;">In our Bluehost review, we found them to be reliable, fast,
+                              and affordable with friendly 24/7 customer support.</li>
+                            <li style="margin-top: 15px;">
+                              Bluehost has a long-standing relationship with the WordPress community. They are an
+                              official WordPress.org recommended web host since 2006.
+                            </li>
+                            <li style="margin-top: 15px;">They provide great
+                              hosting infrastructure, and support for the free open source software like WordPress.</li>
+                          </ul>
+                        </div>
+
+                        <!-- <div class="row rowreview "> -->
+                      </div>
+
+                      <div class="row rowreview">
+                        <div class="in-a-nutshell"
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 10px;"
+                          title="">
+                          Bluehost Control Panel
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 10px;">
+                          The Bluehost Control Panel is included in all shared packages. The Bluehost Control Panel is a
+                          modified and expanded version of the cPanel Control Panel, which is popular and simple. cPanel
+                          is even easier to use.
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px; margin-bottom: 15px;">
+                          It’s simple to manage your services with the Bluehost control panel, which includes a unified
+                          login (one username and password gives you access to all of your Bluehost accounts),
+                          integration with and hotlinks to Bluehost’s help functionalities and technical support assets,
+                          full-featured domain and email management features, and easy upgrades and scalability so you
+                          can change the hosting that supports your website.<br />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/1.jpg" />
+                        </div>
+
+
+                      </div>
+
+                      <div class="row rowreview">
+                        <div class="in-a-nutshell"
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 10px;"
+                          title="">
+                          Installing WordPress
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 10px;">
+                          The ever-changing landscape Bluehost is a reputable web host that makes site building simple,
+                          especially when it comes to WordPress hosting. In reality, its new Website Builder for
+                          WordPress is a fantastic tool that brings the drag-and-drop simplicity of a website builder to
+                          an already excellent content management system. Bluehost makes WordPress installation a
+                          breeze. In only a few clicks, you can do it yourself. Also, if you wish to move an existing
+                          website to Bluehost, the team will most likely do so for free.
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          The following are the five steps to installing WordPress:
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          1: Select a Bluehost Package
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          2: Make a Domain Name Selection
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          3: Complete the registration process
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          4: Install WordPress after logging in
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px; margin-bottom: 15px;">
+                          5: Start Building Your Website
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/bluehost-cpanel.png" />
+                        </div>
+
+
+                      </div>
+
+                      <div class="row rowreview">
+                        <div class="in-a-nutshell"
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 10px;"
+                          title="">
+                          BlueHost Prices, Plans & Features - 2022
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 10px;">
+                          BlueHost takes an unconventional technique to charge. The first costs are much smaller than
+                          those you'll face when it's time to upgrade.
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          On the other hand, the announced beginning fees are fixed and do not vary based on the
+                          duration
+                          of the introductory period. That makes things a lot easier because you may purchase hosting
+                          for
+                          one month or three years for a meager price.
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          Consider that if you're solely interested in data center placements, BlueHost may be the only
+                          provider that makes sense at this point.
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 0px;" id="scrolltoshared">
+                          Local hosts in India, East Asia, and the Pacific may be cheaper compared, and they may also
+                          provide a free domain transfer and an extra year of domain registration (no cost) once you
+                          transfer.
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          BlueHost price is based on special offers. They run incredible discounts for what's actually
+                          going on, but if that arises, you could be able to obtain a deal to make you look like a
+                          knowledgeable gentleman.
+                        </div>
+                      </div>
+
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <div class="row col111_">
+                        <!--  -->
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 40px;">
+                          Shared Hosting Plans
+                        </p>
+
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11 col11brose">Plan Name</div>
+                              <div class="col-1 col11 col11brose">Space</div>
+                              <div class="col col11 col11brose">Support</div>
+                              <div class="col-1 col11 col11brose">Themes</div>
+                              <div class="col col11 col11brose">Number of Sites</div>
+                              <div class="col-1 col11 col11brose">Price</div>
+                              <div class="col col11"></div>
+                            </div>
+                            <mat-divider style="margin-top: 13 px;"></mat-divider>
+                          </div>
+                        </div> -->
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/7.png" />
+                        </div>
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/8.png" />
+                        </div>
+                        <!--  -->
+                        <!--  -->
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  BASIC
+                                </a>
+                              </div>
+                              <div class="col-1 col11">10 GB</div>
+                              <div class="col col11">24/7 Customer Support</div>
+                              <div class="col-1 col11">Custom Themes</div>
+                              <div class="col col11">1</div>
+                              <div class="col-1 col11">$2.95/mo*</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div> -->
+                        <!--  -->
+                        <!--  -->
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  Plus
+                                </a>
+                              </div>
+                              <div class="col-1 col11">Unlimited</div>
+                              <div class="col col11">24/7 Customer Support</div>
+                              <div class="col-1 col11">Custom Themes</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">$5.45/mo*</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div> -->
+                        <!--  -->
+
+                        <!--  -->
+                        <!-- <div class="row row11" id="scrollvps">
+                          <div class="col col11">
+                            <div class="row row11" style="margin-bottom: 20px;">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  CHOICE PLUS
+                                </a>
+                              </div>
+                              <div class="col-1 col11">Unlimited</div>
+                              <div class="col col11">24/7 Customer Support</div>
+                              <div class="col-1 col11">Custom Themes</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">$5.45/mo*</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div> -->
+
+                        <!-- <div class="row row11" id="scrollvps">
+                          <div class="col col11">
+                            <div class="row row11" style="margin-bottom: 20px;">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  PRO
+                                </a>
+                              </div>
+                              <div class="col-1 col11">Unlimited</div>
+                              <div class="col col11">24/7 Customer Support</div>
+                              <div class="col-1 col11">Custom Themes</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">$13.95/mo*</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                          </div>
+                        </div> -->
+                        <!-- ############################################ -->
+                        <!-- ############################################ -->
+                        <!-- ############################################ -->
+                        <!-- ############################################ -->
+                        <!-- ############################################ -->
+                        <!-- ############################################ -->
+                        <!-- ############################################ -->
+                      </div>
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!--  -->
+
+                      <div class="col col111_">
+                        <!--  -->
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 40px;">
+                          VPS Hosting Plans
+                        </p>
+
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11 col11brose">Plan Name</div>
+                              <div class="col-1 col11 col11brose">Space</div>
+                              <div class="col col11 col11brose">Bandwidth</div>
+                              <div class="col-1 col11 col11brose">Panel</div>
+                              <div class="col col11 col11brose">Number of Sites</div>
+                              <div class="col-1 col11 col11brose">Price</div>
+                              <div class="col col11"></div>
+                            </div>
+                            <mat-divider style="margin-top: 13 px;"></mat-divider>
+                          </div>
+                        </div> -->
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/9.png" />
+                        </div>
+
+
+                        <!--  -->
+                        <!--  -->
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud
+                                </a>
+                              </div>
+                              <div class="col-1 col11">15 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">1</div>
+                              <div class="col-1 col11">$2.49</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div> -->
+                        <!--  -->
+                        <!--  -->
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud Plus
+                                </a>
+                              </div>
+                              <div class="col-1 col11">25 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11" id="scrollds">$3.70</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div> -->
+                        <!--  -->
+
+                        <!--  -->
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11" style="margin-bottom: 20px;">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud Extra
+                                </a>
+                              </div>
+                              <div class="col-1 col11">35 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">$4.99</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <div class="col col111_">
+                        <!--  -->
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 40px;">
+                          Dedicated Server Plans
+                        </p>
+
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11 col11brose">Plan Name</div>
+                              <div class="col-1 col11 col11brose">Space</div>
+                              <div class="col col11 col11brose">Bandwidth</div>
+                              <div class="col-1 col11 col11brose">Panel</div>
+                              <div class="col col11 col11brose">Number of Sites</div>
+                              <div class="col-1 col11 col11brose">Price</div>
+                              <div class="col col11"></div>
+                            </div>
+                            <mat-divider style="margin-top: 13 px;"></mat-divider>
+                          </div>
+                        </div> -->
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/10.png" />
+                        </div>
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/11.png" />
+                        </div>
+                        <!--  -->
+                        <!--  -->
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud
+                                </a>
+                              </div>
+                              <div class="col-1 col11">15 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">1</div>
+                              <div class="col-1 col11">$2.49</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div> -->
+                        <!--  -->
+                        <!--  -->
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud Plus
+                                </a>
+                              </div>
+                              <div class="col-1 col11">25 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11" id="scrollch">$3.70</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div> -->
+                        <!--  -->
+
+                        <!--  -->
+                        <!-- <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11" style="margin-bottom: 20px;">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud Extra
+                                </a>
+                              </div>
+                              <div class="col-1 col11">35 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">$4.99</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->
+                      </div>
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- <div class="col col111 ">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 40px;">
+                          Cloud Hosting Plans
+                        </p>
+
+                        <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11 col11brose">Plan Name</div>
+                              <div class="col-1 col11 col11brose">Space</div>
+                              <div class="col col11 col11brose">Bandwidth</div>
+                              <div class="col-1 col11 col11brose">Panel</div>
+                              <div class="col col11 col11brose">Number of Sites</div>
+                              <div class="col-1 col11 col11brose">Price</div>
+                              <div class="col col11"></div>
+                            </div>
+                            <mat-divider style="margin-top: 13 px;"></mat-divider>
+                          </div>
+                        </div>
+                        
+                        <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud
+                                </a>
+                              </div>
+                              <div class="col-1 col11">15 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">1</div>
+                              <div class="col-1 col11">$2.49</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div>
+                       
+                        <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud Plus
+                                </a>
+                              </div>
+                              <div class="col-1 col11">25 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">$3.70</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                            <mat-divider style="margin-top: 13px;"></mat-divider>
+                          </div>
+                        </div>
+                        
+                        <div class="row row11">
+                          <div class="col col11">
+                            <div class="row row11" style="margin-bottom: 20px;">
+                              <div class="col col11">
+                                <a rel="index up" title="Go to Home" href="http://10.1.209.49:4200/"
+                                  style="font-size: 15px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  FastCloud Extra
+                                </a>
+                              </div>
+                              <div class="col-1 col11">35 GB</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">cPanel</div>
+                              <div class="col col11">Unlimited</div>
+                              <div class="col-1 col11">$4.99</div>
+                              <div class="col col11"><button
+                                  style="margin-top: -10px; border-radius: 0%; color: #ffffff; border: #ffffff;"
+                                  class="btn btn-outline-success btn-info button1">Details</button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 30px; font-size: 15px; margin-bottom: 0px;">
+                        Payment is made by <span
+                          style="font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">credit card or
+                          PayPal, </span>and all transactions are covered by a
+                        <span style="font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">30-day
+                          money-back
+                          assurance,</span>which is 50 percent lengthier than the industry standard of one month.
+                      </div>
+
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          The Benefits of Using Bluehost Web Hosting
+                        </p>
+                        While Bluehost offers a lot of great features, there are several that really stand out.
+                      </div>
+
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Low pricing options
+                        </p>
+
+                      </div>
+
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        You’ll spend much less money by going with Bluehost — without sacrificing quality. That’s great
+                        especially if you’re looking to build a site on a budget.
+                      </div>
+                      <!--  -->
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        As you’ve already seen, the introductory rates for Bluehost shared web hosting starts at just
+                        $2.75 per month. Being able to host your site for less than $50 is a great deal.
+                      </div>
+                      <!--  -->
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        All Bluehost shared hosting plans come with a free SSL certificate and free marketing credits.
+                        When you factor in the storage and bandwidth you’re getting, that’s a decent value for the
+                        price.
+                      </div>
+                      <!--  -->
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Overall, this is one of the lowest prices you’ll see for a legitimate web host.
+                      </div>
+                      <!--  -->
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Bluehost gives you all the crucial security features at a great price.
+                      </div>
+                      <!--  -->
+
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/1.png" />
+                      </div>
+
+
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Great security
+                        </p>
+                        While Bluehost offers a lot of great features, there are several that really stand out.
+                      </div>
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Bluehost gives you all the crucial security features at a great price.
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        I’ve already mentioned that an SSL certificate comes standard, regardless of which plan you
+                        choose.
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Their plans have a feature to hide personal information that you used when signing up for a
+                        private domain. Often, hackers will target this information from website owners.
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Bluehost has features to prevent malware attacks, as well as tools used for automatic daily
+                        backups. You’ll also get a security tool that offers spam protection for the email address
+                        associated with your website.
+                      </div>
+
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Easy to use
+                        </p>
+
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        You don’t need to be a tech expert to host your website with Bluehost. Nearly anyone, regardless
+                        of their experience level, can find a beginner hosting plan from this platform.
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        There are plenty of web hosts out there that are specifically designed for advanced webmasters.
+                        If you’re new, you want to avoid those hosts.
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Whether you’re using WordPress or taking advantage of the Bluehost website builder, everything
+                        will be pretty straightforward and easy to follow.
+                      </div>
+
+                      <!--  -->
+                      <!--  -->
+                      <!--  -->
+
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Excellent support
+                        </p>
+
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Even though Bluehost is easy to figure out, you may still find yourself in a situation where you
+                        need some help or guidance.
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        You should able to find an answer through their knowledge base page. This is a support center
+                        that has how-to guides, tutorials, and articles with instructions for troubleshooting and FAQ.
+                        Simply search what you’re looking for, and there will likely be a resource to help you out.
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Bluehost has 24/7 phone support, which is great for those of you who like to be talked through
+                        problems.
+                      </div>
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        If you’re like me, you’ll probably use their live chat agents. It’s a fast and easy way to get
+                        an answer without having to leave their website.
+                      </div>
+
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/3.png" />
+                      </div>
+
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          WordPress hosting
+                        </p>
+
+                      </div>
+
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        If you’re using WordPress hosting, Bluehost is definitely a top option for you to consider.
+                        That’s because this web host is just one of the three “official” recommended choices from the
+                        WordPress website.
+                      </div>
+
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/2.png" />
+                      </div>
+                      <!--  -->
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Money-back guarantee
+                        </p>
+
+                      </div>
+                      <!--  -->
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        Like most web hosting services, you won’t get a free trial to try them out. With that said,
+                        Bluehost does offer a 30-day money-back promise.
+                      </div>
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        So if you’re on the fence about using Bluehost, it’s comforting to know that you’ll get refunded
+                        if you’re not ultimately satisfied in the first month.
+                      </div>
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 20px; font-size: 15px; margin-bottom: 20px;">
+                        It’s worth noting the refund only applies to web hosting costs. So if you use Bluehost for a
+                        domain name or other add-ons, those purchases are final.
+                      </div>
+                      <!-- money back -->
+                      <!-- <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/2.png" />
+                      </div> -->
+
+
+                      <!-- email -->
+
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Email
+                        </p>
+
+                      </div>
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 15px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        Connect, create, and collaborate easily with Google apps designed for teams of every size. All
+                        while showing off an email address that matches your domain.
+                      </div>
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 15px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        While a professional email that matches your domain name is a huge perk, there’s plenty of other
+                        reasons millions are flocking to Google Workspace:
+                      </div>
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 15px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        . Easy-to-navigate control panel </div>
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 15px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        . Full suite of productivity tools, from Docs to Drive </div>
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 15px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        . Seamless integration with your Bluehost account
+                      </div>
+                      <!--  -->
+
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/email.jpeg" />
+                      </div>
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/4.png" />
+                      </div>
+
+                      <!-- website builder -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Website Builder
+                        </p>
+
+                        <span style="font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">BlueHost's
+                          From beginner to pro, Bluehost Website Builder lets you enjoy building eye-catching WordPress
+                          websites faster and easier than traditional building tools.</span>
+                      </div>
+
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/5.png" />
+                      </div>
+                      <!-- end -->
+                      <!-- free domain -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Free Domain Transfer
+                        </p>
+
+                        Maintaining your domain registration and hosting services within the same account allows you to
+                        manage both services with only one login password, making it easier for you to stay on top of
+                        everything related to your website. This article explains the process of transferring your
+                        domain to Bluehost, so there are no surprises along the way.
+                      </div>
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/bluhost/6.png" />
+                      </div>
+                      <!-- </div> -->
+                      <!-- end -->
+                      <!-- developers advanced tools -->
+                      <!-- website builder -->
+
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Conclusion: Do We Recommend BlueHost?
+                        </p>
+
+                        <div class="row my-row" style="margin-top: 10px; margin-left: 5px;">
+                          Absolutely! BlueHost is a small business that has put a lot of money into a big, contemporary
+                          technology, and it shows.
+                          <br />
+                          <br />
+                          BlueHost is a mighty host with exceptional uptime, breakneck speed, great support, and a
+                          large
+                          selection of technological solutions for beginners and experienced builders.
+                          <br />
+                          <br />
+                          The payment is straightforward and reasonable, and the value gained is astounding.
+                          Furthermore,
+                          the service offers a comprehensive range of hosting services, allowing businesses to expand
+                          quickly. The BlueHost VPS and dedicated solutions appear attractive with every look.
+                          <br />
+                          <br />
+                          Despite several disadvantages, such as expensive renewal rates and non-free domain name
+                          registration, they are excellent enough to earn our approval.
+                          <br />
+                          <br />
+                          This is undoubtedly one of the most outstanding web hosting providers I've come across, and
+                          the
+                          proof is this BlueHost brand review!<br />
+                          <br />
+                        </div>
+                      </div>
+
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                    </div>
+
+
+                    <div class="col-lg-4 colreview d-none d-xl-block"
+                      style="margin-left: 0px; margin-top: 1px; background: #f2f4f8; text-align: center;">
+                      <!-- <div class="row align-items-start rowreview" style="background: #f2f4f8; text-align: center;"> -->
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+                            aria-controls="collapseExample1">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Visit
+                                BlueHost</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample1" style="margin-top: -14px;">
+
+                          <div class="row">
+                            <div class="row">
+                              <div class="row d-flex rowreview">
+                                <div class="card card-body">
+                                  <ul>
+                                    <div class="row d-flex rowreview" style="margin-top: 20px;">
+                                      <img id="blah" style="background-size: 100% 100%;"
+                                        src="../../../assets/img/bluhost/Bluehost.png" alt="your image" />
+                                    </div>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <div class="row d-flex rowreview"></div>
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <!-- <div class="col colreview"> -->
+                            <div class="row d-flex rowreview">
+                              <button
+                                style="margin-top: 25px; color: #1c1c1d; border-color: aqua; height:45px; font-size: 15px; font-weight: bold;"
+                                type="button" class="btn btn-outline-success btn-info button1">
+                                Visit BlueHost <i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <div class="col-2 colreview"></div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true"
+                            aria-controls="collapseExample3">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Great Web Hosting
+                                Services</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample3" style="margin-top: -14px;">
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <!-- <div class="col rowreview"
+                          style="margin-top: 30px; font-family: lato, sans-serif; font-weight: bold; font-size: 15px; color: #464849;">
+                          Great Web Hosting Services
+                        </div> -->
+                            <!--  -->
+                            <div class="top5-prods steakitup">
+                              <div class="top5-prods__items">
+                                <!-- a -->
+                                <!-- a -->
+                                <!-- a -->
+
+                                <!-- a -->
+                                <!-- a -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="hostarmada" data-product-id="12455">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">FastComet</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="cloudways" data-product-id="12456">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Cloudways</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="godaddy" data-product-id="12458">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">BlueHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="Cloudwayscom" data-product-id="3469">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostGator</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">interServer</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">A2 Hosting</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Hostinger</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostArmada</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">GoDaddy</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">DreamHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                              </div>
+                            </div>
+                            <!--  -->
+                          </div>
+                          <div class="row rowreview" style="margin-bottom: 25px; margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <div class="col colreview">
+                              <div class="top5-prods__button-container">
+                                <a href="/hosting" target="_self" rel="noopener noreferrer" class="top5-prods__button"
+                                  data-role="top-5-products-compare-all">Compare All</a>
+                              </div>
+                            </div>
+                            <div class="col-2 colreview"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <!--  -->
+                      <!-- <mat-divider style="margin-top: 50px; margin-bottom: 50px;"></mat-divider> -->
+
+                      <!-- <div class="mkasa"> -->
+                      <div class="menu sticky-top" style="top:105px">
+                        <!-- <p>
+                        <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                          data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="true"
+                          aria-controls="collapseExample4">
+                          <span class="fas fa-bars"><span class="ps-3"
+                              style="font-family: lato, sans-serif; font-size: 15px;">BlueHost Contacts
+                              </span></span>
+                          <span class="fas fa-chevron-down"></span>
+                        </a>
+                      </p> -->
+                        <div class="collapse show" id="collapseExample4" style="margin-top: -16px;">
+                          <!-- <div class="row rowreviewsticky"> -->
+                          <!-- row something -->
+                          <!-- <div class="menu sticky-top" style="top:110px"> -->
+                          <!-- row something -->
+                          <section class="box box-sm" id="contacts">
+                            <div class="row rowreview" style="margin-top: -15px; margin-bottom: 25px;" >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/bluhost/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Cloudways</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Cloudways <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                            <h1 style="margin-left: 0px;">BlueHost Contacts</h1>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-envelope"></i> FastComet Email:</strong> <a
+                                  href="mailto:sales@fastcomet.com " style="margin-left: 10px;">sales@fastcomet.com</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-telephone"></i> FastComet Phone:</strong> <a
+                                  href="tel:1.855.818.9717 " style="margin-left: -25px;">1.855.818.9717</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-globe"></i> Website:</strong>
+                                <a target="_blank" rel="nofollow" href="https://hostadvice.com/go/host/3955/"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  https://www.fastcomet.com
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-person"></i> Social Profiles:</strong>
+                                <div class="company-socials">
+                                  <a class="company-social-page" style="margin-left: -10px;"
+                                    href="https://www.facebook.com/fastcometcloud" rel="nofollow" target="_blank"> <i
+                                      class="bi bi-facebook"></i></a>
+                                  <a class="company-social-page" href="https://twitter.com/FastCometCloud"
+                                    rel="nofollow" target="_blank"><i class="bi bi-twitter"></i></a>
+                                  <a class="company-social-page" href="https://www.linkedin.com/company/fastcomet"
+                                    rel="nofollow" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-geo-alt"></i> Address:</strong>
+                                <a target="_blank" rel="nofollow"
+                                  href="https://www.google.com/maps/search/?api=1&amp;query=37.7762258,-122.3965514"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  350 Townsend Street Suite 300 - #846 San Francisco,
+                                  California 94107 United States
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <i></i> <a
+                                href="https://www.google.com/maps/search/?api=1&amp;query=37.7762258,-122.3965514"
+                                data-action="open-popup" data-target="company-problem-popup">Show on Map</a>
+                            </div>
+                            <div class="row rowreview" style="margin-top: -15px; " >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/bluhost/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Cloudways</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Cloudways <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                          </section>
+                        </div>
+
+                        <!-- </div> -->
+                      </div>
+                      <!-- </div> -->
+                      <!--  -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+
+              <mat-tab label="User Reviews">
+                <form class="form-grou1p" [formGroup]="updateForm">
+                  <div class="form-group"><input type="hidden" formControlName="currentDate" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="commentApproved" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="companyName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="productName" /></div>
+                  <div class="form-group"><textarea [hidden]="true" formControlName="comment"></textarea></div>
+                  <div class="form-group"><input type="hidden" formControlName="fullName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="emailAdress" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="linkName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg1" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg2" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg3" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg4" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg5" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="totavg" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="voteh" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="voten" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="ip" /></div>
+
+                  <div class="form-group">
+                    <button [hidden]="true" id="updatestock" type="button" class="btn btn-outline-dark btnborder"
+                      (click)="onUpdate();">Submit Review</button>
+                  </div>
+                </form>
+                <div class="container-fluid" style="margin-left: 0px;">
+                  <div class="row rowreview1">
+                    <div class="col-lg colreview">
+                      <!--  -->
+                      <!--  -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+                      <div class="panel panel-primary" *ngFor="let employee of employees.slice().reverse()  | paginate: { 
+              id: 'listing_pagination',
+              itemsPerPage: 10,
+              currentPage: currentPage || page,
+              totalItems: totalRec }">
+                        <div *ngIf='employee.commentApproved  == "Yes" && employee.companyName  == "bluehost"; '>
+                          <app-display-comments [employee]="employee" (notify)="handleNotify($event)">
+                          </app-display-comments>
+                        </div>
+                      </div>
+
+                      <pagination-controls id="listing_pagination"
+                        (pageChange)=" onPageChange($event); page=currentPage;" previousLabel="Prev" nextLabel="Next"
+                        (responsive)="responsiveP"></pagination-controls>
+                    </div>
+
+                    <div class="col-lg-4 colreview d-none d-xl-block"
+                      style="margin-left: 0px; margin-top: -15px; background: #f2f4f8; text-align: center;">
+                      <!-- <div class="row align-items-start rowreview" style="background: #f2f4f8; text-align: center;"> -->
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+                            aria-controls="collapseExample1">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Visit
+                                BlueHost</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample1" style="margin-top: -14px;">
+
+                          <div class="row">
+                            <div class="row">
+                              <div class="row d-flex rowreview">
+                                <div class="card card-body">
+                                  <ul>
+                                    <div class="row d-flex rowreview" style="margin-top: 20px;">
+                                      <img id="blah" style="background-size: 100% 100%;"
+                                        src="../../../assets/img/bluhost/Bluehost.png" alt="your image" />
+                                    </div>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <div class="row d-flex rowreview"></div>
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <!-- <div class="col colreview"> -->
+                            <div class="row d-flex rowreview">
+                              <button
+                                style="margin-top: 25px; color: #1c1c1d; border-color: aqua; height:45px; font-size: 15px; font-weight: bold;"
+                                type="button" class="btn btn-outline-success btn-info button1">
+                                Visit BlueHost <i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <div class="col-2 colreview"></div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true"
+                            aria-controls="collapseExample3">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Great Web Hosting
+                                Services</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample3" style="margin-top: -14px;">
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <!-- <div class="col rowreview"
+                          style="margin-top: 30px; font-family: lato, sans-serif; font-weight: bold; font-size: 15px; color: #464849;">
+                          Great Web Hosting Services
+                        </div> -->
+                            <!--  -->
+                            <div class="top5-prods steakitup">
+                              <div class="top5-prods__items">
+                                <!-- a -->
+                                <!-- a -->
+                                <!-- a -->
+
+                                <!-- a -->
+                                <!-- a -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="hostarmada" data-product-id="12455">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">FastComet</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="cloudways" data-product-id="12456">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Cloudways</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="godaddy" data-product-id="12458">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">BlueHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="Cloudwayscom" data-product-id="3469">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostGator</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">interServer</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">A2 Hosting</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Hostinger</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostArmada</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">GoDaddy</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">DreamHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                              </div>
+                            </div>
+                            <!--  -->
+                          </div>
+                          <div class="row rowreview" style="margin-bottom: 25px; margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <div class="col colreview">
+                              <div class="top5-prods__button-container">
+                                <a href="/hosting" target="_self" rel="noopener noreferrer" class="top5-prods__button"
+                                  data-role="top-5-products-compare-all">Compare All</a>
+                              </div>
+                            </div>
+                            <div class="col-2 colreview"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <!--  -->
+                      <!-- <mat-divider style="margin-top: 50px; margin-bottom: 50px;"></mat-divider> -->
+
+                      <!-- <div class="mkasa"> -->
+                      <div class="menu sticky-top" style="top:105px">
+                        <!-- <p>
+                        <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                          data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="true"
+                          aria-controls="collapseExample4">
+                          <span class="fas fa-bars"><span class="ps-3"
+                              style="font-family: lato, sans-serif; font-size: 15px;">Contacts
+                              BlueHost</span></span>
+                          <span class="fas fa-chevron-down"></span>
+                        </a>
+                      </p> -->
+                        <div class="collapse show" id="collapseExample4" style="margin-top: -16px;">
+                          <!-- <div class="row rowreviewsticky"> -->
+                          <!-- row something -->
+                          <!-- <div class="menu sticky-top" style="top:110px"> -->
+                          <!-- row something -->
+                          <section class="box box-sm" id="contacts">
+                            <div class="row rowreview" style="margin-top: -15px; margin-bottom: 25px;" >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/bluhost/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Cloudways</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Cloudways <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                            <h1 style="margin-left: 0px;"> BlueHost Contacts</h1>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-envelope"></i> FastComet Email:</strong> <a
+                                  href="mailto:sales@fastcomet.com " style="margin-left: 10px;">sales@fastcomet.com</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-telephone"></i> FastComet Phone:</strong> <a
+                                  href="tel:1.855.818.9717 " style="margin-left: -25px;">1.855.818.9717</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-globe"></i> Website:</strong>
+                                <a target="_blank" rel="nofollow" href="https://hostadvice.com/go/host/3955/"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  https://www.fastcomet.com
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-person"></i> Social Profiles:</strong>
+                                <div class="company-socials">
+                                  <a class="company-social-page" style="margin-left: -10px;"
+                                    href="https://www.facebook.com/fastcometcloud" rel="nofollow" target="_blank"> <i
+                                      class="bi bi-facebook"></i></a>
+                                  <a class="company-social-page" href="https://twitter.com/FastCometCloud"
+                                    rel="nofollow" target="_blank"><i class="bi bi-twitter"></i></a>
+                                  <a class="company-social-page" href="https://www.linkedin.com/company/fastcomet"
+                                    rel="nofollow" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-geo-alt"></i> Address:</strong>
+                                <a target="_blank" rel="nofollow"
+                                  href="https://www.google.com/maps/search/?api=1&amp;query=37.7762258,-122.3965514"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  350 Townsend Street Suite 300 - #846 San Francisco,
+                                  California 94107 United States
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <i></i> <a
+                                href="https://www.google.com/maps/search/?api=1&amp;query=37.7762258,-122.3965514"
+                                data-action="open-popup" data-target="company-problem-popup">Show on Map</a>
+                            </div>
+
+                            <div class="row rowreview" style="margin-top: -15px; " >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/bluhost/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Cloudways</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Cloudways <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                          </section>
+                        </div>
+
+                        <!-- </div> -->
+                      </div>
+                      <!-- </div> -->
+                      <!--  -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </div>
+
+          <div></div>
+        </div>
+
+        <form class="example-form" [formGroup]="productForm">
+          <ng-template #content let-modal>
+            <div class="modal-header">
+              <h4
+                style="font-weight: bold; line-height: 1; margin-left: 20px; font-size: 20px; font-family: lato, sans-serif;"
+                class="modal-title" id="modal-basic-title">
+                Kindly give us your experience with our hosting providers
+              </h4>
+
+              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+
+            <div class="modal-body">
+              <!-- starts here -->
+              <div id="changecolor" class="container mycolstarrow"
+                [ngClass]=" ((average1 && average2 && average3 && average4 && average5)? '': 'bsd-outline-red') ">
+                <form class="formcontainer" name="form" (ngSubmit)="f.form.valid && submitForm(f)" #f="ngForm"
+                  novalidate>
+                  <div style="height: 220px;">
+                    <img id="blah" src="../../../assets/img/write review.png" width="300px" height="220px"
+                      alt="your image" />
+                  </div>
+
+                  <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                    <div class="col-lg float-start">
+                      <div class="card card-body" style="border-radius: 20px;">
+                        <div class="row">
+                          <h5 class="d-flex review-stat"
+                            style="margin-bottom: 20px; font-size: 20px; font-family: lato, sans-serif; font-weight: lighter;">
+                            Your Scores (click on the stars)
+                          </h5>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="icon-user" style="font-weight: lighter; margin-right: 5px;"></i>
+                              User Friendly:
+                            </h5>
+
+
+                            <div class="d-flex small-ratings">
+
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating1" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="bi bi-headset" style="font-weight: bolder; margin-right: 5px;"></i>
+                              Support:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 15px;">
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating2" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="fas icon-thumbs-up" style="font-weight: lighter; margin-right: 5px;"></i>
+                              Features:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 25px;">
+                              <!--  -->
+
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating3" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="bi bi-reception-4" style="font-weight: lighter; margin-right: 5px;"></i>
+                              Reliability:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 20px;">
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating4" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="fas icon-smile" style="font-weight: lighter; margin-right: 5px;"></i> Pricing:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 39px;">
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating5" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                            </div>
+
+                            <!--  -->
+
+                            <!--  -->
+                          </div>
+                        </div>
+                        <div class="card card-body align-items-center">
+                          <!--  -->
+                          <ul class="list-group">
+                            <li class="list-group-item edumkasa2" style="background-color: transparent;">
+                              <div class="md-v-line"></div>
+                              <strong
+                                style="font-size: 40px; font-family: lato, sans-serif; color: #6f7481; font-weight: bold;">
+                                {{totalaverage | number:'1.1-1'}}
+                              </strong>
+                              <strong style="color: #727e8f; font-size: 15px; font-family: lato, sans-serif;"
+                                class="numbig">Hosting overall rating</strong>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <!-- title -->
+              <div style="margin-top: 50px;" class="form-group">
+                <label style="font-size: 15px; font-family: lato, sans-serif;" class="yourscore2">Title (Minimum 2
+                  words)*</label>
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>A few words about hosting or service</mat-label>
+                  <input formControlName="productName" matInput placeholder="" #message maxlength="120" />
+                </mat-form-field>
+                <div style="margin-top: -20px; text-align: right;" id="counter">{{message.value.length}} / 120</div>
+              </div>
+
+              <!-- summary -->
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Summary*</mat-label>
+                  <textarea formControlName="comment" matInput #message2 minlength="140" rows="10" cols="70"></textarea>
+                </mat-form-field>
+                <div style="margin-top: -20px; text-align: right;" id="counter">{{message2.value.length}} / 140 required
+                </div>
+              </div>
+
+              <!-- info -->
+              <label style="font-size: 15px; font-family: lato, sans-serif;" class="yourscore2">Personal Info</label>
+              <div class="score4">
+                <label style="font-size: 12px; font-family: lato, sans-serif;" class="yourscore3">
+                  We request this information as we strive to provide only truthful information <br />
+                  and to verify that the review was written by a real person
+                </label>
+              </div>
+              <!-- end info -->
+              <!--fullname  -->
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Full Name*</mat-label>
+                  <input formControlName="fullName" matInput placeholder="" #message maxlength="220" />
+                </mat-form-field>
+              </div>
+              <!-- end fullname -->
+              <!-- email -->
+
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Email Adress*</mat-label>
+                  <input formControlName="emailAdress" matInput placeholder="" #message ngModel email="true" />
+                </mat-form-field>
+              </div>
+              <!-- end fullname -->
+              <!-- email -->
+
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <mat-label>Link to ONE of your social profiles (Optional)</mat-label>
+                  <input formControlName="linkName" matInput placeholder="" #message maxlength="420" />
+                </mat-form-field>
+              </div>
+              <input type="hidden" formControlName="avg1" ngModel="{{average1}}" />
+              <input type="hidden" formControlName="avg2" ngModel="{{average2}}" />
+              <input type="hidden" formControlName="avg3" ngModel="{{average3}}" />
+              <input type="hidden" formControlName="avg4" ngModel="{{average4}}" />
+              <input type="hidden" formControlName="avg5" ngModel="{{average5}}" />
+              <input type="hidden" formControlName="totavg" ngModel="{{totalaverage}}" />
+              <input type="hidden" formControlName="companyName" ngModel="{{namecompany}}" />
+            </div>
+
+            <div style="align-self: center;" class="modal-footer">
+              <button type="button" class="btn btn-outline-dark btnborder" (click)="addProduct();change();">Submit
+                Review</button>
+            </div>
+          </ng-template>
+        </form>
+
+        <!-- </div> -->
+
+        <button (click)="topFunction();" id="myBtn" title="Go to top">Top</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>

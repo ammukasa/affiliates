@@ -1,0 +1,2602 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+<div class="content-wrapper">
+  <div class="menu container-fluid align-items-start justify-content-center"
+    style="margin-top: -9px; background-color: #e6e9ec; height: 50px;">
+    <a rel="index up" title="Go to Home" href="/"
+      style="text-decoration: none; border-radius: 22px; color: #727e8f; font-size: 14px; font-family: lato, sans-serif;">
+      <div class="container-fluid" style="margin-top: -15px;"></div>
+      Host Solution Home
+    </a>
+    <i class="bi bi-chevron-right"
+      style="margin-left: -8px; margin-right: -8px; border-radius: 22px; color: #727e8f; font-size: 11px; font-weight: bolder; font-family: lato, sans-serif; /* outline: rgb(255, 255, 255) solid ;  */">
+    </i>
+    <a class="main-nav-item" rel title="Go to  Hostinger Reviews" href="reviews-interserver" style="
+                /* box-shadow: 0px 1px 1px rgba(255, 253, 253, 0.075) inset, 0px 2px 8px rgba(58, 56, 56, 0.6); */
+                border-radius: 22px;
+                /* color:#727e8f; */
+                font-size: 14px;
+                font-family: lato, sans-serif;
+                /* border: 1px solid rgb(255, 255, 255); */
+                /* outline: rgb(255, 255, 255) solid ;  */
+            ">
+      Hostinger Reviews
+    </a>
+    <div class="md-v-line"></div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="1">
+        <div class="menu" style="margin-top: 0px; margin-bottom: 0px;">
+          <button id="openModalButton" [hidden]="true" type="button" class="btn btn-info btn-lg" data-toggle="modal"
+            data-target="#myModal">Open Modal</button>
+
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div style="height: 50px;">
+                    <img id="blah" src="../../../assets/img/write review.png" width="60px" height="50px"
+                      alt="your image" />
+                  </div>
+                  <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h5 style="font-size: 30px; font-family: lato, sans-serif;" class="modal-title"
+                    id="exampleModalLabel">
+                    Thanks and ... One last request
+                  </h5>
+                  <h5 style="font-size: 15px; font-family: lato, sans-serif; margin-top: 30px;" class="modal-title"
+                    id="exampleModalLabel">
+                    Your review has been submitted successfully. We'll go over it within the next 24 hours and if it's
+                    legit we'll approve it. Please share HostSolution with friends so that they get to know about the
+                    site.
+                    <br />
+                    <br />
+                    <br />
+                    If you wrote a positive review on Hostinger, please share it with others:
+                  </h5>
+
+                  <div style="align-self: center; margin-left: 480px;" class="socialmedia22">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+                  </div>
+                </div>
+                <div style="align-self: center;" class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-start myrow1 d-flex">
+          <div class="col-lg mycol2">
+            <div
+              style="margin-left: 20px; font-size: 20px; margin-top: 15px; color: #393b3c; font-weight: bold; font-family: lato, sans-serif;">
+              <p>Hostinger Hosting Reviews and Expert Opinion</p>
+            </div>
+
+            <mat-tab-group mat-align-tabs="start" [selectedIndex]="selectedTabIndex"
+              (selectedIndexChange)="onTabChange($event)" id="tabs" #tabs>
+              <mat-tab label="Overview & Prices" style="top: 50%; transform: translateY(-50%);">
+                <div class="container-fluid">
+                  <div class="row rowreview1">
+                    <div class="col-lg float-start colreview">
+                      <div class="mkasa maybegood">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                            aria-controls="collapseExample">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">User Reviews
+                                Hostinger</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample" style="margin-top: -14px;">
+                          <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                            <div class="col-lg float-start">
+                              <div class="col-lg float-start" style="margin-left: -15px;">
+                                <div class="card card-body" style="border: none; box-shadow: none;">
+                                  <div class="md-v-line"></div>
+                                  <strong style="font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    <ng-template #t let-fill="fill">
+                                      <span class="star d-flex" [class.full]="fill === 100">
+                                        <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                          </em></span><em class="bi bi-star"></em>
+                                      </span>
+                                    </ng-template>
+                                    {{this.reviewCount.reviews1 | number: '1.1-1'}}
+                                    <ngb-rating [(rate)]="this.reviewCount.reviews1" [starTemplate]="t"
+                                      [readonly]="true" [max]="5"></ngb-rating>
+                                  </strong>
+
+                                  <div class="md-v-line"></div>
+                                  <strong
+                                    style="font-family: lato, sans-serif; color: rgb(20, 174, 213); font-size: 15px; margin-top: -5px; font-weight: lighter;"
+                                    class="d-flex numbig">
+                                    {{this.allUser2 | number: '1.1-1'}} Reviews
+                                  </strong>
+                                </div>
+                              </div>
+                              <div class="card card-body" style="border: none; box-shadow: none;">
+                                <div class="row" style="margin-top: -35px;">
+                                  <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="icon-user" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      User Friendly:
+                                    </h5>
+                                    <div class="d-flex small-ratings">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.userfriendly | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.userfriendly" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="bi bi-headset" style="font-weight: bolder; margin-right: 5px;"></i>
+                                      Support:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 15px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.support | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.support" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="fas icon-thumbs-up"
+                                        style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Features:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 25px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.features | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.features" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="bi bi-reception-4" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Reliability:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 20px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.reliability | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.reliability" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="fas icon-smile" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Pricing:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 39px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.pricing | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.pricing" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row row" style="width: calc(115% - 0px);">
+                              <button
+                                style="height: 45px; font-size: 15px; font-family: lato, sans-serif; font-weight: bold; color: #1c1c1d; border: 1px solid #d0ebff;"
+                                type="button" class="btn btn-outline-success btn-info button1" (click)="open(content);">
+                                Write Review <i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- <div class="row rowreview" style="margin-top: 30px;"> -->
+                      <div class="mkasa maybegood">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="true"
+                            aria-controls="collapseExample2">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Best Pricing Range</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample2" style="margin-top: 10px;">
+
+
+
+
+
+                          <!-- <mat-divider style="margin-top: 20px; margin-bottom: 20px;"></mat-divider> -->
+                          <div class="row  g-0  justify-content-between align-items-center my-row d-flex">
+                            <div class="col-lg float-start">
+                              <div class="card card-body">
+                                <div class="d-flex flex-lg-row justify-content-between align-items-center"
+                                  style="margin-top: -15px;">
+                                  <a
+                                    style="font-weight: bold; margin-bottom: 10px; font-size: 18px; margin-left: -10px; font-family: lato, sans-serif; color: #4b4e55;">
+                                    Hostinger pricing <br />
+                                    <span style="font-size: 14px;">Hostinger pricing starts at $2.99/mo for web
+                                      hosting. However, Hostinger hosting provides a wide variety of hosting services
+                                      with top-quality features, including shared hosting, VPS hosting, cloud hosting,
+                                      and specialized hosting services such as WordPress Hosting, cPanel hosting,
+                                      Minecraft server hosting, CyberPanel hosting, and hosting for agencies.</span></a>
+                                </div>
+                                <mat-divider style="width: 150px; margin-top: 0px; margin-bottom: 20px;">
+                                </mat-divider>
+                                <div class="mt-2 d-flex flex-lg-row  justify-content-between  align-items-center">
+                                  <a (click)="scrollds();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Shared Hosting</a>
+
+                                  <div class="d-flex small-ratings1"
+                                    style="font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: bolder;">
+                                    $1.99 - $3.99
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row  justify-content-between  align-items-center">
+                                  <a (click)="scrollvps();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    VPS</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: bolder;">
+                                    $3.49 - $77.99
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row  justify-content-between align-items-center">
+                                  <a (click)="scrollshared();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    CyberPanel Hosting</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: bolder;">
+                                    $3.95 - $77.99
+                                  </div>
+                                </div>
+                                <!--  -->
+                                <div class="mt-2 d-flex flex-lg-row   justify-content-between align-items-center">
+                                  <a (click)="scrollshared();" href="javascript:void(0);"
+                                    style=" font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Minecraft Server Hosting</a>
+                                  <div class="d-flex small-ratings1"
+                                    style=" font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: bolder;">
+                                    $6.95 - $77.99
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 0px; margin-bottom: 30px;"></mat-divider>
+                      <!-- </div> -->
+                      <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                        class="in-a-nutshell" data-toc-anchor="0">Why Hostinger?</h2>
+                      <div
+                        style="margin-top: 10px; font-size: 15px; margin-bottom: 40px; line-height: 1.5; font-family: lato, sans-serif;">
+                        Hostinger has come a long way since it first launched as a free web hosting service 15+ years
+                        ago. Today, it’s one of the best web hosting providers on the market—offering affordable plans,
+                        high-quality hosting, and other perks for website owners. Whether you’re launching a new site
+                        from scratch or switching providers, you can use this in-depth review to see if Hostinger is
+                        right for you.<br />
+                        The company is based in Kaunas, Lithuania, and now operates in more than 178 countries
+                        worldwide, providing top-quality services to more than 29 million users daily. Hostinger Hosting
+                        is brilliant because it provides top-quality hosting, but it can also help users build the
+                        perfect website for their business. Not to mention that their services are pretty affordable, so
+                        it’s ideal for users who are on a tight budget.
+
+                      </div>
+
+
+
+                      <div class="row rowreview"
+                        style="margin-top: 20px; margin-right: 20px; line-height: 1.5; font-family: lato, sans-serif;">
+                        <div class="additional-info">
+                          <!-- <div class="free-domain" style="margin-left: 20px;"><span>Free domain</span></div> -->
+                          <div class="moneyback" style="margin-left: 10px; font-family: lato, sans-serif;"><span>Money
+                              Back:</span> 30 Days</div>
+                        </div>
+                      </div>
+                      <div class="row rowreview" style="margin-right: 0px;">
+                        <mat-divider style="margin-top: 10px;"></mat-divider>
+                      </div>
+
+                      <div class="row rowreview" style="margin-right: 0px; margin-top: 60px;">
+                        <span class="product-cta-button">
+                          <span class="product-cta-button-icon"><img style="width: 40px;"
+                              src="../../../assets/img/hostinger/logo.png" /></span>
+
+                          <span class="product-cta-button-text">Hostinter</span>
+                          <button
+                            style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                            type="button" class="btn btn-outline-success btn-info button1">
+                            Get Hostinger <i class="bi bi-arrow-right"></i>
+                          </button>
+                        </span>
+                      </div>
+
+                      <div class="row rowreview" style="margin-right: 0px; margin-top: 40px;">
+                        <!-- <mat-accordion> -->
+                        <p
+                          style="margin-top: 25px; color: #1c1c1d; font-size: 25px; font-weight: bold; font-family: lato, sans-serif;">
+                          Hostinger FAQs
+                        </p>
+                        <mat-divider style="margin-top: 10px; margin-bottom: 20px;"></mat-divider>
+                        <!--  -->
+                        <!--  -->
+                        <mat-accordion>
+
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold; ">
+                                How do you ensure payments are secure?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Payment security is our top priority. Encrypted payment details are stored in an external
+                              vault separate from our system. The vault has the highest PCI-DSS Level 1 compliance to
+                              ensure the highest security standards are met.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                What is your refund policy?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              We offer a 30-day money back guarantee. For more information, please view our Refund
+                              Policy.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Having issues making a payment?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              At Hostinger, we make sure that all your payments reach us safely. If you’re having issues
+                              making a payment, you may find the solution here.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                When do I point my domain name to Hostinger?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              You can point your domain name to Hostinger after the migration is complete. We’ll of
+                              course send you an email as soon as the migration is successful.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <!--  -->
+                          <!-- <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Why choose Hostinger to host your website?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Hostinger is dedicated to helping you get your idea online. With the help of articles
+                              from
+                              our blog that walk you through building your website and countless articles that help
+                              guide you through our products and services, you’ll find everything you need to be
+                              successful.
+                            </p>
+                          </mat-expansion-panel> -->
+                        </mat-accordion>
+                        <!--  -->
+
+                      </div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview curvepros" style="margin-top: 50px;">
+                        <div class="col colreview pros">
+                          <h3 data-header="true"
+                            style="margin-top: 10px; font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">
+                            Pros
+                          </h3>
+                          <mat-divider style="margin-top: 15px; margin-bottom: 10px;"></mat-divider>
+
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Free SSL Certificates in All Plans
+                          </h3>
+
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> The Cheapest Offers on The Market
+                          </h3>
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> 30-Day Money-Back Guarantee
+                          </h3>
+                          <!--  -->
+                          <h3 class="prosclass"><i
+                              style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Excellent Set of Features</h3>
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> User-Friendly Control Panel
+                          </h3>
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Optimized for WordPress Performance
+                          </h3>
+                          <!--  -->
+                          <!-- <h3 class="prosclass"><i
+                              style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> 30-day money-back guarantee</h3> -->
+                          <!--  -->
+                          <!-- <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Stable infrastructure (powered by Linode)
+                          </h3> -->
+                        </div>
+                        <div class="col colreview">
+                          <div class="cons" data-type="cons">
+                            <h3 data-header="true"
+                              style="margin-top: 10px; font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">
+                              Cons
+                            </h3>
+                            <mat-divider style="margin-top: 15px; margin-bottom: 10px;"></mat-divider>
+
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> No Free Domain in The Cheapest Shared Hosting Plan
+                            </h3>
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> No Phone Support
+                            </h3>
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Live Chat Is Limited to Existing Clients
+                            </h3>
+                            <!--  -->
+                            <!-- <h3 class="prosclass"><i
+                                style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Poor backup options</h3> -->
+                            <!--  -->
+                            <!-- <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Entry-level plan limitations
+                            </h3> -->
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Is Hostinger the Right Host for You?</h2>
+                      </div>
+                      <div class="row rowreview">
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <!-- <a (click)="scrollshared();" href="javascript:void(0);"
+                            style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);"> -->
+                          With plans starting at just $1.99 per month, it’s one of the most affordable options you’ll
+                          find from a hosting service so reputable. But don’t let that price fool you. The service
+                          competes with other web hosts that come in at higher price points. <br />
+
+                          While Hostinger is our top recommendation for web hosting, it’s just one of many options
+                          that could be a good fit for your unique website or use-case-specific needs.
+                        </div>
+
+
+
+                        <div class="row rowreview" style="margin-top: 30px;">
+                          <h2 style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif;"
+                            class="in-a-nutshell" data-toc-anchor="0">Our view on Hostinger:</h2>
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <ul style="margin-top: 0px; font-family: lato, sans-serif; font-size: 16px;" class="a">
+                            <li style="margin-top: 10px;">
+                              The first step of doing an expert review is buying a hosting provider’s plan. Usually,
+                              this is the most affordable plan covering all the essential features that allow us to test
+                              what the web host has to offer at a minimum (it only gets better from this point and on).
+                            </li>
+                            <li style="margin-top: 10px;">
+                              We explore in detail every single feature that the hosting provider offers. At the same
+                              time, our assigned professionals test the performance and speed of the provider.
+                            </li>
+                            <li style="margin-top: 10px;">
+                              We continuously analyze the pros and cons of using the hosting provider, is the price
+                              worth the product you’re getting, and whether their customer support is fast and helpful.
+                              What’s the web host’s price-value ratio, and is it worth your time and money?
+                            </li>
+                            <li style="margin-top: 10px;">
+                              After thoroughly reviewing all hosting provider features, we publish the written expert
+                              review and update it throughout the year.
+                            </li>
+                            <li style="margin-top: 10px;">
+                              To develop the final, weighted score reflecting the provider’s overall quality, we also
+                              consider customer reviews.
+                            </li>
+                            <!-- <li style="margin-top: 10px;">
+                              Hostinger is a good all-rounder and will support all small websites hosted on the
+                              Standard plan. That includes hosting small online stores, business sites, blogs,
+                              portfolios, you name it. It also has options to upgrade for when your site gets popular.
+                            </li>
+                            <li style="margin-top: 15px;">In our Hostinger review, we found them to be reliable, fast,
+                              and affordable with friendly 24/7 customer support.</li>
+                            <li style="margin-top: 15px;">
+                              Hostinger has a long-standing relationship with the WordPress community. They are an
+                              official WordPress.org recommended web host since 2006.
+                            </li>
+                            <li style="margin-top: 15px;">They provide great
+                              hosting infrastructure, and support for the free open source software like WordPress.</li> -->
+                          </ul>
+                        </div>
+
+                        <!-- <div class="row rowreview "> -->
+                      </div>
+
+                      <div class="row rowreview">
+                        <div class="in-a-nutshell"
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 10px;"
+                          title="">
+                          Hostinger Prices, Plans & Features - {{todayDate | date:'yyyy'}}
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          Hostinger hosting provides a wide variety of hosting services with top-quality features,
+                          including shared hosting, VPS hosting, cloud hosting, and specialized hosting services such as
+                          WordPress Hosting, cPanel hosting, Minecraft server hosting, CyberPanel hosting, and hosting
+                          for agencies.
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          The shared hosting plans are perfect for small to medium websites. There are three shared
+                          hosting plans available:
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 15px;  margin-left: -10px; font-family: lato, sans-serif; color: rgb(36, 38, 39); ">
+                            1.</a><a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 16px;  margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213); ">
+                            Single Shared Hosting,</a>which is ideal for beginners, starts at a price point of
+                          $1.99/month or $3.99/month when you renew
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 15px;  margin-left: -10px; font-family: lato, sans-serif; color: rgb(36, 38, 39); ">
+                            2.</a><a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                            Premium Shared Hosting,</a> perfect for personal websites, costs $2.99/ month or $6.99/month
+                          when you renew
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 15px;  margin-left: -10px; font-family: lato, sans-serif; color: rgb(36, 38, 39); ">
+                            3.</a> <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                            Business Shared Hosting,</a> which is optimized to serve the needs of a small business,
+                          comes at $4.99/ month or $8.99/month when you renew
+                        </div>
+
+                        <div class="row my-row" style="margin-bottom: 15px; margin-top: 15px;">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/1.png" />
+                        </div>
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          Hostinger offers <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                            eight VPS hosting plans</a>. All the plans are simple, fast, reliable, and come
+                          at an affordable price. All VPS servers come with Intel Xeon processors, NVMe SSD disk space
+                          terabytes, and 512 RAM per server. They’ll help you control your operating system; you’ll have
+                          a full-stack server, DDoS protection, and an easily manageable control panel. The cheapest
+                          plan is the VPS 1, which will cost you $3.95 a month, and the most expensive is the VPS 8,
+                          which comes with a price tag of $77.99/month.<br />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/2.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/3.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/4.png" />
+                        </div>
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          The <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                            cloud hosting </a>offered by Hostinger was designed for large-scale products. There are
+                          three available plans for cloud hosting: Cloud Startup, Cloud professional, and Cloud
+                          Enterprise. All the cloud server hosting plans run on isolated virtual instances, have a
+                          top-level data backup and are protected by SSL certificates. The most affordable plan is the
+                          Cloud Startup which will cost you $9.99 per month. For $18.99 a month, you can purchase the
+                          Cloud Professional, and if you’re willing to spend more, you can get the Cloud Enterprise for
+                          $69.99.<br />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/5.png" />
+                        </div>
+
+                        <!-- <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/3.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/4.png" />
+                        </div> -->
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 20px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 20px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(38, 40, 41);">
+                            Hostinger offers four WordPress hosting plans</a><br />
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-size: 16px;  margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213); ">
+                            Single WordPress</a>- the ideal plan for beginners
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                            WordPress Starter</a> - the perfect choice for personal websites
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                            Business WordPress</a>- specially designed to assist small businesses
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                            WordPress Pro</a>- suitable for small and medium business
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          The most affordable WordPress plan-Single WordPress is only $1.99 per month, probably the most
+                          affordable price you’ll ever find in this business. The WordPress Starter can be used for
+                          $3.99 a month; the Business WordPress for $6.99, and WordPress Pro is the most expensive among
+                          the group, coming with $11.59 per month.<br />
+                        </div>
+
+                        <div class="row my-row" style="margin-top: 15px;">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/6.png" />
+                        </div>
+
+                        <!-- <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/3.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/4.png" />
+                        </div> -->
+
+
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 40px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 20px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(38, 40, 41);">
+                            CyberPanel VPS Hosting: The Ultimate Web Hosting Control Panel</a><br />
+                        </div>
+
+
+                        <div class="row my-row" style="margin-top: 15px;">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/7.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/8.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/9.png" />
+                        </div>
+
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 40px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 20px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(38, 40, 41);">
+                            Choose the Best Minecraft Server Hosting Plan for You</a><br />
+                        </div>
+
+
+                        <div class="row my-row" style="margin-top: 15px;">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/10.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/11.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/12.png" />
+                        </div>
+
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Features and Benefits</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Hostinger has many incredible features and benefits that can help users of all types, whether
+                        you’re just a beginner in this business or a big company that wants to thrive. Let’s elaborate
+                        on some of the features and benefits of the incredible hosting provider in our Hostinger brand
+                        review.
+
+                        <br />
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">1. Global Presence</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Hostinger was founded in Lithuania in 2004, and reached the one million user milestone in 2011.
+                        Since then, Hostinger has grown to include a number of subsidiary companies; powered by data
+                        centers in seven countries, the company and its affiliates now serve over 29 million users, with
+                        over 10,000 new signups every day.
+                        <br />
+                      </div>
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/13.png" />
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">2. Reliability and Performance</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        No web host can guarantee 100% uptime. That being said, you’ll want to aim for something in
+                        the 99.97-99.99% range, which equates to between 50 and 150 minutes of downtime per year.
+                        <br />
+                        ow, Hostinger has a lot of strengths, but we’ll be honest: uptime isn’t one of them. Hostinger
+                        only scored two stars out of five for uptime, which is pretty disappointing.
+                        <br />
+                        Why the low score? Well, this provider guarantees 99.9% uptime, which translates to about 7
+                        hours and 53 minutes of downtime per year. Of course, that figure represents the worst case
+                        scenario, but ideally you’d like to avoid the possibility of more than 1-3 hours of downtime
+                        per year.
+                        <br />
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/14.png" />
+                        </div>
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">3. Security</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Hostinger’s Business shared plan includes a free SSL certificate, which is ideal for small
+                        businesses looking to keep their clients’ data safe.
+                        <br />
+                        Hostinger used to make you pay for SSL unless you chose the Business shared plan, but the good
+                        news is that now you get a free SSL certificate – even if you choose the cheapest Single shared
+                        hosting plan!
+                        <br />
+                        Having to purchase basic-level SSL separately from a hosting plan is uncommon. However, if you
+                        want to upgrade to more enhanced security, then Hostinger is no different from competitors by
+                        charging an additional cost.
+                        <br />
+
+                        <!-- <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/14.png" />
+                        </div> -->
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">4. Customer Support</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Hostinger offers robust customer service options, including a knowledge center, 24/7 live chat,
+                        email, and support tickets. We scored Hostinger a respectable 3.5 stars out of 5 for its help
+                        and support.
+                        <br />
+                        One of Hostinger’s stand out support features is that its customer support team is multilingual,
+                        and equipped to field questions from all over the world.
+                        <br />
+
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/15.png" />
+                        </div>
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">5. Windows VPS Hosting</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Windows hosting is the best (and often the required) type of hosting for websites that use other
+                        Windows tools or languages. Windows servers are the major alternative to popular Linux servers,
+                        which all of the Hostinger plans we’ve previously discussed are run on.
+                        <br />
+
+
+
+                        <!-- <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/15.png" />
+                        </div> -->
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">6. Email Hosting</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Email hosting is the service that literally operates email servers. It works independently from
+                        website hosting, and enables your site to use domain-specific email addresses, such as
+                        maura@yourdomain.com. Having domain-based email addresses lends your site credibility, and if
+                        you’re running an ecommerce site, it gives customers another reason to trust your business.
+                        <br />
+
+
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/16.png" />
+                        </div>
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">7. Minecraft Hosting</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        This last one might be the most niche. Hostinger offers Minecraft hosting, which enables users
+                        to play the popular video game on a multiplayer server. You can choose from five different
+                        plans, all of which include instant setup, a mobile app, and automatic off-site backups.
+                        <br />
+
+
+
+                        <!-- <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/15.png" />
+                        </div> -->
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">8. Level of Support</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Hostinger offers live chat directly through their platform. The chat button can be easily
+                        spotted, but the downside is that it only has a live chat available for its users. So, if you
+                        don’t have a Hostinger account, you won’t be able to ask a question through their live chat.
+                        <br />
+
+
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/hostinger/17.png" />
+                        </div>
+                      </div>
+
+
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <div class="1212 ">
+                        <!--  -->
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 20px;">
+                          Shared Hosting Plans
+                        </p>
+
+                        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                          <!--- Note that these columns can be defined in any order.
+                                The actual rendered columns are set as a property on the row definition" -->
+
+                          <!-- Position Column -->
+                          <ng-container matColumnDef="position">
+                            <th mat-header-cell *matHeaderCellDef> Plan Name </th>
+                            <td mat-cell *matCellDef="let element">
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.position}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Name Column -->
+                          <ng-container matColumnDef="name">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg>Space </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.name}} </a> </div>
+                            </td>
+                          </ng-container>
+
+
+
+                          <!-- ram Column -->
+                          <ng-container matColumnDef="ram">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Bandwidth </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.ram}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Weight Column -->
+                          <ng-container matColumnDef="storage">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Panel </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.storage}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Symbol Column -->
+                          <ng-container matColumnDef="symbol">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> No. of Sites </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.os}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- OS Column -->
+                          <ng-container matColumnDef="os">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Price </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg> <span class="1">
+                                {{element.symbol}}</span> </td>
+                          </ng-container>
+
+
+                          <!-- OS button -->
+                          <ng-container matColumnDef="button">
+                            <th mat-header-cell *matHeaderCellDef> </th>
+                            <td mat-cell *matCellDef="let element">
+                              <a href="{{element.link}}" target="_blank" class="">
+                                <button type="button" class="btn btn-outline-success btn-info button1"
+                                  style="color:rgb(83, 82, 82)">See Plans<i class="bi bi-arrow-right"></i></button>
+                              </a>
+
+                            </td>
+                          </ng-container>
+
+                          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                        </table>
+                      </div>
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!--  -->
+
+                      <div class="1212 ">
+                        <!--  -->
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 40px;">
+                          VPS Hosting Plans
+                        </p>
+
+                        <table mat-table [dataSource]="dataSource2" class="mat-elevation-z8">
+
+                          <!--- Note that these columns can be defined in any order.
+                                The actual rendered columns are set as a property on the row definition" -->
+
+                          <!-- Position Column -->
+                          <ng-container matColumnDef="position">
+                            <th mat-header-cell *matHeaderCellDef> VPS Name </th>
+                            <td mat-cell *matCellDef="let element">
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.position}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Name Column -->
+                          <ng-container matColumnDef="name">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg>Space </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.name}} </a> </div>
+                            </td>
+                          </ng-container>
+
+
+
+                          <!-- ram Column -->
+                          <ng-container matColumnDef="ram">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> CPU </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.ram}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Weight Column -->
+                          <ng-container matColumnDef="storage">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> RAM </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.storage}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Symbol Column -->
+                          <ng-container matColumnDef="symbol">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Price </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.symbol}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- OS Column -->
+                          <ng-container matColumnDef="os">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> OS </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg> <span class="1"><img
+                                  style="width: 15px;" src="../../../assets/img/linux.jpg" /></span> </td>
+                          </ng-container>
+
+
+                          <!-- OS button -->
+                          <ng-container matColumnDef="button">
+                            <th mat-header-cell *matHeaderCellDef> </th>
+                            <td mat-cell *matCellDef="let element">
+                              <a href="{{element.link}}" target="_blank" class="">
+                                <button type="button" class="btn btn-outline-success btn-info button1"
+                                  style="color:rgb(83, 82, 82)">See Plans<i class="bi bi-arrow-right"></i></button>
+                              </a>
+
+                            </td>
+                          </ng-container>
+
+                          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                        </table>
+                      </div>
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <div class="1212">
+                        <!--  -->
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 40px;">
+                          Cloud Hosting Plans
+                        </p>
+
+                        <table mat-table [dataSource]="dataSource3" class="mat-elevation-z8">
+
+                          <!--- Note that these columns can be defined in any order.
+                                The actual rendered columns are set as a property on the row definition" -->
+
+                          <!-- Position Column -->
+                          <ng-container matColumnDef="position">
+                            <th mat-header-cell *matHeaderCellDef> Plan Name </th>
+                            <td mat-cell *matCellDef="let element">
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.position0}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Name Column -->
+                          <ng-container matColumnDef="name">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg>Space </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.name}} </a> </div>
+                            </td>
+                          </ng-container>
+
+
+
+                          <!-- ram Column -->
+                          <ng-container matColumnDef="ram">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> CPU </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.ram}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Weight Column -->
+                          <ng-container matColumnDef="storage">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> RAM </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.storage}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Symbol Column -->
+                          <ng-container matColumnDef="symbol">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Price </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.symbol}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- OS Column -->
+                          <ng-container matColumnDef="os">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Bandwidth </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg> <span
+                                class="1">{{element.os}} </span> </td>
+                          </ng-container>
+
+
+                          <!-- OS button -->
+                          <ng-container matColumnDef="button">
+                            <th mat-header-cell *matHeaderCellDef> </th>
+                            <td mat-cell *matCellDef="let element">
+                              <a href="{{element.link}}" target="_blank" class="">
+                                <button type="button" class="btn btn-outline-success btn-info button1"
+                                  style="color:rgb(83, 82, 82)">See Plans<i class="bi bi-arrow-right"></i></button>
+                              </a>
+
+                            </td>
+                          </ng-container>
+
+                          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                        </table>
+
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Backup</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        The Backup section can also be found in the Files tab. This section allows you to generate
+                        backups and restore the previously generated backups. This is an excellent option if you want to
+                        experiment with new WordPress plugins without taking the risk of breaking your website.
+                        <br />
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">FTP Accounts</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        The last button on the Files tab is FTP Accounts, which will allow you to set up multiple
+                        accounts. FTP accounts are also used to manage and upload files on the website.
+                        <br />
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Databases</h2>
+                      </div>
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">MySQL Databases</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Create a new MySQL database in this section. Once the MySQL database is created, it will appear
+                        on List Current MySQL Databases and Users, and you will be able to manage it.
+                        <br />
+                      </div>
+
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">phpMyAdmin</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        If you click on Enter phpMyAdmin, you will be allowed to access the databases.
+                        <br />
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Remote MySQL</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Here you can create a remote database connection.
+                        <br />
+                      </div>
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+
+
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Conclusion: Do We Recommend Hostinger?
+                        </p>
+
+                        <div class="row my-row" style="margin-top: 10px; margin-left: 5px;">
+                          Yes, we do! Hostinger is the best hosting provider for people who are on a budget. All the
+                          plans are pretty affordable yet still give users a superior experience. When I started
+                          working
+                          on this, I researched countless other Hostinger reviews to see what their customers think
+                          about them. I must admit that most of their customer reviews were super positive. Although I
+                          was pretty satisfied with almost everything provided by the hosting provider while doing my
+                          Hostinger review, there were some things I didn’t appreciate, but truthfully the pros
+                          outweigh
+                          the cons.
+                          <br />
+                          <br />
+                          The bottom line is that this hosting provider is excellent for people who are just starting
+                          this business and can’t afford to spend tons of money. It’s perfect for beginners, but it’s
+                          also perfect for all users because the service has great potential. Hostinger is a hosting
+                          provider worth the attention because it provides top-quality features for a reasonable
+                          price.
+                          <br />
+                          <br />
+                          If our Hostinger brand review didn’t convince you that this provider is the best choice for
+                          you, they have an excellent 30-days money return policy, so you can test the service
+                          risk-free!
+                          <br />
+                          <br />
+                          <!-- Despite several disadvantages, such as expensive renewal rates and non-free domain name
+                          registration, they are excellent enough to earn our approval.
+                          <br />
+                          <br />
+                          This is undoubtedly one of the most outstanding web hosting providers I've come across, and
+                          the
+                          proof is this Hostinger brand review!<br />
+                          <br /> -->
+                        </div>
+                      </div>
+
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                    </div>
+
+
+                    <div class="col-lg-4 colreview d-none d-xxl-block"
+                      style="margin-left: 0px; margin-top: 1px; background: #f2f4f8; text-align: center;">
+                      <!-- <div class="row align-items-start rowreview" style="background: #f2f4f8; text-align: center;"> -->
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+                            aria-controls="collapseExample1">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Visit
+                                Hostinger</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample1" style="margin-top: -14px;">
+
+                          <div class="row">
+                            <div class="row">
+                              <div class="row d-flex rowreview">
+                                <div class="card card-body">
+                                  <ul>
+                                    <div class="row d-flex rowreview" style="margin-top: 20px;">
+                                      <img id="blah" style="background-size: 100% 100%;"
+                                        src="../../../assets/img/hostinger/Hostinger-logo.png" alt="your image" />
+                                    </div>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <div class="row d-flex rowreview"></div>
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <!-- <div class="col colreview"> -->
+                            <div class="row d-flex rowreview">
+                              <button
+                                style="margin-top: 25px; color: #1c1c1d; border-color: aqua; height:45px; font-size: 15px; font-weight: bold;"
+                                type="button" class="btn btn-outline-success btn-info button1">
+                                Visit Hostinger <i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <div class="col-2 colreview"></div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true"
+                            aria-controls="collapseExample3">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Great Web Hosting
+                                Services</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample3" style="margin-top: -14px;">
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <!-- <div class="col rowreview"
+                          style="margin-top: 30px; font-family: lato, sans-serif; font-weight: bold; font-size: 15px; color: #464849;">
+                          Great Web Hosting Services
+                        </div> -->
+                            <!--  -->
+                            <div class="top5-prods steakitup">
+                              <div class="top5-prods__items">
+                                <!-- a -->
+                                <!-- a -->
+                                <!-- a -->
+
+                                <!-- a -->
+                                <!-- a -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="hostarmada" data-product-id="12455">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">FastComet</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="cloudways" data-product-id="12456">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Cloudways</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="godaddy" data-product-id="12458">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">BlueHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="Cloudwayscom" data-product-id="3469">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostGator</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">interServer</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">A2 Hosting</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Hostinger</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostArmada</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">GoDaddy</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">DreamHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                              </div>
+                            </div>
+                            <!--  -->
+                          </div>
+                          <div class="row rowreview" style="margin-bottom: 25px; margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <div class="col colreview">
+                              <div class="top5-prods__button-container">
+                                <a href="/hosting" target="_self" rel="noopener noreferrer" class="top5-prods__button"
+                                  data-role="top-5-products-compare-all">Compare All</a>
+                              </div>
+                            </div>
+                            <div class="col-2 colreview"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <!--  -->
+                      <!-- <mat-divider style="margin-top: 50px; margin-bottom: 50px;"></mat-divider> -->
+
+                      <!-- <div class="mkasa"> -->
+                      <div class="menu sticky-top" style="top:105px">
+                        <!-- <p>
+                        <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                          data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="true"
+                          aria-controls="collapseExample4">
+                          <span class="fas fa-bars"><span class="ps-3"
+                              style="font-family: lato, sans-serif; font-size: 15px;">Hostinger Contacts
+                              </span></span>
+                          <span class="fas fa-chevron-down"></span>
+                        </a>
+                      </p> -->
+                        <div class="collapse show" id="collapseExample4" style="margin-top: -16px;">
+                          <!-- <div class="row rowreviewsticky"> -->
+                          <!-- row something -->
+                          <!-- <div class="menu sticky-top" style="top:110px"> -->
+                          <!-- row something -->
+                          <section class="box box-sm" id="contacts">
+                            <div class="row rowreview" style="margin-top: -15px; margin-bottom: 25px;" >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/hostinger/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Hostinger</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Hostinger <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                            <!-- <h1 style="margin-left: 0px;">Contacts</h1> -->
+                            <h1 style="margin-left: 0px; margin-top: -10px; font-weight: bold;">Hostinger Contacts
+                            </h1>
+
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-envelope"></i> Hostinger Email:</strong> <a
+                                  href="mailto:sales@fastcomet.com " style="margin-left: 10px;">sales@fastcomet.com</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-telephone"></i> Hostinger Phone:</strong> <a
+                                  href="tel:1.855.818.9717 " style="margin-left: -25px;">1.855.818.9717</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-globe"></i> Website:</strong>
+                                <a target="_blank" rel="nofollow" href="https://hostadvice.com/go/host/3955/"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  https://www.fastcomet.com
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-person"></i> Social Profiles:</strong>
+                                <div class="company-socials">
+                                  <a class="company-social-page" style="margin-left: -10px;"
+                                    href="https://www.facebook.com/fastcometcloud" rel="nofollow" target="_blank"> <i
+                                      class="bi bi-facebook"></i></a>
+                                  <a class="company-social-page" href="https://twitter.com/FastCometCloud"
+                                    rel="nofollow" target="_blank"><i class="bi bi-twitter"></i></a>
+                                  <a class="company-social-page" href="https://www.linkedin.com/company/fastcomet"
+                                    rel="nofollow" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-geo-alt"></i> Address:</strong>
+                                <a target="_blank" rel="nofollow"
+                                  href="https://www.google.com/maps/search/?api=1&amp;query=37.7762258,-122.3965514"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  350 Townsend Street Suite 300 - #846 San Francisco,
+                                  California 94107 United States
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <i></i> <a
+                                href="https://www.google.com/maps/search/?api=1&amp;query=37.7762258,-122.3965514"
+                                data-action="open-popup" data-target="company-problem-popup">Show on Map</a>
+                            </div>
+
+                            <div class="row rowreview" style="margin-top: -15px;  " >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/hostinger/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Hostinter</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Hostinger <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                          </section>
+                        </div>
+
+                        <!-- </div> -->
+                      </div>
+                      <!-- </div> -->
+                      <!--  -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+
+              <mat-tab label="User Reviews">
+                <form class="form-grou1p" [formGroup]="updateForm">
+                  <div class="form-group"><input type="hidden" formControlName="currentDate" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="commentApproved" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="companyName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="productName" /></div>
+                  <div class="form-group"><textarea [hidden]="true" formControlName="comment"></textarea></div>
+                  <div class="form-group"><input type="hidden" formControlName="fullName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="emailAdress" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="linkName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg1" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg2" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg3" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg4" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg5" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="totavg" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="voteh" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="voten" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="ip" /></div>
+
+                  <div class="form-group">
+                    <button [hidden]="true" id="updatestock" type="button" class="btn btn-outline-dark btnborder"
+                      (click)="onUpdate();">Submit Review</button>
+                  </div>
+                </form>
+                <div class="container-fluid" style="margin-left: 0px;">
+                  <div class="row rowreview1">
+                    <div class="col-lg colreview">
+                      <!--  -->
+                      <!--  -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+                      <div class="panel panel-primary" *ngFor="let employee of employees.slice().reverse()  | paginate: { 
+              id: 'listing_pagination',
+              itemsPerPage: 10,
+              currentPage: currentPage || page,
+              totalItems: totalRec }">
+                        <div *ngIf='employee.commentApproved  == "Yes" && employee.companyName  == "hostinger"; '>
+                          <app-display-comments [employee]="employee" (notify)="handleNotify($event)">
+                          </app-display-comments>
+                        </div>
+                      </div>
+
+                      <pagination-controls id="listing_pagination"
+                        (pageChange)=" onPageChange($event); page=currentPage;" previousLabel="Prev" nextLabel="Next"
+                        (responsive)="responsiveP"></pagination-controls>
+                    </div>
+
+                    <div class="col-lg-4 colreview d-none d-xxl-block"
+                      style="margin-left: 0px; margin-top: -15px; background: #f2f4f8; text-align: center;">
+                      <!-- <div class="row align-items-start rowreview" style="background: #f2f4f8; text-align: center;"> -->
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+                            aria-controls="collapseExample1">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Visit
+                                Hostinger</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample1" style="margin-top: -14px;">
+
+                          <div class="row">
+                            <div class="row">
+                              <div class="row d-flex rowreview">
+                                <div class="card card-body">
+                                  <ul>
+                                    <div class="row d-flex rowreview" style="margin-top: 20px;">
+                                      <img id="blah" style="background-size: 100% 100%;"
+                                        src="../../../assets/img/hostinger/Hostinger-logo.png" alt="your image" />
+                                    </div>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <div class="row d-flex rowreview"></div>
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <!-- <div class="col colreview"> -->
+                            <div class="row d-flex rowreview">
+                              <button
+                                style="margin-top: 25px; color: #1c1c1d; border-color: aqua; height:45px; font-size: 15px; font-weight: bold;"
+                                type="button" class="btn btn-outline-success btn-info button1">
+                                Visit Hostinger<i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <div class="col-2 colreview"></div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true"
+                            aria-controls="collapseExample3">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Great Web Hosting
+                                Services</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample3" style="margin-top: -14px;">
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <!-- <div class="col rowreview"
+                          style="margin-top: 30px; font-family: lato, sans-serif; font-weight: bold; font-size: 15px; color: #464849;">
+                          Great Web Hosting Services
+                        </div> -->
+                            <!--  -->
+                            <div class="top5-prods steakitup">
+                              <div class="top5-prods__items">
+                                <!-- a -->
+                                <!-- a -->
+                                <!-- a -->
+
+                                <!-- a -->
+                                <!-- a -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="hostarmada" data-product-id="12455">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">FastComet</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="cloudways" data-product-id="12456">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Cloudways</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="godaddy" data-product-id="12458">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">BlueHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="Cloudwayscom" data-product-id="3469">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostGator</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">interServer</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">A2 Hosting</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Hostinger</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostArmada</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">GoDaddy</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">DreamHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                              </div>
+                            </div>
+                            <!--  -->
+                          </div>
+                          <div class="row rowreview" style="margin-bottom: 25px; margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <div class="col colreview">
+                              <div class="top5-prods__button-container">
+                                <a href="/hosting" target="_self" rel="noopener noreferrer" class="top5-prods__button"
+                                  data-role="top-5-products-compare-all">Compare All</a>
+                              </div>
+                            </div>
+                            <div class="col-2 colreview"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <!--  -->
+                      <!-- <mat-divider style="margin-top: 50px; margin-bottom: 50px;"></mat-divider> -->
+
+                      <!-- <div class="mkasa"> -->
+                      <div class="  menu sticky-top" style="top:105px">
+                        <!-- <p>
+                        <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                          data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="true"
+                          aria-controls="collapseExample4">
+                          <span class="fas fa-bars"><span class="ps-3"
+                              style="font-family: lato, sans-serif; font-size: 15px;">Hostinger Contacts
+                              </span></span>
+                          <span class="fas fa-chevron-down"></span>
+                        </a>
+                      </p> -->
+                        <div class="collapse show" id="collapseExample4" style="margin-top: -16px;">
+                          <!-- <div class="row rowreviewsticky"> -->
+                          <!-- row something -->
+                          <!-- <div class="menu sticky-top" style="top:110px"> -->
+                          <!-- row something -->
+                          <section class="box box-sm" id="contacts">
+                            <div class="row rowreview" style="margin-top: -15px; margin-bottom: 25px;" >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/hostinger/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Hostinger</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Hostinger <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                            <!-- <h1 style="margin-left: 0px;">Contacts</h1> -->
+                            <h1 style="margin-left: 0px; margin-top: -10px; font-weight: bold;">Hostinger Contacts</h1>
+
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-envelope"></i> Hostinger Email:</strong> <a
+                                  href="mailto:sales@fastcomet.com " style="margin-left: 10px;">sales@fastcomet.com</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-telephone"></i> FastComet Phone:</strong> <a
+                                  href="tel:1.855.818.9717 " style="margin-left: -25px;">1.855.818.9717</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-globe"></i> Website:</strong>
+                                <a target="_blank" rel="nofollow" href="https://hostadvice.com/go/host/3955/"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  https://www.fastcomet.com
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-person"></i> Social Profiles:</strong>
+                                <div class="company-socials">
+                                  <a class="company-social-page" style="margin-left: -10px;"
+                                    href="https://www.facebook.com/fastcometcloud" rel="nofollow" target="_blank"> <i
+                                      class="bi bi-facebook"></i></a>
+                                  <a class="company-social-page" href="https://twitter.com/FastCometCloud"
+                                    rel="nofollow" target="_blank"><i class="bi bi-twitter"></i></a>
+                                  <a class="company-social-page" href="https://www.linkedin.com/company/fastcomet"
+                                    rel="nofollow" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-geo-alt"></i> Address:</strong>
+                                <a target="_blank" rel="nofollow"
+                                  href="https://www.google.com/maps/search/?api=1&amp;query=37.7762258,-122.3965514"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  350 Townsend Street Suite 300 - #846 San Francisco,
+                                  California 94107 United States
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <i></i> <a
+                                href="https://www.google.com/maps/search/?api=1&amp;query=37.7762258,-122.3965514"
+                                data-action="open-popup" data-target="company-problem-popup">Show on Map</a>
+                            </div>
+
+
+                            <div class="row rowreview" style="margin-top: -15px; " >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/hostinger/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Hostinger</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Hostinger <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                          </section>
+                        </div>
+
+                        <!-- </div> -->
+                      </div>
+                      <!-- </div> -->
+                      <!--  -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </div>
+
+          <div></div>
+        </div>
+
+        <form class="example-form" [formGroup]="productForm">
+          <ng-template #content let-modal>
+            <div class="modal-header">
+              <h4
+                style="font-weight: bold; line-height: 1; margin-left: 20px; font-size: 20px; font-family: lato, sans-serif;"
+                class="modal-title" id="modal-basic-title">
+                Kindly give us your experience with our hosting providers
+              </h4>
+
+              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+
+            <div class="modal-body">
+              <!-- starts here -->
+              <div id="changecolor" class="container mycolstarrow"
+                [ngClass]=" ((average1 && average2 && average3 && average4 && average5)? '': 'bsd-outline-red') ">
+                <form class="formcontainer" name="form" (ngSubmit)="f.form.valid && submitForm(f)" #f="ngForm"
+                  novalidate>
+                  <div style="height: 220px;">
+                    <img id="blah" src="../../../assets/img/write review.png" width="300px" height="220px"
+                      alt="your image" />
+                  </div>
+
+                  <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                    <div class="col-lg float-start">
+                      <div class="card card-body" style="border-radius: 20px;">
+                        <div class="row">
+                          <h5 class="d-flex review-stat"
+                            style="margin-bottom: 20px; font-size: 20px; font-family: lato, sans-serif; font-weight: lighter;">
+                            Your Scores (click on the stars)
+                          </h5>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="icon-user" style="font-weight: lighter; margin-right: 5px;"></i>
+                              User Friendly:
+                            </h5>
+
+
+                            <div class="d-flex small-ratings">
+
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating1" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="bi bi-headset" style="font-weight: bolder; margin-right: 5px;"></i>
+                              Support:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 15px;">
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating2" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="fas icon-thumbs-up" style="font-weight: lighter; margin-right: 5px;"></i>
+                              Features:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 25px;">
+                              <!--  -->
+
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating3" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="bi bi-reception-4" style="font-weight: lighter; margin-right: 5px;"></i>
+                              Reliability:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 20px;">
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating4" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="fas icon-smile" style="font-weight: lighter; margin-right: 5px;"></i> Pricing:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 39px;">
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating5" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                            </div>
+
+                            <!--  -->
+
+                            <!--  -->
+                          </div>
+                        </div>
+                        <div class="card card-body align-items-center">
+                          <!--  -->
+                          <ul class="list-group">
+                            <li class="list-group-item edumkasa2" style="background-color: transparent;">
+                              <div class="md-v-line"></div>
+                              <strong
+                                style="font-size: 40px; font-family: lato, sans-serif; color: #6f7481; font-weight: bold;">
+                                {{totalaverage | number:'1.1-1'}}
+                              </strong>
+                              <strong style="color: #727e8f; font-size: 15px; font-family: lato, sans-serif;"
+                                class="numbig">Hosting overall rating</strong>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <!-- title -->
+              <div style="margin-top: 50px;" class="form-group">
+                <label style="font-size: 15px; font-family: lato, sans-serif;" class="yourscore2">Title (Minimum 2
+                  words)*</label>
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>A few words about hosting or service</mat-label>
+                  <input formControlName="productName" matInput placeholder="" #message maxlength="120" />
+                </mat-form-field>
+                <div style="margin-top: -20px; text-align: right;" id="counter">{{message.value.length}} / 120</div>
+              </div>
+
+              <!-- summary -->
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Summary*</mat-label>
+                  <textarea formControlName="comment" matInput #message2 minlength="140" rows="10" cols="70"></textarea>
+                </mat-form-field>
+                <div style="margin-top: -20px; text-align: right;" id="counter">{{message2.value.length}} / 140 required
+                </div>
+              </div>
+
+              <!-- info -->
+              <label style="font-size: 15px; font-family: lato, sans-serif;" class="yourscore2">Personal Info</label>
+              <div class="score4">
+                <label style="font-size: 12px; font-family: lato, sans-serif;" class="yourscore3">
+                  We request this information as we strive to provide only truthful information <br />
+                  and to verify that the review was written by a real person
+                </label>
+              </div>
+              <!-- end info -->
+              <!--fullname  -->
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Full Name*</mat-label>
+                  <input formControlName="fullName" matInput placeholder="" #message maxlength="220" />
+                </mat-form-field>
+              </div>
+              <!-- end fullname -->
+              <!-- email -->
+
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Email Adress*</mat-label>
+                  <input formControlName="emailAdress" matInput placeholder="" #message ngModel email="true" />
+                </mat-form-field>
+              </div>
+              <!-- end fullname -->
+              <!-- email -->
+
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <mat-label>Link to ONE of your social profiles (Optional)</mat-label>
+                  <input formControlName="linkName" matInput placeholder="" #message maxlength="420" />
+                </mat-form-field>
+              </div>
+              <input type="hidden" formControlName="avg1" ngModel="{{average1}}" />
+              <input type="hidden" formControlName="avg2" ngModel="{{average2}}" />
+              <input type="hidden" formControlName="avg3" ngModel="{{average3}}" />
+              <input type="hidden" formControlName="avg4" ngModel="{{average4}}" />
+              <input type="hidden" formControlName="avg5" ngModel="{{average5}}" />
+              <input type="hidden" formControlName="totavg" ngModel="{{totalaverage}}" />
+              <input type="hidden" formControlName="companyName" ngModel="{{namecompany}}" />
+            </div>
+
+            <div style="align-self: center;" class="modal-footer">
+              <button type="button" class="btn btn-outline-dark btnborder" (click)="addProduct();change();">Submit
+                Review</button>
+            </div>
+          </ng-template>
+        </form>
+
+        <!-- </div> -->
+
+        <button (click)="topFunction();" id="myBtn" title="Go to top">Top</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>

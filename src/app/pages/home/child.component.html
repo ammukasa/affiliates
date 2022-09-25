@@ -1,0 +1,144 @@
+<div class="container">
+  <div class="row justify-content-center g-0 align-items-center my-row d-flex ">
+    <div class="col-lg-3 col-md-6 float-start" >
+
+      <div class="row ">
+        <!-- <div class="card card-body align-items-center"> -->
+        <div class="card card-body align-items-center">
+          <div class="card card-body align-items-center">
+            <!-- <div class="card card-body align-items-center"> -->
+            <img class="divimage" style=" width: 90%; height: 90%;" alt="2" src="{{affliate.companyImage}}">
+            <!-- </div> -->
+
+          </div>
+
+        </div>
+
+        <div class="row aslowas ">
+          <span
+            style="margin: 0 auto; width: auto; background-color: #f7eeea; border: 2px dotted #f6c5b0; color: #77797e; font-size: 12px; border-radius: 20px;">As
+            low as $<a style="font-size: 20px; font-weight: bold; color: #4d5058;">{{affliate.low_sale}}</a> /mo</span>
+        </div>
+        <!-- </div> -->
+
+      </div>
+
+    </div>
+    <div class="col-lg-4 col-md-6 float-start " >
+      <div class="card card-body">
+        <!-- <ul class="list-group">
+          <li class="list-group-item edumkasa" style="border: none;">
+            <div class="md-v-line1"></div>{{affliate.companyHeading}}
+          </li>
+          <li class="list-group-item edumkasa3 ">
+            <div class="md-v-line"></div><i class="bi bi-check-lg bmk"></i> 
+          </li>
+          <li class="list-group-item edumkasa2">
+            <div class="md-v-line"></div><i class="bi bi-check-lg bmk"></i> {{affliate.features2}}
+          </li>
+          <li class="list-group-item edumkasa2">
+            <div class="md-v-line"></div><i class="bi bi-check-lg bmk"></i> {{affliate.features3}}
+          </li>
+          <li class="list-group-item edumkasa2">
+            <div class="md-v-line"></div>
+            <i class="bi bi-check-lg bmk"></i> {{affliate.features4}}
+          </li>
+          <li class="list-group-item edumkasa2">
+            <div class="md-v-line"></div><i class="bi bi-check-lg bmk"></i> {{affliate.features5}}
+          </li>
+        </ul> -->
+
+        <ul class="check-list">
+          <div style="margin-bottom: 10px; font-weight: bold;">
+            {{affliate.companyHeading}}
+          </div>
+          <li>{{affliate.features1}}</li>
+          <li>{{affliate.features2}}</li>
+          <li>{{affliate.features3}}</li>
+          <li>{{affliate.features4}}</li>
+          <!-- <li>{{affliate.features5}}</li> -->
+        </ul>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+    <div class="col-lg-3  float-start moveup" id="">
+      <div class="card card-body col2brose">
+        <ul class="list-group starrattinggrop">
+          <!-- <li class="list-group-item d-flex"> -->
+
+          <ng-template #t let-fill="fill">
+            <span class="star" [class.full]="fill === 100">
+              <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                </em></span><em class="bi bi-star"></em>
+            </span>
+          </ng-template>
+
+          <ngb-rating [max]="5" [(rate)]="affliate.totavg" (rateChange)="avg()" [starTemplate]="t" [readonly]="true">
+          </ngb-rating>
+          <a rel="index up" class="" title="Go to Home" routerLink="{{affliate.navUrl}}"
+            style="margin-top: 4px; text-decoration: none;  margin-left: 10px; font-size: 15px; font-weight: lighter;color:rgb(20, 174, 213);">
+            <p> {{affliate.all_reviews | number: '1.1-1'}} Reviews</p>
+          </a>
+
+
+          <!--  -->
+          <!-- <ng-template #t let-fill="fill">
+               <span class="star" [class.full]="fill === 100">
+                 <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                   </em></span><em class="bi bi-star"></em>
+               </span>
+             </ng-template>
+             <p style=" font-size: 20px; margin-right: 5px; color: #6f7481;" class="numbig">
+               {{affliate.all_reviews | number: '1.1-1'}} reviews </p>
+             <ngb-rating [(rate)]="affliate.totavg" [starTemplate]="t" [readonly]="true" [max]="5"></ngb-rating> -->
+          <!--  -->
+          <!-- </li> -->
+          <!-- <li class="list-group-item edumkasa3" style="font-size: 18px;">
+                    <div class="md-v-line"></div><i class="bi bi-fan bmk"></i> 99.9%
+                  </li> -->
+          <li class="list-group-item edumkasa2">
+            <div class="md-v-line"></div><i class="bi bi-bar-chart-fill bmk"></i> {{affliate.addedadv1}}
+          </li>
+          <li class="list-group-item edumkasa2">
+            <div class="md-v-line"></div><i class="bi bi-server bmk"></i> {{affliate.addedadv2}}
+          </li>
+          <li class="list-group-item edumkasa2">
+            <div class="md-v-line"></div><i class="bi bi-speedometer bmk"></i> {{affliate.addedadv3}}
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+    <div class="col-lg-2   float-end " id="infocardContainer1">
+
+      <div class="row d-flex">
+        <div class="col-12">
+          <i *ngIf="affliate.discount_status == 'TRUE'">
+            <div class="infocardContainer" id="infocardContainer" style="margin-top: 10px;">
+              <div id="main">{{affliate.discount_per}}</div>
+              <div id="textbois">
+                <h5 style="font-size: 13px; margin-top: 15px; margin-left: 8px; font-style: italic; font-weight: bold;">
+                  {{affliate.discount_sale}}</h5>
+              </div>
+            </div>
+          </i>
+        </div>
+        <div class="col-12">
+          <!-- <div class="card card-body"></div> -->
+          <div class="card card-body ">
+            <a routerLink="{{affliate.companyUrl}}" target="_blank" class="">
+              <button (click)="handleClick()" type="button" class="btn btn-outline-success btn-info button1">VIEW SERVICES</button>
+            </a>
+            <!--  -->
+
+            <!--  -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

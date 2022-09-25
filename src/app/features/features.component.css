@@ -1,0 +1,89 @@
+/* mat-sidenav-container, mat-sidenav-content, mat-sidenav {   */
+   /* height: auto;  */
+  /* } */
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+
+mat-sidenav[style] {
+  /* visibility: visible !important; */
+  /* background-color:  #1d1d1d;
+  color:#adadad ;
+  background: url('../../assets/img/307193.jpg') no-repeat center;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat; */
+  background-color: transparent !important;
+  /* background-color:  #1d1d1d; */
+}
+/* .mat-drawer { */
+  /* transform: none !important; */
+/* }  */
+
+.mat-sidenav-backdrop.mat-sidenav-shown{
+  background-color: transparent !important;
+  background-color:  #1d1d1d;
+}
+
+.mat-sidenav {
+  width: 220px;
+}
+
+button.menu-button {
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
+::ng-deep .mat-toolbar{
+  /* z-index: 1000; */
+  /* position: fixed; */
+  margin-top: -13px;
+}
+
+/* mat-sidenav[style] {
+  visibility: visible !important;
+}
+.mat-drawer {
+  transform: none !important;
+} */
+
+.example-container {
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.example-sidenav {
+   user-select: none;
+}
+.full-width {
+  width: 100%;
+}
+.menu-button {
+  transition: 300ms ease-in-out;
+  transform: rotate(0deg);
+}
+.menu-button.rotated {
+  transform: rotate(180deg);
+}
+.submenu {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+}
+.submenu.expanded {
+  transform: scaleY(1);
+}

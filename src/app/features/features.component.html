@@ -1,0 +1,49 @@
+<mat-toolbar style="background-color:  #dce2e6;">
+    <button mat-icon-button (click)="sidenav.toggle()" class="menu-button"  fxShow.lt-md>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <a style="font-family: 'Trebuchet MS', sans-serif;" class="navbar-brand" routerLink=""><img id="blah" style="margin-top: 0px; margin-left: 0px; width: 120px;"
+    src='../../../assets/img/hs.png' alt="your image" /></a>
+  <span class="example-spacer"></span>
+  
+  
+  <mat-form-field style="width: 20rem" floatLabel="never">
+    <input matInput 
+           #searchInput="matInput" 
+           type="text" 
+           placeholder="Search hosting site"  
+           autocomplete="on"/>
+    <mat-icon [color]="searchInput.focused ? 'primary' : ''" 
+            matSuffix>search</mat-icon>  
+  </mat-form-field>
+  <button
+            mat-button
+            [matMenuTriggerFor]="menu1"
+            class="user mt-2 d-flex align-items-center"
+          >
+            <img src="./assets/user.jpg" alt="" class="user-image mr-1 p-2" />
+
+            User Name
+            <mat-icon class="user-image-icon ml-1"
+              >keyboard_arrow_down</mat-icon
+            >
+          </button>
+          <mat-menu #menu1="matMenu">
+            <button mat-button>
+              <mat-icon>exit_to_app</mat-icon>
+              Logout
+            </button>
+          </mat-menu>
+</mat-toolbar>
+<mat-sidenav-container >
+  <mat-sidenav #sidenav mode="side" [opened]="opened"  > 
+    <mat-nav-list >
+      <app-menu-list-item *ngFor="let item of menu" [item]="item"></app-menu-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<app-footer></app-footer>

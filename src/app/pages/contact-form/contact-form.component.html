@@ -1,0 +1,145 @@
+<div class="content-wrapper">
+
+
+    <div class="menu container-fluid align-items-start justify-content-center"
+        style=" margin-top: -8px; background-color: #e6e9ec; height: 50px;">
+        <div class="container-fluid" style="margin-top: 25px; height: 10px;"></div>
+        <a rel="index up" title="Go to Home" href="/" style="text-decoration: none;border-radius: 22px; 
+color:#727e8f;
+font-size: 14px; 
+font-family: lato,sans-serif;
+  ">
+
+            Host Solution Home
+        </a>
+        <i class="bi bi-chevron-right" style="margin-left: 0px; margin-right: 0px; 
+border-radius: 22px; 
+color:#727e8f;
+font-size: 11px; 
+font-weight: bolder;
+font-family: lato,sans-serif;
+ /* outline: rgb(255, 255, 255) solid ;  */">
+        </i>
+        <a class="main-nav-item" rel title="Go to  Fastcomet Reviews" href="about-us" style=" 
+/* box-shadow: 0px 1px 1px rgba(255, 253, 253, 0.075) inset, 0px 2px 8px rgba(58, 56, 56, 0.6); */
+border-radius: 22px; 
+/* color:#727e8f; */
+font-size: 14px; 
+font-family: lato,sans-serif;
+ /* border: 1px solid rgb(255, 255, 255); */
+  /* outline: rgb(255, 255, 255) solid ;  */
+  ">
+            Contact Us
+        </a>
+        <div class="md-v-line"></div>
+    </div>
+
+
+    <div class="container mycol2">
+        <!--  -->
+        <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+            <div class="col-lg-2 float-start">
+                <div class="card card-body">
+                    <div class="row">
+                        <ul class="list-group">
+                            <li class="list-group-item edumkasa">
+                                <div class="md-v-line1"></div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg float-start">
+                <div class="card card-body">
+                    <div class="row">
+                        <ul class="list-group">
+                            <li class="list-group-item edumkasa">
+                                <div class="md-v-line1"></div>
+                                
+                                <h5>Contact Us We love to hear from our visitors!
+                                    We are here to help. Get in touch with sales, support or our press team and let us
+                                    know how we can help</h5>
+                                <form [formGroup]="productForm">
+                                    <div class="form-group" style="margin-top: 50px;">
+                                        <mat-form-field appearance="fill"
+                                            style="width: 100%; font-weight: lighter; font-family: lato,sans-serif;">
+                                            <mat-label>Name</mat-label>
+                                            <input formControlName="name" matInput placeholder="" #message>
+                                            <mat-icon matSuffix>supervised_user_circle</mat-icon>
+                                        </mat-form-field>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <mat-form-field appearance="fill"
+                                            style="width: 100%; font-weight: lighter; font-family: lato,sans-serif;">
+                                            <mat-label>E-mail</mat-label>
+                                            <input formControlName="emaila" matInput placeholder="" #message ngModel email="true">
+                                            <mat-icon matSuffix>email</mat-icon>
+                                        </mat-form-field>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <mat-form-field appearance="fill"
+                                            style="width: 100%; font-weight: lighter; font-family: lato,sans-serif;">
+                                            <mat-label>Subject</mat-label>
+                                            <input formControlName="subject" matInput placeholder="" #message
+                                                maxlength="200">
+                                            <mat-icon matSuffix>subject</mat-icon>
+                                        </mat-form-field>
+                                        <div style="margin-top: -20px; text-align: right" id="counter">
+                                            {{message.value.length}} of 200</div>
+                                    </div>
+
+
+
+                                    <div class="form-group">
+                                        <mat-form-field appearance="fill"
+                                            style="width: 100%; font-weight: lighter; font-family: lato,sans-serif;">
+                                            <mat-label>Summary*</mat-label>
+                                            <textarea formControlName="comment" matInput #message2 maxlength="700"
+                                                rows="10" cols="70"></textarea>
+                                            <mat-icon matSuffix>message</mat-icon>
+                                        </mat-form-field>
+                                        <div style="margin-top: -20px; text-align: right" id="counter">
+                                            {{message2.value.length}} of 700
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+
+
+                                        <button class="btn btn-primary btn-block" type="button" (click)="onSubmit();">Add Book</button>
+
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-2 float-start">
+                <div class="card card-body">
+                    <div class="row">
+                        <ul class="list-group">
+                            <li class="list-group-item edumkasa">
+                                <div class="md-v-line1"></div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+        </div>
+
+    </div>
+
+</div>

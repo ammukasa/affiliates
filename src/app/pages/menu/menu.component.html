@@ -1,0 +1,120 @@
+<div class="content-wrapper">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>changing bootstrap column class attribute based on screen size/media query</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<style>
+body {
+  padding-top: 50px;
+}
+.spacer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}     
+
+.block1 {
+    height: 200px;
+    background-color: orangered;
+}
+.block2 {
+    height: 200px;
+    background-color: greenyellow;
+}
+     
+.borders {
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 2px solid #000000;
+}
+@media(min-width:1201px)  {     
+.show-hide-xlg {
+    display:none;
+}
+.show-hide-lg {
+    display:block;
+}
+.show-hide-md {
+    display:none;
+}   
+}
+@media(min-width:1100px) and (max-width: 1200px) { 
+.col-xlg-3 {
+    width:25%;
+}
+.col-xlg-9 {
+    width:75%;
+}
+.show-hide {
+    display:block;
+}
+.show-hide-lg {
+    display:none;
+}
+.show-hide-md {
+    display:none;
+}    
+} 
+@media(max-width:1100px)  {     
+.show-hide-xlg {
+    display:none;
+}
+.show-hide-lg {
+    display:none;
+}
+.show-hide-md {
+    display:block;
+}    
+}
+@media(max-width:992px)  {     
+.show-hide-md {
+    display:none;
+}    
+}    
+</style>
+
+
+
+<div class="container col-lg-12 spacer"></div>
+    
+
+<div class="container"> 
+    <div class="row text-center">
+        <div class="col-md-10 col-xlg-9 col-lg-6 block1">
+            <h2>Header 1</h2>
+            <br>
+            <h2 class="show-hide-xlg">Now col-xlg-9</h2>
+            <h2 class="show-hide-lg">Using col-lg-6</h2>
+            <h2 class="show-hide-md">Now using col-md-10</h2>
+        </div>
+        <div class="col-md-2 col-xlg-3 col-lg-6 block2">
+            <h2>Header 2</h2>
+            <br>
+            <h2 class="show-hide-xlg">col-xlg-3</h2>
+            <h2 class="show-hide-lg">Using col-lg-6</h2>
+            <h2 class="show-hide-md">col-md-2</h2>
+        </div>    
+    </div>    
+</div>    
+    
+  
+
+    
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    
+
+
+</div>

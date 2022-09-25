@@ -1,0 +1,64 @@
+.menu a.main-nav-item:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.menu a.main-nav-item:visited {
+  /* color: pink;
+    background-color: transparent;
+    text-decoration: none; */
+
+  position: relative;
+  color: rgb(13, 182, 224);
+  ;
+  text-decoration: none;
+}
+
+.menu a.main-nav-item:hover {
+  color: rgb(13, 182, 224);
+  background-color: transparent;
+  /* text-decoration: underline; */
+}
+
+.menu a.main-nav-item:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.ng-valid[required],
+.ng-valid.required {
+  border: 1px solid #42A948;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.success {
+  color: green;
+}
+
+.contact-message {
+  text-align: center;
+}
+
+.mycol2 {
+  background-color: #fff;
+  border-color: rgba(188, 189, 188, 0.8);
+  box-shadow: 0px 1px 1px rgba(202, 201, 201, 0.075) inset, 0px 2px 3px rgba(184, 183, 183, 0.6);
+  outline: 0 none;
+  margin-top: -10px;
+}
+
+.list-group,
+.edumkasa {
+  border: none;
+}
+
+.card-body {
+  border: none;
+  box-shadow: none;
+}

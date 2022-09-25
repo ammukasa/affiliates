@@ -1,0 +1,275 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.mat-form-field{
+    width: 100%;
+}
+.survey-hr{
+    margin:10px 0;
+    border: .5px solid #ddd;
+}
+ngb-rating {
+    background: white;
+    outline: none !important;
+}
+.star {
+    font-size: 35px;
+    color: #b0c4de;
+}
+.bad {
+    color:rgb(196, 196, 191);
+}
+.filled.bad {
+    color: rgb(238, 162, 49);
+}
+::ng-deep label {
+    font-size: larger;
+}
+table {
+    width: 100%;
+}
+/****** Style Star Rating Widget *****/
+.rating {
+    border: none;
+    float: left;
+}
+.rating > input {
+    display: none;
+}
+.rating > label:before {
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+.rating > .half:before {
+    content: "\f089";
+    position: absolute;
+}
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+/***** CSS Magic to Highlight Stars on Hover *****/
+.rating > input:checked ~ label, 
+/* show gold star when clicked */
+.rating:not(:checked) > label:hover, 
+/* hover current star */
+.rating:not(:checked) > label:hover ~ label {
+    color: #FFD700;
+}
+/* hover previous stars in list */
+.rating > input:checked + label:hover, 
+/* hover current star when changing rating */
+.rating > input:checked ~ label:hover, .rating > label:hover ~ input:checked ~ label, 
+/* lighten current selection */
+.rating > input:checked ~ label:hover ~ label {
+    color: #FFED85;
+}
+/****** Style Star Rating Widget 2 *****/
+.survey-hr{
+    margin:10px 0;
+    border: .5px solid #ddd;
+    text-decoration: none;
+}
+ngb-rating {
+    background: #f2f4f8;
+    outline: none !important;
+    margin-top: 10px;
+    
+}
+.star {
+    font-size: 35px;
+    color: #b0c4de;
+}
+.bad {
+    color:rgb(196, 196, 191);
+}
+.filled.bad {
+    color: rgb(238, 162, 49);
+}
+::ng-deep label {
+    font-size: larger;
+}
+table {
+    width: 100%;
+    border: 0px ;
+}
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+label.userfriendly {
+    color: #000000;
+    font-size: 16px;
+    font-weight:bold;
+    display: block;
+    width: 150px;
+    margin-top: 9px;
+    float: left;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+label.support {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    margin-top: 9px;
+    float: left;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+label.features {
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    margin-top: 9px;
+    float: left;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+label.reliability {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    margin-top: 9px;
+    float: left;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+label.pricing {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    margin-top: 9px;
+    float: left;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+label.yourscore {
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin-top: 9px;
+    border-radius: 22px;
+    /* font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; */
+    /* font-style: italic; */
+    margin-bottom: 40px;
+   /* */
+}
+label.yourscore2 {
+    color: #000000;
+    font-size: 17px;
+    font-weight: normal;
+    display:contents;
+    margin-top: 0px;
+    border-radius: 22px;
+    /* font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; */
+    /* font-style: italic; */
+    margin-bottom: 10px;
+}
+
+label.yourscore3 {
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    display:contents;
+    margin-top: 0px;
+    border-radius: 22px;
+    /* font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; */
+    /* font-style: italic; */
+    margin-bottom: 30px;
+}
+
+label.yourscore4 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    display:contents;
+    margin-top: 30px;
+    border-radius: 0px;
+    /* font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; */
+    /* font-style: italic; */
+    margin-bottom: 50px;
+}
+
+.containerheaderlevel{
+  color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+    display: block;
+    margin-top: 9px;
+    margin: 10px;
+    /* border-radius: 22px; */
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+    /* font-style: italic; */
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.score4{
+    margin-bottom: 30px;
+}
+
+
+label:after {
+    content: ": " 
+}
+.overrall {
+    width: 50%;
+    height: 10%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    margin-top: -185px;
+    margin-left: 500px;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(121, 117, 117);
+    
+}
+.container1{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f2f4f8;
+    border: 1px solid #d0ebff;
+    border-radius: 20px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+}
+.containerheader{
+  max-width: 1000px;
+    margin: 0 auto;
+    /* background-color: #f2f4f8; */
+    border: 0px solid #242a30;
+    border-radius: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    /* background-image: url('../../../assets/img/brose.jpg'); */
+}
+
+
+html.is-ltr form .review-scores .review-overall-rating {
+    margin-left: 32px;
+}
+
+form .review-scores .review-overall-rating .score {
+    display: flex;
+    align-items: center;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  strong {
+
+    font-size: 30px;
+        color: #000000;
+    }
+

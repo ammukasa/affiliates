@@ -1,0 +1,22 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+    
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    /* color: var(--primary-color); */
+    position: relative;
+     color: rgb(13, 182, 224);;
+    text-decoration: none;
+    /* z-index:-1; */
+}
+
+.bg-company-red {
+    background-color: rgb(242, 242, 242) !important;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px rgba(71, 71, 71, 0.075) inset, 0px 2px 8px rgba(100, 100, 100, 0.6);
+}

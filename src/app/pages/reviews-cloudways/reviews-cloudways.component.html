@@ -1,0 +1,2550 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+<div class="content-wrapper">
+  <div class="menu container-fluid align-items-start justify-content-center"
+    style="margin-top: -9px; background-color: #e6e9ec; height: 50px;">
+    <a rel="index up" title="Go to Home" href="/"
+      style="text-decoration: none; border-radius: 22px; color: #727e8f; font-size: 14px; font-family: lato, sans-serif;">
+      <div class="container-fluid" style="margin-top: -15px;"></div>
+      Host Solution Home
+    </a>
+    <i class="bi bi-chevron-right"
+      style="margin-left: -8px; margin-right: -8px; border-radius: 22px; color: #727e8f; font-size: 11px; font-weight: bolder; font-family: lato, sans-serif; /* outline: rgb(255, 255, 255) solid ;  */">
+    </i>
+    <a class="main-nav-item" rel title="Go to  Cloudways Reviews" href="reviews-interserver" style="
+                /* box-shadow: 0px 1px 1px rgba(255, 253, 253, 0.075) inset, 0px 2px 8px rgba(58, 56, 56, 0.6); */
+                border-radius: 22px;
+                /* color:#727e8f; */
+                font-size: 14px;
+                font-family: lato, sans-serif;
+                /* border: 1px solid rgb(255, 255, 255); */
+                /* outline: rgb(255, 255, 255) solid ;  */
+            ">
+      Cloudways Reviews
+    </a>
+    <div class="md-v-line"></div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="1">
+        <div class="menu" style="margin-top: 0px; margin-bottom: 0px;">
+          <button id="openModalButton" [hidden]="true" type="button" class="btn btn-info btn-lg" data-toggle="modal"
+            data-target="#myModal">Open Modal</button>
+
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div style="height: 50px;">
+                    <img id="blah" src="../../../assets/img/write review.png" width="60px" height="50px"
+                      alt="your image" />
+                  </div>
+                  <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h5 style="font-size: 30px; font-family: lato, sans-serif;" class="modal-title"
+                    id="exampleModalLabel">
+                    Thanks and ... One last request
+                  </h5>
+                  <h5 style="font-size: 15px; font-family: lato, sans-serif; margin-top: 30px;" class="modal-title"
+                    id="exampleModalLabel">
+                    Your review has been submitted successfully. We'll go over it within the next 24 hours and if it's
+                    legit we'll approve it. Please share HostSolution with friends so that they get to know about the
+                    site.
+                    <br />
+                    <br />
+                    <br />
+                    If you wrote a positive review on Cloudways, please share it with others:
+                  </h5>
+
+                  <div style="align-self: center; margin-left: 480px;" class="socialmedia22">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+                  </div>
+                </div>
+                <div style="align-self: center;" class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-start myrow1 d-flex">
+          <div class="col-lg mycol2">
+            <div
+              style="margin-left: 20px; font-size: 20px; margin-top: 15px; color: #393b3c; font-weight: bold; font-family: lato, sans-serif;">
+              <p>Cloudways Hosting Reviews and Expert Opinion</p>
+            </div>
+
+            <mat-tab-group mat-align-tabs="start" [selectedIndex]="selectedTabIndex"
+              (selectedIndexChange)="onTabChange($event)" id="tabs" #tabs>
+              <mat-tab label="Overview & Prices" style="top: 50%; transform: translateY(-50%);">
+                <div class="container-fluid">
+                  <div class="row rowreview1">
+                    <div class="col-lg float-start colreview">
+                      <div class="mkasa maybegood">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                            aria-controls="collapseExample">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">User Reviews
+                                Cloudways</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample" style="margin-top: -14px;">
+                          <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                            <div class="col-lg float-start">
+                              <div class="col-lg float-start" style="margin-left: -15px;">
+                                <div class="card card-body" style="border: none; box-shadow: none;">
+                                  <div class="md-v-line"></div>
+                                  <strong style="font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                    <ng-template #t let-fill="fill">
+                                      <span class="star d-flex" [class.full]="fill === 100">
+                                        <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                          </em></span><em class="bi bi-star"></em>
+                                      </span>
+                                    </ng-template>
+                                    {{this.reviewCount.reviews1 | number: '1.1-1'}}
+                                    <ngb-rating [(rate)]="this.reviewCount.reviews1" [starTemplate]="t"
+                                      [readonly]="true" [max]="5"></ngb-rating>
+                                  </strong>
+
+                                  <div class="md-v-line"></div>
+                                  <strong
+                                    style="font-family: lato, sans-serif; color: rgb(20, 174, 213); font-size: 15px; margin-top: -5px; font-weight: lighter;"
+                                    class="d-flex numbig">
+                                    {{this.allUser2 | number: '1.1-1'}} Reviews
+                                  </strong>
+                                </div>
+                              </div>
+                              <div class="card card-body" style="border: none; box-shadow: none;">
+                                <div class="row" style="margin-top: -35px;">
+                                  <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="icon-user" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      User Friendly:
+                                    </h5>
+                                    <div class="d-flex small-ratings">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.userfriendly | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.userfriendly" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="bi bi-headset" style="font-weight: bolder; margin-right: 5px;"></i>
+                                      Support:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 15px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.support | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.support" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="fas icon-thumbs-up"
+                                        style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Features:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 25px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.features | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.features" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="bi bi-reception-4" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Reliability:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 20px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.reliability | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.reliability" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+
+                                  <div class="d-flex justify-content-between align-items-center"
+                                    style="margin-top: -10px;">
+                                    <h5 class="d-flex review-stat"
+                                      style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                                      <i class="fas icon-smile" style="font-weight: lighter; margin-right: 5px;"></i>
+                                      Pricing:
+                                    </h5>
+                                    <div class="d-flex small-ratings" style="margin-left: 39px;">
+                                      <ng-template #t let-fill="fill">
+                                        <span class="star" [class.full]="fill === 100">
+                                          <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+                                            </em></span><em class="bi bi-star"></em>
+                                        </span>
+                                      </ng-template>
+                                      <p style="margin-right: 5px; color: #6f7481;" class="numbig">
+                                        {{this.reviewCount.pricing | number: '1.1-1'}}
+                                      </p>
+                                      <ngb-rating [(rate)]="this.reviewCount.pricing" [starTemplate]="t"
+                                        [readonly]="true" [max]="5"></ngb-rating>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row row" style="width: calc(115% - 0px);">
+                              <button
+                                style="height: 45px; font-size: 15px; font-family: lato, sans-serif; font-weight: bold; color: #1c1c1d; border: 1px solid #d0ebff;"
+                                type="button" class="btn btn-outline-success btn-info button1" (click)="open(content);">
+                                Write Review <i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- <div class="row rowreview" style="margin-top: 30px;"> -->
+                      <div class="mkasa maybegood">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="true"
+                            aria-controls="collapseExample2">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Best Pricing Range</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample2" style="margin-top: 10px;">
+
+
+
+
+
+                          <!-- <mat-divider style="margin-top: 20px; margin-bottom: 20px;"></mat-divider> -->
+                          <div class="row  g-0  justify-content-between align-items-center my-row d-flex">
+                            <div class="col-lg float-start">
+                              <div class="card card-body">
+                                <div class="d-flex flex-lg-row justify-content-between align-items-center"
+                                  style="margin-top: -15px;">
+                                  <a
+                                    style="font-weight: bold; margin-bottom: 10px; font-size: 18px; margin-left: -10px; font-family: lato, sans-serif; color: #4b4e55;">
+                                    Cloudways pricing <br />
+                                    <span style="font-size: 14px;">Cloudways offers a 3-day free trial for new users,
+                                      after which the software is available across 4 pricing tiers for 5 different data
+                                      centers. Pricing and functionality are outlined below. DigitalOcean $10/month RAM:
+                                      1GB, Storage: 25GB, Bandwidth: 1TB $22/month RAM: 2GB, Storage: 50GB, Bandwidth:
+                                      2TB $80/month RAM: 8GB, Storage: 160GB, Bandwidth: 5TB Linode $12/month RAM: 1GB,
+                                      Storage: 25GB, Bandwidth: 1TB $24/month RAM: 2GB, Storage: 50GB, Bandwidth: 2TB
+                                      $90/month RAM: 8GB, Storage:...</span></a>
+                                </div>
+                                <mat-divider style="width: 150px; margin-top: 0px; margin-bottom: 20px;">
+                                </mat-divider>
+                                <div class="mt-2 d-flex flex-lg-row  justify-content-between  align-items-center">
+                                  <a (click)="scrollds();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    VPS</a>
+
+                                  <div class="d-flex small-ratings1"
+                                    style="font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: bolder;">
+                                    $0.00 - $11.00
+                                  </div>
+                                </div>
+
+                                <div class="mt-2 d-flex flex-lg-row  justify-content-between  align-items-center">
+                                  <a (click)="scrollvps();" href="javascript:void(0);"
+                                    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                    Cloud Hosting</a>
+                                  <div class="d-flex small-ratings1"
+                                    style="font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: bolder;">
+                                    $10.00 - $1,035.00
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 0px; margin-bottom: 30px;"></mat-divider>
+                      <!-- </div> -->
+                      <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                        class="in-a-nutshell" data-toc-anchor="0">Why Cloudways?</h2>
+                      <div
+                        style="margin-top: 10px; font-size: 15px; margin-bottom: 40px; line-height: 1.5; font-family: lato, sans-serif;">
+                        Cloudways is one of the best managed web hosts in my opinion. It provides you with superior
+                        performance in terms of speed, scalability, uptime, and load handling. If you are looking to
+                        host high traffic websites then Cloudways can be a good option.
+
+                        <br />
+                        When you join Cloudways, you get a suite of powerful tools and services to manage your ecommerce
+                        stores and business websites. The core USP of Cloudways is choice - the choice of cloud
+                        providers, the choice of hosting almost every PHP powered application, the choice of using a
+                        paid or free SSL and the choice of developer and agency-focused workflows.
+                        <br />
+                        The ideas of choice and freedom to focus on what’s important to the users start right from the
+                        moment of server & application launch. With the choice of five IaaS providers (AWS, GCE,
+                        DigitalOcean, Vultr, and Linode) and multiple versions of popular applications (including four
+                        flavors of WordPress and two of Magento), the users can configure the Cloudways platform to fit
+                        their operational requirements and business processes.
+                        <br />
+                        The theme continues throughout the platform where users can deploy almost 50+ server and
+                        application management operations in a few clicks.
+
+                        <br />
+                        So whether you are an online store, an agency or a freelance developer with several clients,
+                        Cloudways offers the perfect mix of features that help you achieve more out of the managed
+                        hosting solution for your business websites and client projects. <br />
+                      </div>
+
+
+
+                      <div class="row rowreview"
+                        style="margin-top: 20px; margin-right: 20px; line-height: 1.5; font-family: lato, sans-serif;">
+                        <div class="additional-info">
+                          <!-- <div class="free-domain" style="margin-left: 20px;"><span>Free domain</span></div> -->
+                          <div class="moneyback" style="margin-left: 10px; font-family: lato, sans-serif;"><span>Money
+                              Back:</span> 45 Days</div>
+                        </div>
+                      </div>
+                      <div class="row rowreview" style="margin-right: 0px;">
+                        <mat-divider style="margin-top: 10px;"></mat-divider>
+                      </div>
+
+                      <div class="row rowreview" style="margin-right: 0px; margin-top: 60px;">
+                        <span class="product-cta-button">
+                          <span class="product-cta-button-icon"><img style="width: 40px;"
+                              src="../../../assets/img/cloudways/logo.png" /></span>
+
+                          <span class="product-cta-button-text">Cloudways</span>
+                          <button
+                            style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                            type="button" class="btn btn-outline-success btn-info button1">
+                            Get Cloudways <i class="bi bi-arrow-right"></i>
+                          </button>
+                        </span>
+                      </div>
+
+                      <div class="row rowreview" style="margin-right: 0px; margin-top: 40px;">
+                        <!-- <mat-accordion> -->
+                        <p
+                          style="margin-top: 25px; color: #1c1c1d; font-size: 25px; font-weight: bold; font-family: lato, sans-serif;">
+                          Cloudways FAQs
+                        </p>
+                        <mat-divider style="margin-top: 10px; margin-bottom: 20px;"></mat-divider>
+                        <!--  -->
+                        <!--  -->
+                        <mat-accordion>
+
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold; ">
+                                What Makes Cloudways Different From Other Web Hosting Companies?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Cloudways hosts websites on their Click&Go cloud. This platform backs up your website on
+                              multiple cloud servers and configures advanced caching tools to boost load speeds and
+                              performance.
+
+
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Which Cloud Providers Does Cloudways Support?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Cloudways currently supports five cloud providers, namely DigitalOcean, Vultr, Google
+                              Compute Engine (GCE), Linode, and Amazon Web Services (AWS). Depending on the chosen cloud
+                              provider, you can host your website in datacenters located in the U.S., Europe, Asia, or
+                              South America. In addition, Cloudways uses of the StackPath CDN — a global network of 45
+                              datacenters worldwide.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Can I Use cPanel or Plesk on a Cloudways Server?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              No. However, the Click&Go Cloud console is Cloudway’s custom server management
+                              application. It has powerful tools that allow web administrators to configure basic
+                              settings, monitor server resources, and do so much more. Click&Go also supports plenty of
+                              web applications such as WordPress, Joomla, Drupal Magento, Prestashop, and WooCommerce
+                              just to name a few.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Can I Get Assistance Moving My Site To Cloudways?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Yes, Cloudways offers a free site migration service when transferring your website to its
+                              cloud platform for the first time. Any additional migrations will incur a fee depending on
+                              the type of app your website is running.
+                            </p>
+                          </mat-expansion-panel>
+                          <!--  -->
+                          <!--  -->
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                Is It Possible To Scale Up Or Scale Down A Server?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              You can upgrade server resources to meet traffic requirements at any time through the
+                              Click&Go console. Scaling down is possible at any time when using an Amazon or Google
+                              server. With DigitalOcean, however, it’s not possible to scale down because of limitations
+                              imposed by the provider.
+                            </p>
+                          </mat-expansion-panel>
+                          <!-- </mat-accordion> -->
+                          <!--  -->
+
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                When Do I Pay For Services?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              Unlike most prepaid web hosting companies, Cloudways uses a post billing system. Invoices
+                              are usually sent in the first week of every month. However, you’ll be paying for services
+                              used in the previous month. </p>
+                          </mat-expansion-panel>
+                          <!-- </mat-accordion> -->
+                          <!--  -->
+
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                What Payment Methods Do They Support?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              You can use PayPal upon request as your preferred payment method when subscribing to
+                              Cloudways hosting services. Alternatively, the company also accepts all major credit card
+                              providers such as MasterCard, Visa, and American Express. </p>
+                          </mat-expansion-panel>
+                          <!-- </mat-accordion> -->
+                          <!--  -->
+
+                          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title
+                                style="font-family: lato, sans-serif; font-size: 15px; font-weight: bold;">
+                                How And When Can I Contact Customer Support?
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p style="font-size: 15px; font-weight: lighter; font-family: lato, sans-serif;">
+                              When in need of assistance, you can get in touch with a Cloudways support agent at any
+                              time
+                              on live chat. The email ticketing is operational 24×7 as well. You can also “request a
+                              call”
+                              and a Cloudways representative will get in touch via phone during business working hours.
+                            </p>
+                          </mat-expansion-panel>
+                        </mat-accordion>
+                        <!--  -->
+
+                      </div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview"></div>
+                      <div class="row rowreview curvepros" style="margin-top: 50px;">
+                        <div class="col colreview pros">
+                          <h3 data-header="true"
+                            style="margin-top: 10px; font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">
+                            Pros
+                          </h3>
+                          <mat-divider style="margin-top: 15px; margin-bottom: 10px;"></mat-divider>
+
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> 24/7 Support & Live Chat
+                          </h3>
+
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Flexible Hosting Plans
+                          </h3>
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> SSD-based hosting and built-in caches
+                          </h3>
+                          <!--  -->
+                          <h3 class="prosclass"><i
+                              style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Team collaboration tools</h3>
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> Hourly pay-as-you-go
+                          </h3>
+
+                          <!--  -->
+                          <h3 class="prosclass">
+                            <i style="font-size: 15px; margin-left: 0px; color: #299b17; font-family: lato, sans-serif;"
+                              class="bi bi-check-circle-fill"></i> 100% uptime guarantee.
+                          </h3>
+
+                        </div>
+                        <div class="col colreview">
+                          <div class="cons" data-type="cons">
+                            <h3 data-header="true"
+                              style="margin-top: 10px; font-size: 15px; font-weight: bold; font-family: lato, sans-serif;">
+                              Cons
+                            </h3>
+                            <mat-divider style="margin-top: 15px; margin-bottom: 10px;"></mat-divider>
+
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> No included CDN
+                            </h3>
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i>Doesn’t Include Email Hosting
+                            </h3>
+
+                            <!--  -->
+                            <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i>Complicated UI design
+                            </h3>
+                            <!--  -->
+                            <!-- <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> No Windows server options
+                            </h3> -->
+                            <!--  -->
+                            <!-- <h3 class="prosclass"><i
+                                style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Poor backup options</h3> -->
+                            <!--  -->
+                            <!-- <h3 class="prosclass">
+                              <i style="font-size: 15px; margin-left: 0px; color: #e33939; font-family: lato, sans-serif;"
+                                class="bi bi-x-circle-fill"></i> Entry-level plan limitations
+                            </h3> -->
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Is Cloudways the Right Host for You?</h2>
+                      </div>
+                      <div class="row rowreview">
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          Cloudways is very easy to use. You can quickly create a new WordPress installation, add SSL
+                          certificate and connect my domain in minutes. No more fussing around with CPanel! Plus you can
+                          easily create a new server within minutes whenever you need it. Having the option to choose a
+                          server from several different companies and also choose the server location is a big benefit.
+                          I also like that they make getting professional email easy and cheap with their $1 a month
+                          Rackspace email deal.
+                        </div>
+
+
+
+                        <div class="row rowreview" style="margin-top: 30px;">
+                          <h2 style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif;"
+                            class="in-a-nutshell" data-toc-anchor="0">Our view on Cloudways:</h2>
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          <ul style="margin-top: 0px; font-family: lato, sans-serif; font-size: 16px;" class="a">
+                            <li style="margin-top: 10px;">
+                              Cloudways is one of the few companies that offer a great balance between affordability and
+                              great functionality when it comes to cloud-based managed WordPress hosting.
+                            </li>
+                            <li style="margin-top: 10px;">
+                              Cloudways delivers fully managed hosting and promises no more slow loading WordPress sites
+                              and no more WordPress hosting headaches.
+                            </li>
+                            <li style="margin-top: 10px;">
+                              Their platform-as-a-service cloud servers come with a fantastic feature set, and you can
+                              scale hosting resources as your website grows. Their infrastructure is optimized for
+                              speed, performance, and security.
+                            </li>
+                            <li style="margin-top: 10px;">
+                              If you’re still on the fence about using Cloudways as your managed WordPress host, then
+                              sign up for the 3-day free trial that Cloudways offers to test their platform.
+                            </li>
+                            <li style="margin-top: 10px;">
+                              Cloudways cheapest managed WordPress hosting plan is 10.00 per month.
+                            </li>
+                            <!-- <li style="margin-top: 10px;">
+                              Cloudways is a good all-rounder and will support all small websites hosted on the
+                              Standard plan. That includes hosting small online stores, business sites, blogs,
+                              portfolios, you name it. It also has options to upgrade for when your site gets popular.
+                            </li>
+                            <li style="margin-top: 15px;">In our Cloudways review, we found them to be reliable, fast,
+                              and affordable with friendly 24/7 customer support.</li>
+                            <li style="margin-top: 15px;">
+                              Cloudways has a long-standing relationship with the WordPress community. They are an
+                              official WordPress.org recommended web host since 2006.
+                            </li>
+                            <li style="margin-top: 15px;">They provide great
+                              hosting infrastructure, and support for the free open source software like WordPress.</li> -->
+                          </ul>
+                        </div>
+
+                        <!-- <div class="row rowreview "> -->
+                      </div>
+
+                      <div class="row rowreview">
+                        <div class="in-a-nutshell"
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 10px;"
+                          title="">
+                          Cloudways Prices, Plans & Features - {{todayDate | date:'yyyy'}}
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          In our Cloudways brand review, we’ll thoroughly explain each pricing plan so that you can make
+                          the right choice. As you can notice, we mentioned pricing plans, which means Cloudways comes
+                          with five different plans that provide fantastic performance for your website. The plans are
+                          pretty flexible, and the web host comes with a pay-as-you-go platform.
+                        </div>
+
+                        <div class="row my-row" style="margin-bottom: 15px; margin-top: 15px;">
+                          <img style="background-size: 100% 100%;" alt="2"
+                            src="../../../assets/img/cloudways/000.png" />
+                        </div>
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 20px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 20px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(38, 40, 41);">
+                            1: Digital Ocean</a><br />
+                        </div>
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          Cloudways’s <strong style="font-size: 19px; font-family: lato, sans-serif">Digital
+                            Ocean</strong>
+                          is one of the most suitable plans for beginners, which starts at $10/month and can get to
+                          $80/month for the most advanced level. The storage varies between 25GB and 160GB. There isn’t
+                          unlimited bandwidth, but it does come with free migration, 24/7 expert support, and free SSL.
+                        </div>
+
+
+                        <div class="row my-row" style="margin-bottom: 15px; margin-top: 15px;">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/00.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/1.png" />
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 20px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 20px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(38, 40, 41);">
+                            2: Linode </a><br />
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          Linode hosting is also suitable for beginners, and I can definitely say that if you are
+                          starting now, you should consider purchasing Digital Ocean or Linode. Linode starts at
+                          $12/month and reaches up to $90/month for the highest plan level. As well as the previous
+                          hosting plan, it comes with the same features.<br />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/2.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/3.png" />
+                        </div>
+
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 20px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 20px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(38, 40, 41);">
+                            3: Vulrt </a> <br />
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          Vulrt hosting offers a free migration, free SSL, and support at any time of the day for
+                          a minimum of $11/month or a maximum of $84/month. What’s more, this plan comes with
+                          high-performance SSD cloud servers that improve your site’s performance. <br />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/4.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/5.png" />
+                        </div>
+
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 20px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 20px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(38, 40, 41);">
+                            4: Amazon Web Services (AWS) </a> <br />
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          AWS is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to
+                          individuals, companies, and even governments, meaning this hosting plan can support greater
+                          websites. Besides this, you can also enjoy the features each other plan provides. If you
+                          decide to use this plan, you will pay $36.51/month for the most basic plan or $274.33/month
+                          for the most advanced one.<br />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/6.png" />
+                        </div>
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/7.png" />
+                        </div>
+
+
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 20px;">
+                          <a (click)="scrollds();" href="javascript:void(0);"
+                            style="font-weight: bold; font-size: 20px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(38, 40, 41);">
+                            5: Google Cloud plan </a> <br />
+                        </div>
+
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          We’ll wrap up the pricing list in our Cloudways review with the Google Cloud plan. If you’re a
+                          heavy user, this plan might be the best choice for your website. Google Cloud is a suite of
+                          cloud computing services that works on the same infrastructure that Google provides for its
+                          user products. This plan will cost you from $33.30/month to $226.05/month. <br />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/8.png" />
+                        </div>
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/9.png" />
+                        </div>
+
+
+
+
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Features and Benefits</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Cloudways provides pretty impressive features for all types of websites, whether you are new to
+                        this business or more advanced and want your company to make a breakthrough. Let’s see what
+                        Cloudways hosting provides that satisfies its customers so much..<br />
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">1. Enhanced Security</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Cloudways is taking security seriously, which is definitely a strong point. The company offers
+                        free managed backups which allow you to restore your site as it was at an earlier date. The
+                        process is extremely quick and easy. Backups are a vital part of website security: Whatever may
+                        happen, you always have a fresh copy of your entire site (files and database) that can be
+                        restored in a matter of minutes.
+                        <br />
+                        Cloudways also provide free Let’s Encrypt SSL certificates. A SSL certificate adds an extra
+                        layer of security to your website or application, which will use the HTTPS protocol instead of
+                        the classic HTTP.
+                        <br />
+                        SSL certificates are a must-have feature for any website. First, as the use of SSL is now
+                        widespread, not using SSL/HTTPS will make your site appear less credible and serious than your
+                        competitors. Secondly, Google has confirmed that websites using a SSL certificate are getting a
+                        boost in their rankings.
+                        <br />
+                        To enhance account security, Cloudways has added Two Factor Authentication (TFA) as a secondary
+                        layer of protection to make sure that only you are able to log into your Cloudways account.
+                        <br />
+                      </div>
+
+
+                      <div class="row my-row" style="margin-top: 15px;">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/1.jpg" />
+                      </div>
+
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">2. Site Backups</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Cloudways lets you set up automatic backups of your cloud server images. You can set up the
+                        server to back itself up every day, two days, three days, and so forth with the maximum backup
+                        frequency being one week. You can also back up your server at any time manually at the click of
+                        a button.
+                        <br />
+
+                        <!-- <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2"
+                            src="../../../assets/img/Cloudways/14.png" />
+                        </div> -->
+                      </div>
+
+
+
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">3. Customer Support</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        When in need of assistance, you can get in touch with a Cloudways support agent at any time on
+                        live chat. The email ticketing is operational 24×7 as well. You can also “request a call” and a
+                        Cloudways representative will get in touch via phone during business working hours.
+                        <br />
+
+
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/10.png" />
+                        </div>
+                      </div>
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">4. Free Website Migration</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Great news for website owners who already have their website hosted by another provider:
+                        Cloudways offers website migration, which means that you won’t have to go through the lengthy
+                        and sometimes painful procedure of migrating your site to your new host.<br />
+
+                        Cloudways’ website migration is entirely free of charge, whatever the plan you’ve chosen. For
+                        those using WordPress, the company has developed their own WordPress plugin which ensures a
+                        smooth and problem-free migration, which many reviews of Cloudways hosting point out.
+                        <br />
+
+
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/2.jpg" />
+                        </div>
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">5. Website Migration</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Are you worried about a previous site you have? Don’t worry. Cloudways has a solution for that
+                        too. If this isn’t your first site, and you’re trying to move an existing one over, you’ll have
+                        30 days after sign-up to get in touch and have the Cloudways team of experts help you move any
+                        site files, databases, scripts, and even a domain name for you. This process also includes a
+                        complete cPanel transfer. So if you happened to have multiple site installs (like subdomains for
+                        one large site), you’re all good.
+                        <br />
+
+
+                        <!-- <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/11.png" />
+                        </div> -->
+                      </div>
+
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">6. Managed WordPress Hosting</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Managed WordPress hosting is a service in which WordPress’s technical aspects are managed by the
+                        web hosting company in order to provide a hassle-free experience to the customer. This includes
+                        WordPress updates, application speed and security, uptime, backups, etc.
+
+                        <br />
+                        Cloudways’ offer includes managed WordPress hosting services, which is good news for small to
+                        medium-sized businesses, high traffic blogs, and ecommerce companies.<br />
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/3.jpg" />
+                        </div>
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">7. Free Trial</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Trying a service yourself is the most efficient way to make sure it fits your needs. Cloudways has understood this and offers a free 3-day trial so you can review everything by yourself before buying.
+                        <br />
+                        Setting up your free trial is quick and easy: Go on Cloudways’ homepage and click on the Start Free button on the top right of the screen. You will need to provide your name and a valid email address. No payment information is required.
+                        <br />
+                        The free trial period is 3 days, which is enough to properly test Cloudways’ features, speed, and ease of use. During the trial period, you can choose to upgrade to a paid offer and get your existing site migrated to Cloudways.
+                        <br />
+
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/11.png" />
+                        </div>
+                      </div>
+
+
+
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">8. Ease of Use</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Using Cloudways is easy, even for a non tech-savvy customer. When testing Cloudways plans I have been positively surprised by how the company makes it fast and easy for users to sign-up for a plan or their free trial.
+                        <br /> <br />
+                        As a customer, creating your own dedicated server is simple and takes less than 10 minutes. You basically only need to choose the amount of resources needed and your server location. If you need a specific application installed on your web hosting plan, you can do it with just a few clicks from your user panel.
+                        <br />
+                        Cloudways supports 1-click application install of WordPress, WooCommerce, Joomla, etc. The same applies to CMS and PHP frameworks: Laravel, Symfony, Cake PHP can all be deployed in a click and less then five minutes. Those applications and frameworks aren’t especially hard to install for a developer, but saving time is always welcome.
+                        <br />
+                        
+                        <br />
+
+                        <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/4.jpg" />
+                        </div>
+                      </div>
+                        <div class="row rowreview" style="margin-top: 30px;">
+                          <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                            class="in-a-nutshell" data-toc-anchor="0">Cloudways Performance Stats</h2>
+                        </div>
+  
+                        <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                          As a cloud-based web hosting provider, Cloudways’ uptime is 99.99% and loading speeds are around 400–600 milliseconds. The main reason for this is that the company partners with Digital Ocean, Google Cloud, Vultr, Linode and AWS, which are among the best cloud providers within the industry.
+                          <br />
+                          As mentioned above, I personally tested server speed for this review. Google PageSpeed Insights rated my test site 100/100 on both mobile and desktop, while Pingdom rated it A with a 96/100 speed score.
+                           <br />
+  
+                          <div class="row rowreview" style="margin-top: 30px;">
+                            <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                              class="in-a-nutshell" data-toc-anchor="0">Uptime</h2>
+                          </div>
+
+                        Cloudways has posted an average of 99.85% uptime with over six hours of downtime over the last 6
+                        months which is below industry-standard result.
+                        <br />
+                        Another good thing is that they have an uptime guarantee which says that if they drop below
+                        99.90%, you can receive one month of credit on your account.
+                        <br />
+                        Obviously, any planned maintenance or impossible-to-predict hacks aren’t factored into this
+                        guarantee. You will, however, have to reach out and ask for the credit by submitting a support
+                        ticket to their billing department within 30 days.
+
+                        <br />
+
+
+                        <!-- <div class="row my-row">
+                          <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/12.jpg" />
+                        </div> -->
+
+                        We’ve started to notice recently that quite a few other hosts pop up with uptime guarantees –
+                        that means all customers win as a result. Competitors coming out and doing this helps raise the
+                        bar for the entire industry. It forces everyone else in the market to either match their
+                        guarantee and raise the standard level of service or risk falling behind.
+                        <br />
+
+
+                      </div>
+
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <div class="1212 ">
+                        <!--  -->
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 20px;">
+                          Cloud Hosting Plans
+                        </p>
+
+                        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                          <!--- Note that these columns can be defined in any order.
+                                The actual rendered columns are set as a property on the row definition" -->
+
+                          <!-- Position Column -->
+                          <ng-container matColumnDef="position">
+                            <th mat-header-cell *matHeaderCellDef> Plan Name </th>
+                            <td mat-cell *matCellDef="let element">
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.position}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Name Column -->
+                          <ng-container matColumnDef="name">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg>Space </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.name}} </a> </div>
+                            </td>
+                          </ng-container>
+
+
+
+                          <!-- ram Column -->
+                          <ng-container matColumnDef="ram">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> CPU </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.ram}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Weight Column -->
+                          <ng-container matColumnDef="storage">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> RAM </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.storage}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Symbol Column -->
+                          <ng-container matColumnDef="symbol">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Price </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.symbol}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- OS Column -->
+                          <ng-container matColumnDef="os">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Bandwidth </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg> <span class="1">
+                                {{element.os}}</span> </td>
+                          </ng-container>
+
+
+                          <!-- OS button -->
+                          <ng-container matColumnDef="button">
+                            <th mat-header-cell *matHeaderCellDef> </th>
+                            <td mat-cell *matCellDef="let element">
+                              <a href="{{element.link}}" target="_blank" class="">
+                                <button type="button" class="btn btn-outline-success btn-info button1"
+                                  style="color:rgb(83, 82, 82)">See Plans<i class="bi bi-arrow-right"></i></button>
+                              </a>
+
+                            </td>
+                          </ng-container>
+
+                          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                        </table>
+                      </div>
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!--  -->
+
+                     
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <div class="1212">
+                        <!--  -->
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 30px; margin-bottom: 40px;">
+                          VPS Hosting Plans
+                        </p>
+
+                        <table mat-table [dataSource]="dataSource3" class="mat-elevation-z8">
+
+                          <!--- Note that these columns can be defined in any order.
+                                The actual rendered columns are set as a property on the row definition" -->
+
+                          <!-- Position Column -->
+                          <ng-container matColumnDef="position">
+                            <th mat-header-cell *matHeaderCellDef> Plan Name </th>
+                            <td mat-cell *matCellDef="let element">
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.position0}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Name Column -->
+                          <ng-container matColumnDef="name">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg>Space </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.name}} </a> </div>
+                            </td>
+                          </ng-container>
+
+
+
+                          <!-- ram Column -->
+                          <ng-container matColumnDef="ram">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> CPU </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.ram}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Weight Column -->
+                          <ng-container matColumnDef="storage">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> RAM </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row"><a href="javascript:void(0);"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(30, 31, 31);">
+                                  {{element.storage}} </a> </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- Symbol Column -->
+                          <ng-container matColumnDef="symbol">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> Price </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg>
+                              <div class="row">
+                                <a href="{{element.link}}"
+                                  style="font-size: 13px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+                                  {{element.symbol}} </a>
+                              </div>
+                            </td>
+                          </ng-container>
+
+                          <!-- OS Column -->
+                          <!-- OS Column -->
+                          <ng-container matColumnDef="os">
+                            <th mat-header-cell *matHeaderCellDef mat-cell fxShow fxHide.lt-lg> OS </th>
+                            <td mat-cell *matCellDef="let element" mat-cell fxShow fxHide.lt-lg> <span class="1"><img
+                                  style="width: 15px;" src="../../../assets/img/windows-logo.png" /><img
+                                  style="width: 15px;" src="../../../assets/img/linux.jpg" /></span> </td>
+                          </ng-container>
+
+
+                          <!-- OS button -->
+                          <ng-container matColumnDef="button">
+                            <th mat-header-cell *matHeaderCellDef> </th>
+                            <td mat-cell *matCellDef="let element">
+                              <a href="{{element.link}}" target="_blank" class="">
+                                <button type="button" class="btn btn-outline-success btn-info button1"
+                                  style="color:rgb(83, 82, 82)">See Plans<i class="bi bi-arrow-right"></i></button>
+                              </a>
+
+                            </td>
+                          </ng-container>
+
+                          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                        </table>
+
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Databases</h2>
+                      </div>
+
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Here, the users will find phpMyAdmin, MySQL Databases, MySQL Database Wizard, and Remote MySQL.
+                        <br />
+                      </div>
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/14.png" />
+                      </div>
+
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Domains</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Next is the ‘Domains’ tab, where you can see domains, addon domains, subdomains, aliases,
+                        redirects, zone editor, and dynamic DNS.
+                        <br />
+                      </div>
+
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/15.png" />
+                      </div>
+
+
+                      <div class="row rowreview" style="margin-top: 30px;">
+                        <h2 style="font-size: 20px; font-weight: bold; font-family: lato, sans-serif;"
+                          class="in-a-nutshell" data-toc-anchor="0">Metrics</h2>
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Furthermore, in the cPanel, you will see the ‘Metrics’ tab, which allows access to visitors,
+                        errors, bandwidth, raw access, Awstats, Webalizer, Webalizer FTP, and the metrics editor. <br />
+                      </div>
+
+                      <div class="row my-row">
+                        <img style="background-size: 100% 100%;" alt="2" src="../../../assets/img/cloudways/16.png" />
+                      </div>
+
+                      <div class="in-a-nutshell" title="" style="margin-top: 15px;">
+                        Here you can create a remote database connection.
+                        <br />
+                      </div>
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+                      <!-- ############################################ -->
+
+
+
+                      <!--  -->
+                      <div class="in-a-nutshell" title=""
+                        style="margin-top: 40px; font-size: 15px; margin-bottom: 20px; font-family: lato, sans-serif;">
+                        <p
+                          style="font-size: 25px; font-weight: bold; font-family: lato, sans-serif; margin-top: 0px; margin-bottom: 25px;">
+                          Conclusion: Do We Recommend Cloudways?
+                        </p>
+
+                        <div class="row my-row" style="margin-top: 10px; margin-left: 5px;">
+                          Yes, we do! How could we not recommend it? Cloudways is indeed a top-quality web host provider
+                          in any field you can think of. Starting off with its easy-to-navigate platform, its features,
+                          its organization, and the knowledgeable and friendly support team, I absolutely loved
+                          everything about Cloudways.
+                          <br />
+                          <br />
+                          From my personal experience, I could see that Cloudways has a professional expert team, and
+                          they pay attention to even the smallest detail so that you can have a pleasant experience.
+                          However, I’m not excluding the possibility that this web host provider might not be the best
+                          for you. Another positive thing is that a decent percentage of professionals use Cloudways,
+                          which means that it is really worth it. Otherwise, it wouldn’t be used by professionals. But,
+                          Cloudways made a balance, and it is also suitable for beginners. Their support section offers
+                          different types of help, even a knowledge base with tutorials that are really helpful for
+                          beginners.
+                          <br />
+                          <br />
+                          I’ll wrap up my Cloudways review by saying that my experience has been pretty smooth and
+                          enjoyable. After I did this review, I understood why Cloudways has been on the market since
+                          2002. Cloudways is worth your money and time. If our review didn’t convince you that Cloudways
+                          might be the best choice for you, you can find more customer and expert reviews or even try it
+                          yourself. Don’t forget that they offer a 45-day money-back guarantee!
+                          <br />
+                          <br />
+                          <!-- Despite several disadvantages, such as expensive renewal rates and non-free domain name
+                          registration, they are excellent enough to earn our approval.
+                          <br />
+                          <br />
+                          This is undoubtedly one of the most outstanding web hosting providers I've come across, and
+                          the
+                          proof is this Cloudways brand review!<br />
+                          <br /> -->
+                        </div>
+                      </div>
+
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                      <!-- website builder -->
+                      <!-- end -->
+                    </div>
+
+
+                    <div class="col-lg-4 colreview d-none d-xxl-block"
+                      style="margin-left: 0px; margin-top: 1px; background: #f2f4f8; text-align: center;">
+                      <!-- <div class="row align-items-start rowreview" style="background: #f2f4f8; text-align: center;"> -->
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+                            aria-controls="collapseExample1">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Visit
+                                Cloudways</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample1" style="margin-top: -14px;">
+
+                          <div class="row">
+                            <div class="row">
+                              <div class="row d-flex rowreview">
+                                <div class="card card-body">
+                                  <ul>
+                                    <div class="row d-flex rowreview" style="margin-top: 20px;">
+                                      <img id="blah" style="background-size: 100% 100%;"
+                                        src="../../../assets/img/cloudways/cloudways.png" alt="your image" />
+                                    </div>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <div class="row d-flex rowreview"></div>
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <!-- <div class="col colreview"> -->
+                            <div class="row d-flex rowreview">
+                              <button
+                                style="margin-top: 25px; color: #1c1c1d; border-color: aqua; height:45px; font-size: 15px; font-weight: bold;"
+                                type="button" class="btn btn-outline-success btn-info button1">
+                                Visit Cloudways <i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <div class="col-2 colreview"></div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true"
+                            aria-controls="collapseExample3">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Great Web Hosting
+                                Services</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample3" style="margin-top: -14px;">
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <!-- <div class="col rowreview"
+                          style="margin-top: 30px; font-family: lato, sans-serif; font-weight: bold; font-size: 15px; color: #464849;">
+                          Great Web Hosting Services
+                        </div> -->
+                            <!--  -->
+                            <div class="top5-prods steakitup">
+                              <div class="top5-prods__items">
+                                <!-- a -->
+                                <!-- a -->
+                                <!-- a -->
+
+                                <!-- a -->
+                                <!-- a -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="hostarmada" data-product-id="12455">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">FastComet</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="cloudways" data-product-id="12456">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Cloudways</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="godaddy" data-product-id="12458">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">BlueHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="Cloudwayscom" data-product-id="3469">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostGator</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">interServer</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">A2 Hosting</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Hostinger</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostArmada</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">GoDaddy</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">DreamHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                              </div>
+                            </div>
+                            <!--  -->
+                          </div>
+                          <div class="row rowreview" style="margin-bottom: 25px; margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <div class="col colreview">
+                              <div class="top5-prods__button-container">
+                                <a href="/hosting" target="_self" rel="noopener noreferrer" class="top5-prods__button"
+                                  data-role="top-5-products-compare-all">Compare All</a>
+                              </div>
+                            </div>
+                            <div class="col-2 colreview"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <!--  -->
+                      <!-- <mat-divider style="margin-top: 50px; margin-bottom: 50px;"></mat-divider> -->
+
+                      <!-- <div class="mkasa"> -->
+                      <div class="menu sticky-top" style="top:105px">
+                        <!-- <p>
+                        <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                          data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="true"
+                          aria-controls="collapseExample4">
+                          <span class="fas fa-bars"><span class="ps-3"
+                              style="font-family: lato, sans-serif; font-size: 15px;">Cloudways Contacts
+                              </span></span>
+                          <span class="fas fa-chevron-down"></span>
+                        </a>
+                      </p> -->
+                        <div class="collapse show" id="collapseExample4" style="margin-top: -16px;">
+                          <!-- <div class="row rowreviewsticky"> -->
+                          <!-- row something -->
+                          <!-- <div class="menu sticky-top" style="top:110px"> -->
+                          <!-- row something -->
+                          <section class="box box-sm" id="contacts">
+                            <div class="row rowreview" style="margin-top: -15px; margin-bottom: 25px;" >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/cloudways/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Cloudways</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Cloudways <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                            <!-- <h1 style="margin-left: 0px;">Contacts</h1> -->
+                            <h1 style="margin-left: 0px; margin-top: -10px; font-weight: bold;">Cloudways Contacts
+                            </h1>
+
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-envelope"></i> Cloudways Email:</strong> <a
+                                  href="mailto:pr@cloudways.com" style="margin-left: 10px;">pr@cloudways.com</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-telephone"></i> Cloudways Phone:</strong> <a
+                                  href="tel:+35635500106 " style="margin-left: -25px;">+35635500106</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-globe"></i> Website:</strong>
+                                <a target="_blank" rel="nofollow" href="https://hostadvice.com/go/host/3955/"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  https://www.cloudways.com
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-person"></i> Social Profiles:</strong>
+                                <div class="company-socials">
+                                  <a class="company-social-page" style="margin-left: -10px;"
+                                    href="https://www.facebook.com/cloudways" rel="nofollow" target="_blank"> <i
+                                      class="bi bi-facebook"></i></a>
+                                  <a class="company-social-page" href="https://twitter.com/cloudways"
+                                    rel="nofollow" target="_blank"><i class="bi bi-twitter"></i></a>
+                                  <a class="company-social-page" href="http://www.linkedin.com/company/cloudways"
+                                    rel="nofollow" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-geo-alt"></i> Address:</strong>
+                                <a target="_blank" rel="nofollow"
+                                  href="https://www.google.com/maps/search/?api=1&query=35.9141504,14.422842700000047"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  Mosta, Malta
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <i></i> <a
+                                href="https://www.google.com/maps/search/?api=1&query=35.9141504,14.422842700000047"
+                                data-action="open-popup" data-target="company-problem-popup">Show on Map</a>
+                            </div>
+
+                            <div class="row rowreview" >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/cloudways/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Cloudways</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Cloudways <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                          </section>
+
+                          
+                        </div>
+
+                        <!-- </div> -->
+                      </div>
+                      <!-- </div> -->
+                      <!--  -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+
+              <mat-tab label="User Reviews">
+                <form class="form-grou1p" [formGroup]="updateForm">
+                  <div class="form-group"><input type="hidden" formControlName="currentDate" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="commentApproved" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="companyName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="productName" /></div>
+                  <div class="form-group"><textarea [hidden]="true" formControlName="comment"></textarea></div>
+                  <div class="form-group"><input type="hidden" formControlName="fullName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="emailAdress" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="linkName" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg1" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg2" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg3" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg4" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="avg5" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="totavg" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="voteh" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="voten" /></div>
+                  <div class="form-group"><input type="hidden" formControlName="ip" /></div>
+
+                  <div class="form-group">
+                    <button [hidden]="true" id="updatestock" type="button" class="btn btn-outline-dark btnborder"
+                      (click)="onUpdate();">Submit Review</button>
+                  </div>
+                </form>
+                <div class="container-fluid" style="margin-left: 0px;">
+                  <div class="row rowreview1">
+                    <div class="col-lg colreview">
+                      <!--  -->
+                      <!--  -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+                      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+                      <div class="panel panel-primary" *ngFor="let employee of employees.slice().reverse()  | paginate: { 
+              id: 'listing_pagination',
+              itemsPerPage: 10,
+              currentPage: currentPage || page,
+              totalItems: totalRec }">
+                        <div *ngIf='employee.commentApproved  == "Yes" && employee.companyName  == "cloudways"; '>
+                          <app-display-comments [employee]="employee" (notify)="handleNotify($event)">
+                          </app-display-comments>
+                        </div>
+                      </div>
+
+                      <pagination-controls id="listing_pagination"
+                        (pageChange)=" onPageChange($event); page=currentPage;" previousLabel="Prev" nextLabel="Next"
+                        (responsive)="responsiveP"></pagination-controls>
+                    </div>
+
+                    <div class="col-lg-4 colreview d-none d-xxl-block"
+                      style="margin-left: 0px; margin-top: 1px; background: #f2f4f8; text-align: center;">
+                      <!-- <div class="row align-items-start rowreview" style="background: #f2f4f8; text-align: center;"> -->
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+                            aria-controls="collapseExample1">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Visit
+                                Cloudways</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample1" style="margin-top: -14px;">
+
+                          <div class="row">
+                            <div class="row">
+                              <div class="row d-flex rowreview">
+                                <div class="card card-body">
+                                  <ul>
+                                    <div class="row d-flex rowreview" style="margin-top: 20px;">
+                                      <img id="blah" style="background-size: 100% 100%;"
+                                        src="../../../assets/img/cloudways/cloudways.png" alt="your image" />
+                                    </div>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <div class="row d-flex rowreview"></div>
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <!-- <div class="col colreview"> -->
+                            <div class="row d-flex rowreview">
+                              <button
+                                style="margin-top: 25px; color: #1c1c1d; border-color: aqua; height:45px; font-size: 15px; font-weight: bold;"
+                                type="button" class="btn btn-outline-success btn-info button1">
+                                Visit Cloudways <i class="bi bi-arrow-right"></i>
+                              </button>
+                            </div>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <div class="col-2 colreview"></div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <div class="mkasa">
+                        <p>
+                          <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                            data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true"
+                            aria-controls="collapseExample3">
+                            <span class="fas fa-bars"><span class="ps-3"
+                                style="font-family: lato, sans-serif; font-size: 15px;">Great Web Hosting
+                                Services</span></span>
+                            <span class="fas fa-chevron-down"></span>
+                          </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample3" style="margin-top: -14px;">
+                          <div class="row rowreview" style="margin-left: 0px;">
+                            <!-- <div class="col rowreview"
+                          style="margin-top: 30px; font-family: lato, sans-serif; font-weight: bold; font-size: 15px; color: #464849;">
+                          Great Web Hosting Services
+                        </div> -->
+                            <!--  -->
+                            <div class="top5-prods steakitup">
+                              <div class="top5-prods__items">
+                                <!-- a -->
+                                <!-- a -->
+                                <!-- a -->
+
+                                <!-- a -->
+                                <!-- a -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="hostarmada" data-product-id="12455">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/FastComet/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">FastComet</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="cloudways" data-product-id="12456">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/cloudways/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Cloudways</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="godaddy" data-product-id="12458">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/bluhost/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">BlueHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="Cloudwayscom" data-product-id="3469">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostgator/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostGator</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/interserver/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">interServer</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/a2hosting/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">A2 Hosting</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostinger/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">Hostinger</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/hostarmada/logo.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">HostArmada</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/godaddy/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">GoDaddy</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                                <!--  -->
+                                <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                                  class="top5-prods__item nilink" data-role="top-5-products-item"
+                                  data-product-name="ionos-by-11" data-product-id="12461">
+                                  <div class="top5-prods__item__icon-container"
+                                    style="width: 35px; background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    <div class="top5-prods__item__icon"
+                                      style="background-size: 100% 100%; background-image: url('../../../assets/img/dreamhost/logo2.png');">
+                                    </div>
+                                  </div>
+                                  <div class="top5-prods__item__name">DreamHost</div>
+                                  <span class="top5-prods__item__link">
+                                    <svg class="top5-prods__item__link__arrow" viewBox="0 0 7 10"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m18.9166667 10.9166667-3.8333334 3.8333333-3.8333333-3.8333333-1.1666667 1.1666666 5 5 5-5z"
+                                        fill="#fff" fill-rule="evenodd"
+                                        transform="matrix(0 1 1 0 -10.916667 -10.083333)">
+                                      </path>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <!--  -->
+                              </div>
+                            </div>
+                            <!--  -->
+                          </div>
+                          <div class="row rowreview" style="margin-bottom: 25px; margin-left: 0px;">
+                            <div class="col-2 colreview"></div>
+                            <div class="col colreview">
+                              <div class="top5-prods__button-container">
+                                <a href="/hosting" target="_self" rel="noopener noreferrer" class="top5-prods__button"
+                                  data-role="top-5-products-compare-all">Compare All</a>
+                              </div>
+                            </div>
+                            <div class="col-2 colreview"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <mat-divider style="margin-top: 30px; margin-bottom: 30px;"></mat-divider>
+
+                      <!--  -->
+                      <!-- <mat-divider style="margin-top: 50px; margin-bottom: 50px;"></mat-divider> -->
+
+                      <!-- <div class="mkasa"> -->
+                      <div class="menu sticky-top" style="top:105px">
+                        <!-- <p>
+                        <a class="btn btn-primary w-100 d-flex align-items-center justify-content-between"
+                          data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="true"
+                          aria-controls="collapseExample4">
+                          <span class="fas fa-bars"><span class="ps-3"
+                              style="font-family: lato, sans-serif; font-size: 15px;">Cloudways Contacts
+                              </span></span>
+                          <span class="fas fa-chevron-down"></span>
+                        </a>
+                      </p> -->
+                        <div class="collapse show" id="collapseExample4" style="margin-top: -16px;">
+                          <!-- <div class="row rowreviewsticky"> -->
+                          <!-- row something -->
+                          <!-- <div class="menu sticky-top" style="top:110px"> -->
+                          <!-- row something -->
+                          <section class="box box-sm" id="contacts">
+                            <div class="row rowreview" style="margin-top: -15px; margin-bottom: 25px;" >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/cloudways/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Cloudways</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Cloudways <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                            <!-- <h1 style="margin-left: 0px;">Contacts</h1> -->
+                            <h1 style="margin-left: 0px; margin-top: -10px; font-weight: bold;">Cloudways Contacts
+                            </h1>
+
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-envelope"></i> Cloudways Email:</strong> <a
+                                  href="mailto:pr@cloudways.com" style="margin-left: 10px;">pr@cloudways.com</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-telephone"></i> Cloudways Phone:</strong> <a
+                                  href="tel:+35635500106 " style="margin-left: -25px;">+35635500106</a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-globe"></i> Website:</strong>
+                                <a target="_blank" rel="nofollow" href="https://hostadvice.com/go/host/3955/"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  https://www.cloudways.com
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-person"></i> Social Profiles:</strong>
+                                <div class="company-socials">
+                                  <a class="company-social-page" style="margin-left: -10px;"
+                                    href="https://www.facebook.com/cloudways" rel="nofollow" target="_blank"> <i
+                                      class="bi bi-facebook"></i></a>
+                                  <a class="company-social-page" href="https://twitter.com/cloudways"
+                                    rel="nofollow" target="_blank"><i class="bi bi-twitter"></i></a>
+                                  <a class="company-social-page" href="http://www.linkedin.com/company/cloudways"
+                                    rel="nofollow" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div>
+                                <strong><i class="bi bi-geo-alt"></i> Address:</strong>
+                                <a target="_blank" rel="nofollow"
+                                  href="https://www.google.com/maps/search/?api=1&query=35.9141504,14.422842700000047"
+                                  title="FastComet" data-ga-event="contacts link (sidebar)" style="margin-left: 12px;">
+                                  Mosta, Malta
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <i></i> <a
+                                href="https://www.google.com/maps/search/?api=1&query=35.9141504,14.422842700000047"
+                                data-action="open-popup" data-target="company-problem-popup">Show on Map</a>
+                            </div>
+
+                            <div class="row rowreview" >
+                              <span class="product-cta-button" style="border-radius: 10px;">
+                                <span class="product-cta-button-icon"><img style="width: 40px;"
+                                    src="../../../assets/img/cloudways/logo.png" /> <span class="product-cta-button-text" style="font-family: lato, sans-serif; margin-left: 5px;">Cloudways</span></span>
+      
+                                <span class="product-cta-button-text"> </span>
+                                <button
+                                  style="font-family: lato, sans-serif; margin-top: 0px; color: #1c1c1d; border-color: aqua; height: 40px; font-size: 15px; font-weight: bold;"
+                                  type="button" class="btn btn-outline-success btn-info button1">
+                                  Get Cloudways <i class="bi bi-arrow-right"></i>
+                                </button>
+                              </span>
+                            </div>
+                          </section>
+
+                          
+                        </div>
+
+                        <!-- </div> -->
+                      </div>
+                      <!-- </div> -->
+                      <!--  -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </div>
+
+          <div></div>
+        </div>
+
+        <form class="example-form" [formGroup]="productForm">
+          <ng-template #content let-modal>
+            <div class="modal-header">
+              <h4
+                style="font-weight: bold; line-height: 1; margin-left: 20px; font-size: 20px; font-family: lato, sans-serif;"
+                class="modal-title" id="modal-basic-title">
+                Kindly give us your experience with our hosting providers
+              </h4>
+
+              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+
+            <div class="modal-body">
+              <!-- starts here -->
+              <div id="changecolor" class="container mycolstarrow"
+                [ngClass]=" ((average1 && average2 && average3 && average4 && average5)? '': 'bsd-outline-red') ">
+                <form class="formcontainer" name="form" (ngSubmit)="f.form.valid && submitForm(f)" #f="ngForm"
+                  novalidate>
+                  <div style="height: 220px;">
+                    <img id="blah" src="../../../assets/img/write review.png" width="300px" height="220px"
+                      alt="your image" />
+                  </div>
+
+                  <div class="row justify-content-center g-0 align-items-center my-row d-flex">
+                    <div class="col-lg float-start">
+                      <div class="card card-body" style="border-radius: 20px;">
+                        <div class="row">
+                          <h5 class="d-flex review-stat"
+                            style="margin-bottom: 20px; font-size: 20px; font-family: lato, sans-serif; font-weight: lighter;">
+                            Your Scores (click on the stars)
+                          </h5>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="icon-user" style="font-weight: lighter; margin-right: 5px;"></i>
+                              User Friendly:
+                            </h5>
+
+
+                            <div class="d-flex small-ratings">
+
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating1" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="bi bi-headset" style="font-weight: bolder; margin-right: 5px;"></i>
+                              Support:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 15px;">
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating2" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="fas icon-thumbs-up" style="font-weight: lighter; margin-right: 5px;"></i>
+                              Features:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 25px;">
+                              <!--  -->
+
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating3" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="bi bi-reception-4" style="font-weight: lighter; margin-right: 5px;"></i>
+                              Reliability:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 20px;">
+                              <!--  -->
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating4" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                              <!--  -->
+                            </div>
+                          </div>
+
+                          <!--  -->
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <h5 class="d-flex review-stat"
+                              style="font-size: 15px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+                              <i class="fas icon-smile" style="font-weight: lighter; margin-right: 5px;"></i> Pricing:
+                            </h5>
+                            <div class="d-flex small-ratings" style="margin-left: 39px;">
+                              <ng-template #t let-fill="fill">
+                                <span class="star" [class.full]="fill === 100">
+                                  <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill"> </em></span><em
+                                    class="bi bi-star"></em>
+                                </span>
+                              </ng-template>
+                              <p style="margin-right: 5px; color: #6f7481;" class="numbig"></p>
+                              <ngb-rating [(rate)]="rating5" (rateChange)="avg()" [starTemplate]="t" [readonly]="false"
+                                [max]="5"></ngb-rating>
+                            </div>
+
+                            <!--  -->
+
+                            <!--  -->
+                          </div>
+                        </div>
+                        <div class="card card-body align-items-center">
+                          <!--  -->
+                          <ul class="list-group">
+                            <li class="list-group-item edumkasa2" style="background-color: transparent;">
+                              <div class="md-v-line"></div>
+                              <strong
+                                style="font-size: 40px; font-family: lato, sans-serif; color: #6f7481; font-weight: bold;">
+                                {{totalaverage | number:'1.1-1'}}
+                              </strong>
+                              <strong style="color: #727e8f; font-size: 15px; font-family: lato, sans-serif;"
+                                class="numbig">Hosting overall rating</strong>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <!-- title -->
+              <div style="margin-top: 50px;" class="form-group">
+                <label style="font-size: 15px; font-family: lato, sans-serif;" class="yourscore2">Title (Minimum 2
+                  words)*</label>
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>A few words about hosting or service</mat-label>
+                  <input formControlName="productName" matInput placeholder="" #message maxlength="120" />
+                </mat-form-field>
+                <div style="margin-top: -20px; text-align: right;" id="counter">{{message.value.length}} / 120</div>
+              </div>
+
+              <!-- summary -->
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Summary*</mat-label>
+                  <textarea formControlName="comment" matInput #message2 minlength="140" rows="10" cols="70"></textarea>
+                </mat-form-field>
+                <div style="margin-top: -20px; text-align: right;" id="counter">{{message2.value.length}} / 140 required
+                </div>
+              </div>
+
+              <!-- info -->
+              <label style="font-size: 15px; font-family: lato, sans-serif;" class="yourscore2">Personal Info</label>
+              <div class="score4">
+                <label style="font-size: 12px; font-family: lato, sans-serif;" class="yourscore3">
+                  We request this information as we strive to provide only truthful information <br />
+                  and to verify that the review was written by a real person
+                </label>
+              </div>
+              <!-- end info -->
+              <!--fullname  -->
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Full Name*</mat-label>
+                  <input formControlName="fullName" matInput placeholder="" #message maxlength="220" />
+                </mat-form-field>
+              </div>
+              <!-- end fullname -->
+              <!-- email -->
+
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <!--  outline-->
+                  <mat-label>Email Adress*</mat-label>
+                  <input formControlName="emailAdress" matInput placeholder="" #message ngModel email="true" />
+                </mat-form-field>
+              </div>
+              <!-- end fullname -->
+              <!-- email -->
+
+              <div class="form-group">
+                <mat-form-field appearance="fill"
+                  style="width: 100%; font-weight: lighter; font-family: lato, sans-serif;">
+                  <mat-label>Link to ONE of your social profiles (Optional)</mat-label>
+                  <input formControlName="linkName" matInput placeholder="" #message maxlength="420" />
+                </mat-form-field>
+              </div>
+              <input type="hidden" formControlName="avg1" ngModel="{{average1}}" />
+              <input type="hidden" formControlName="avg2" ngModel="{{average2}}" />
+              <input type="hidden" formControlName="avg3" ngModel="{{average3}}" />
+              <input type="hidden" formControlName="avg4" ngModel="{{average4}}" />
+              <input type="hidden" formControlName="avg5" ngModel="{{average5}}" />
+              <input type="hidden" formControlName="totavg" ngModel="{{totalaverage}}" />
+              <input type="hidden" formControlName="companyName" ngModel="{{namecompany}}" />
+            </div>
+
+            <div style="align-self: center;" class="modal-footer">
+              <button type="button" class="btn btn-outline-dark btnborder" (click)="addProduct();change();">Submit
+                Review</button>
+            </div>
+          </ng-template>
+        </form>
+
+        <!-- </div> -->
+
+        <button (click)="topFunction();" id="myBtn" title="Go to top">Top</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>

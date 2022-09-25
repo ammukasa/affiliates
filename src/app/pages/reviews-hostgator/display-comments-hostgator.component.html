@@ -1,0 +1,68 @@
+<div class="d-flex flex-lg-row justify-content-start align-items-center">
+  <div class="row edu"></div>
+
+  <!-- <div class="row edu " [ngStyle]="{'background': getRandomColor()}">
+    <h3 class="12 "
+      style="font-size: 13px; font-size:bolder; color:#ebebee; margin-top: 15px; font-family: lato,sans-serif;">
+      {{this.getInitials(employee.fullName)}}</h3>
+
+  </div> -->
+
+  <div class="d-flex small-ratings1"
+    style="margin-left: 25px; font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+    <div
+      style="font-size:large; color:#6f6f70;  font-family: hurmegeometricsans_no3_6, Gilroy, Almarai,Arial,sans-serif;">
+      <div> {{employee.fullName}}, on {{employee.currentDate | date}}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="mt-4 d-flex flex-lg-row justify-content-between align-items-center"
+  style="font-size:18px; font-weight: bold; margin-top: 10px; color:#2b2d2f;  font-family: hurmegeometricsans_no3_6, Gilroy, Almarai,Arial,sans-serif;">
+  {{employee.productName}}
+</div>
+<div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+  {{employee.comment}}
+</div>
+
+<div class="mt-2 d-flex flex-lg-row justify-content-between align-items-center">
+  <a href="https://www.fastcomet.com/pricing"
+    style="font-size: 16px; margin-left: -10px; font-family: lato, sans-serif; color: rgb(20, 174, 213);">
+  </a>
+
+  <div class="d-flex small-ratings ">
+    <!--  -->
+    <ng-template #t let-fill="fill">
+      <span class="star" [class.full]="fill === 100">
+        <span class="half" [style.width.%]="fill"><em class="bi bi-star-fill">
+          </em></span><em class="bi bi-star"></em>
+      </span>
+    </ng-template>
+    <p style=" font-size: 20px; margin-right: 5px; color: #6f7481;" class="numbig">
+      {{employee.totavg |number:
+      '1.1-1'}} </p>
+    <ngb-rating [(rate)]="employee.totavg" [starTemplate]="t" [readonly]="true" [max]="5"></ngb-rating>
+    <!--  -->
+  </div>
+</div>
+
+<div class="d-flex flex-lg-row justify-content-between align-items-center" style="margin-top: -10px;">
+  <div class="col">
+  </div>
+
+  <div class="d-flex small-ratings1"
+    style="font-size: 16px; font-family: lato, sans-serif; color: #6f7481; font-weight: lighter;">
+    <div class="col">
+      <span class="hlepful">Was it helpful?</span>
+      <span class="thumb thumbs-up"><i class="icon-thumbs-up" style="font-size: 15px;"
+          (click)="handleClick();toggleShow(); showDiv.previous = !showDiv.previous;showDiv.current = true;showDiv.previous = true;showDiv.next = true;"></i></span>
+      <small class="fw-500" style="font-size: 12px; ">{{employee.voteh}}</small>
+
+    </div>
+
+  </div>
+</div>
+
+<mat-divider style="margin-top: 20px; margin-bottom: 20px;"></mat-divider>

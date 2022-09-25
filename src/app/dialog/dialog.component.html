@@ -1,0 +1,165 @@
+
+<!-- <h1 mat-dialog-title>Login</h1> -->
+<div mat-dialog-content>
+<!----rating guy-->
+
+<div class="containerheader">
+  <!-- <div class="edu">
+    <label class="containerheaderlevel">Write a Review and your experience<br/> with our hosting providers</label>
+    <img id="blah" src='../../../assets/img/please-give-us-a-review.png'  alt="your image"  />
+
+  </div> -->
+  
+  <!-- <div style="width: 100%;">
+    <div style="width: 70%; height: 100px; float: left; background: rgb(255, 255, 255);"> 
+      <label class="containerheaderlevel">Write a Review and your experience with our hosting providers</label>
+    </div>
+    <div style="margin-left: 60%; height: 20px; background: rgb(255, 255, 255); "> 
+      <img id="blah" src='../../../assets/img/please-give-us-a-review.png'  alt="your image"  />
+    </div>
+  </div> -->
+</div>
+<!-- <div class="container1">
+  <div class="col-lg-8 col-md-4 col-sm">
+    <label class="yourscore">Your Scores (click on the stars) *</label>
+
+    <form class="formcontainer" name="form" (ngSubmit)="f.form.valid && submitForm(f)" #f="ngForm" novalidate>
+      <label class="userfriendly"><i class="icon-user"></i>User Friendly </label>
+      <ngb-rating [max]="5" [(rate)]="rating1" (rateChange)="avg()" [readonly]="false"  >
+       
+        <ng-template let-fill="fill" let-index="index">
+          <span class="star" [class.filled]="fill === 100" [class.bad]="index <= 5">&#9733;</span>
+        </ng-template>
+      </ngb-rating>
+      
+      <hr class="survey-hr" style="height:3px; width:0%; border-width:0; color:red; background-color:red" >
+      <label  class="support"><i class="icon-headphones"></i>    Support      </label>
+      <ngb-rating [max]="5" [(rate)]="rating2"  (rateChange)="avg()" [readonly]="false">
+        <ng-template let-fill="fill" let-index="index">
+          <span class="star" [class.filled]="fill === 100" [class.bad]="index <= 5">&#9733;</span>
+        </ng-template>
+      </ngb-rating>
+      <hr class="survey-hr" style="height:3px; width:0%; border-width:0; color:red; background-color:red" >
+      <label class="features"><i class="icon-thumbs-up"></i> Features </label>
+      <ngb-rating [max]="5" [(rate)]="rating3" (rateChange)="avg()" [readonly]="false"  >
+       
+        <ng-template let-fill="fill" let-index="index">
+          <span class="star" [class.filled]="fill === 100" [class.bad]="index <= 5">&#9733;</span>
+        </ng-template>
+      </ngb-rating>
+
+      <hr class="survey-hr" style="height:3px; width:0%; border-width:0; color:red; background-color:red" >
+      <label class="reliability"><i class="icon-ok"></i> Reliability </label>
+      <ngb-rating [max]="5" [(rate)]="rating4" (rateChange)="avg()" [readonly]="false"  >
+       
+        <ng-template let-fill="fill" let-index="index">
+          <span class="star" [class.filled]="fill === 100" [class.bad]="index <= 5">&#9733;</span>
+        </ng-template>
+      </ngb-rating>
+
+      <hr class="survey-hr" style="height:3px; width:0%; border-width:0; color:red; background-color:red" >
+      <label class="pricing"><i class="icon-smile"></i> Pricing </label>
+      <ngb-rating [max]="5" [(rate)]="rating5" (rateChange)="avg()" [readonly]="false"  >
+       
+        <ng-template let-fill="fill" let-index="index">
+          <span class="star" [class.filled]="fill === 100" [class.bad]="index <= 5">&#9733;</span>
+        </ng-template>
+      </ngb-rating>
+
+      
+      <hr class="survey-hr" style="height:3px; width:0%; border-width:0; color:red; background-color:red" >
+      <div class="form-group">
+        <div class="overrall">
+          <div class="review-overal-rating">
+            <div class="score">
+              <strong class="numbig">{{totalaverage | number: '1.0-2'}}</strong>
+            </div>
+            <div class="subtitle"> Hosting overall rating</div>
+          </div>
+        </div>
+        <button  class="btn btn-outline-dark"  color="primary" mdbWavesEffect [ngClass]="{'is-invalid': f.submitted && !f.form.valid}">Reset Review</button>
+        <hr class="survey-hr" style="height:3px; width:0%; border-width:0; color:red; background-color:red" > 
+      </div>
+      
+    </form>
+  </div>
+  
+</div> -->
+
+
+    <!-- <form class="example-form" [formGroup]="productForm" >
+      <label class="yourscore2">Title (Minimum 2 words)*</label>
+        <mat-form-field appearance="outline">
+         
+            <mat-label>A few words about hosting or service</mat-label>
+            <input formControlName="productName" matInput #message maxlength="120" placeholder="A few words about hosting or service">
+            <mat-hint align="start" class="textsizetitle"><strong></strong> </mat-hint>
+            <mat-hint align="end">{{message.value.length}} / 120 characters</mat-hint>
+          </mat-form-field>
+    
+
+          
+          <mat-form-field appearance="outline">
+            <mat-label>Summary*</mat-label>
+            <textarea formControlName="comment" matInput #message2 minlength="140" rows="5" cols="70"></textarea>
+            <mat-hint align="start"><strong></strong> </mat-hint>
+            <mat-hint align="end">{{message2.value.length}} / 140 required characters</mat-hint>
+          </mat-form-field>
+
+          <h1 mat-dialog-title>Personal Info</h1>
+          <div class="score4">
+
+            <label class="yourscore3">We request this information as we strive to provide only truthful  information <br/> and to verify that the review was written by a real person</label>
+
+          </div>
+ 
+          <mat-form-field appearance="outline">
+            <mat-label>Full Name*</mat-label>
+            <input type="name" formControlName="fullName2" matInput  placeholder="enter full name">
+  
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Email Adress*</mat-label>
+            <input type="email1"   formControlName="emailAdress" matInput  placeholder="enter email address">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Link to ONE of your social profiles (Optional)</mat-label>
+            <input type="link" formControlName="linkName" matInput  placeholder="Add a link from your name to your personal Facebok/Google+/Twitter/LinkedIn(Only one of them)">
+          </mat-form-field>
+
+            <input type="hidden" formControlName="avg1"  ngModel={{average1}}>
+            <input type="hidden" formControlName="avg2"  ngModel={{average2}}>
+            <input type="hidden" formControlName="avg3"  ngModel={{average3}}>
+            <input type="hidden" formControlName="avg4"  ngModel={{average4}}>
+            <input type="hidden" formControlName="avg5"  ngModel={{average5}}>
+            <input type="hidden" formControlName="totavg"  ngModel={{totalaverage}}>       
+    
+    </form> -->
+
+    <form class="example-form" [formGroup]="productForm2" >
+      <!-- <label class="yourscore2">Title (Minimum 2 words)*</label> -->
+        <mat-form-field appearance="outline">
+         
+            <mat-label>A few words about hosting or service</mat-label>
+            <input formControlName="productName" matInput placeholder="">
+            <!-- <mat-hint align="start" class="textsizetitle"><strong></strong> </mat-hint> -->
+            <!-- <mat-hint align="end">{{message.value.length}} / 120 characters</mat-hint> -->
+          </mat-form-field>
+    
+
+ 
+               
+    
+    </form>
+</div>
+
+
+<div mat-dialog-action [align]="'end'">
+
+
+<button style="margin-left: 8px; float: left;" mat-raised-button color="primary" (click)="updateProduct1()">Submit Review</button>
+<button  mat-raised-button color="warn" mat-dialog-close>Cancel Review</button>
+
+</div>

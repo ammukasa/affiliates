@@ -1,0 +1,537 @@
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+  .banner{
+    height: 180px;
+  }
+ 
+  .contentbrose h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+  .contentbrose h1 {
+    margin-top: 20px; 
+    font-size: 12px;
+    margin-left: -20px;
+    margin-left: -20px;
+  }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  .banner{
+    height: 180px;
+  }
+  .contentbrose h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+  .contentbrose h1 {
+    margin-top: 20px; 
+    font-size: 12px;
+    margin-left: -20px;
+  }
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+  .banner{
+    height: 180px;
+  }
+  .contentbrose h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+  .contentbrose h1 {
+    margin-top: 20px; 
+    font-size: 12px;
+    margin-left: -20px;
+  }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .banner{
+    height: 380px;
+  }
+  .contentbrose{
+    top: 10%;
+      left: 2%;
+  }
+  .contentbrose h2 {
+    font-size: 15px;
+    margin-left: 30px;
+    font-size: 35px; 
+    margin-top: 23px;
+  }
+  .contentbrose h1 {
+    margin-top: 23px; 
+    font-size: 15px;
+    margin-left: 30px;
+  }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .banner{
+    height: 380px;
+  }
+  .contentbrose{
+    top: 10%;
+      left: 2%;
+  }
+  .contentbrose h2 {
+    font-size: 15px;
+    margin-left: 30px;
+    font-size: 35px; 
+    margin-top: 23px;
+  }
+  .contentbrose h1 {
+    margin-top: 23px; 
+    font-size: 15px;
+    margin-left: 30px;
+  }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+  .banner{
+    height: 380px;
+  }
+
+  .contentbrose{
+  top: 10%;
+    left: 2%;
+}
+.contentbrose h2 {
+  font-size: 15px;
+  margin-left: 30px;
+  font-size: 35px; 
+  margin-top: 23px;
+}
+.contentbrose h1 {
+  margin-top: 23px; 
+  font-size: 15px;
+  margin-left: 30px;
+}
+}
+
+.banner
+{
+  position: relative;
+    background-image: url('../../../assets/img/banner/try2png.png');
+    /* height: 380px; */
+    background-position: center top;
+    background-size: 100% 100%;
+    /* border-radius: 12px 12px 12px 12px; */
+    /* z-index:-1; */
+    /* margin-left: -12px; */
+    /* margin-right: -14px; */
+    margin-top: -15px;
+
+}
+
+
+.contentbrose
+{
+    /* top: 10%; */
+    /* left: 2%; */
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    font-family: lato,sans-serif;
+    
+}
+
+.contentbrose h2 
+{
+    color: #f8faff;
+    
+    font-family: hurmegeometricsans_no3_6,Gilroy,Almarai,Arial,sans-serif;
+    font-weight:lighter;
+    /* font-size: 15px;
+    margin-left: 30px;
+    font-size: 35px; 
+    margin-top: 23px; */
+}
+
+.contentbrose h1 
+{
+    color: #f8faff;
+   
+    font-family: hurmegeometricsans_no3_6,Gilroy,Almarai,Arial,sans-serif;
+    font-weight:lighter;
+    /* margin-top: 23px; 
+    font-size: 15px;
+    margin-left: 30px; */
+    /* font-style: italic; */
+}
+
+.contentbrose a 
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.contentbrose a:hover 
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+
+.broseshadow {   
+  /* background-color:#fff; */
+    border-color: rgba(40, 41, 40, 0.8);
+    /* box-shadow: 0px 1px 1px rgba(58, 57, 57, 0.075) inset, 0px 1px 4px rgba(3, 3, 3, 0.6); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    outline: 0 none;
+    /* border-radius: 20px 0px; */
+   margin-top: -45px;
+   position: relative;
+  }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+ 
+/* Styles */
+
+}
+
+
+/* start star */
+.star {
+  position: relative;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #ff902b !important;
+  margin-left: 5px;
+}
+
+.half {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+}
+/* end star */
+
+/* ribbon */
+.ribbon3 {
+  width: 50px;
+  height: 40px;
+  line-height: 50px;
+  padding-left: 15px;
+  position: absolute;
+  /* left: -8px; */
+  /* top: 20px; */
+  background: #f7eeea;
+  margin-top: 25px;
+  /* margin-top:calc(10% - 0px); */
+
+  margin-left: -9px;
+  z-index: 1;
+}
+.ribbon3:before, .ribbon3:after {
+  content: "";
+  position: absolute;
+}
+.ribbon3:before {
+  height: 0;
+  width: 0;
+  top: -8.5px;
+  left: 0.1px;
+  border-bottom: 9px solid rgb(245, 176, 176);
+  border-left: 9px solid transparent;
+}
+.ribbon3:after {
+  height: 0;
+  width: 0;
+  right: -14.5px;
+  border-top: 30px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 15px solid #f7eeea;
+  margin-top: -6px;
+}
+
+
+.ribbon4 {
+  width: 170px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 15px;
+  position: absolute;
+  font-size: 13px;
+  /* left: -8px; */
+  /* top: 20px; */
+  background:#035d4c;
+  margin-top: 0px;
+  margin-left: 12px;
+  z-index: 1;
+  color: white;
+  font-family: lato, sans-serif;
+  /* border-radius: 0px 5px 5px 0px; */
+}
+.ribbon4:before, .ribbon4:after {
+  content: "";
+  position: absolute;
+}
+
+
+.ribbon5 {
+  /* min-width: 370px; */
+  height: 20px;
+  line-height: 20px;
+  padding-left: 15px;
+  position: absolute;
+  font-size: 13px;
+  /* left: -8px; */
+  /* top: 20px; */
+  /* background:#32459c; */
+  margin-top: -30px;
+  /* margin-left: 12px; */
+  z-index: 1;
+  /* color: white; */
+  color: #c2c0c0;
+  font-family: lato, sans-serif;
+  border-radius: 7px;
+  font-weight: bold;
+  
+}
+.ribbon5:before, .ribbon5:after {
+  content: "";
+  position: absolute;
+}
+/* .ribbon4:before {
+  height: 0;
+  width: 0;
+  top: -8.5px;
+  left: 0.1px;
+  border-bottom: 9px solid #012b23;
+  border-left: 9px solid transparent;
+} */
+/* end ribbon */
+
+
+
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color:   #0dcaf0;
+  padding: 0 2rem;
+  cursor:pointer;
+
+  transition: transform 0.3s ease-in-out; /* Transition on hide/show. */
+}
+
+
+
+
+
+.container-fluid {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  /* background-color: red; */
+  background-color: #82dcee;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.bookmarkRibbon {
+  width: 190px;
+  height: 0;
+  border-bottom: 20px solid #045089;
+  border-top: 20px solid #045089;
+  border-left: 15px solid transparent;
+  float: right;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight:700;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+.ribbon1 {
+  position: absolute;
+  top: -6.1px;
+  right: 70px;
+}
+/* .ribbon1:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 53px solid transparent;
+  border-right: 53px solid transparent;
+  border-top: 10px solid #F8463F;
+} */
+.ribbon1 span {
+  position: relative;
+  display: block;
+  text-align: center;
+  background: #F8463F;
+  font-size: 14px;
+  line-height: 1;
+  padding: 12px 8px 10px;
+  border-top-right-radius: 8px;
+  /* width: 90px; */
+}
+.ribbon1 span:before, .ribbon1 span:after {
+  position: absolute;
+  content: "";
+}
+.ribbon1 span:before {
+ height: 6px;
+ width: 6px;
+ left: -6px;
+ top: 0;
+ background: #F8463F;
+}
+.ribbon1 span:after {
+ height: 6px;
+ width: 8px;
+ left: -8px;
+ top: 0;
+ border-radius: 8px 8px 0 0;
+ background: #C02031;
+}
+
+
+
+
+
+.back {
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(12,1fr);
+}
+.back .yellow {
+  background-color: #f1ef1c;
+  grid-column: 1 / span 9;
+  grid-row: 1 / span 3;
+}
+.back .top.dots {
+  background: radial-gradient(#4cc9c8 20%,transparent 19%), radial-gradient(#4cc9c8 20%,transparent 19%), transparent;
+  background-size: 6px 6px;
+  background-position: 0 0, 3px 3px;
+  grid-column: 8 / span 6;
+  grid-row: 2 / span 3;
+}
+.back .personal-info {
+  grid-column: 2 / span 6;
+  grid-row: 5 / span 6;
+}
+.back .personal-info p {
+  font-size: 10px;
+}
+.back .personal-info p:first-of-type {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.back .personal-info p:nth-of-type(2) {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.back .bottom.dots {
+  background: radial-gradient(#4cc9c8 20%,transparent 19%), radial-gradient(#4cc9c8 20%,transparent 19%), transparent;
+  background-size: 6px 6px;
+  background-position: 0 0, 3px 3px;
+  grid-column: 1 / span 8;
+  grid-row: 11 / span 2;
+  z-index: 2;
+}
+.back .pink {
+  background-color: #fa001a;
+  grid-column: 8 / span 5;
+  grid-row: 10 / span 3;
+}
+

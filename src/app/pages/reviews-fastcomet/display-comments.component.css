@@ -1,0 +1,162 @@
+.myrowsecond {
+  /* border: 3px solid red; */
+  border: 3px solid var(0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 2px 8px rgba(3, 3, 3, 0.6));
+  margin-top: 15px;
+
+
+}
+
+.edu {
+  background-image: url('../../../assets/img/Avatar.png');
+  height: 380px;
+  background-position: center top;
+  background-size: 100% 100%;
+
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.thumb {
+  height: 20px;
+  width: 20px;
+  font-size: 15px;
+  /* border: 1px solid #bbb; */
+  line-height: 37px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-family: hurmegeometricsans_no3_6, Gilroy, Almarai, Arial, sans-serif;
+  color: #727e8f;
+}
+
+.hlepful {
+  font-family: hurmegeometricsans_no3_6 Gilroy, Almarai, Arial, sans-serif;
+  margin-right: 10px;
+  display: true;
+  font-size: 12px;
+  color: #727e8f;
+}
+
+.thanksforvote {
+  font-family: hurmegeometricsans_no3_6, Gilroy, Almarai, Arial, sans-serif;
+  margin-left: 10px;
+  display: true;
+  font-size: 12px;
+  color: #727e8f;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+  color: #727e8f;
+}
+
+.thumbs-up:hover {
+  color: green;
+}
+
+.thumbs-down:hover {
+  color: red;
+}
+
+/* 
+.mycol {
+    border: 3px solid red;
+
+  }
+
+  .myrowsecond{
+    border: 3px dotted rgb(32, 13, 120);   
+  } */
+
+
+
+
+
+
+
+
+/* start star */
+.star {
+  position: relative;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #ff902b !important;
+  margin-left: 5px;
+}
+
+.half {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* end star */
+
+
+
+
+/* .list-group {
+    border: none;
+  }
+  
+  
+  .card-body {
+    border: none;
+    box-shadow: none;
+  }
+  .edumkasa2{
+    border: none;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start rating styling */
+
+
+
+/* start rating styling */
+
+
+ul {
+  text-align: center;
+}
+.angular-logo {
+  width: 150px;
+}
+.button {
+  background-color: #3e4142; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:disabled {
+  opacity: 0.5;
+}
+
+
