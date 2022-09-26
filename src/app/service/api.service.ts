@@ -3,8 +3,8 @@ import { catchError, map } from 'rxjs/operators';
 import { Observable, throwError } from 'rxjs';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 
-const IP = '128.199.55.77:8080'  
-const Affiliates = `http://128.199.55.77:8080/api/affilates`;
+const IP = 'localhost:2727'  
+const Affiliates = `http://${IP}/api/affilates`;
 const Fastcomet = `http://${IP}/api/fastcomets`;
 const Bluehost = `http://${IP}/api/bluehosts`;
 const A2hosting = `http://${IP}/api/a2hostings`;
